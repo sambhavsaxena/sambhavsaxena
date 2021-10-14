@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 I am full stack developer looking to solve real world problems. I have a passion for learning and sharing my knowledge with others as publicly as possible. 
-If you found value in something I have created, please feel free to give me a shout out [@ikshitijsingh](https://twitter.com/_sambhavsaxena) or give some ♥ on [mail](mailto:sambhavsaxena02@outlook.com). Feel free to reach out in case you want to just get in touch also.
+If you found value in something I have created, please feel free to give me a shout out [@_sambhavsaxena](https://twitter.com/_sambhavsaxena) or give some ♥ on [mail](mailto:sambhavsaxena02@outlook.com). Feel free to reach out in case you want to just get in touch also.
 
 ### My Digital Footprints 🌱
 
