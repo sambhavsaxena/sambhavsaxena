@@ -24,7 +24,7 @@ If you found value in something I have created, please feel free to give me a sh
    <li> Efficient system designing </li>
    <li> Working with Python </li>
    <li> Playing around with Competitive Questions </li>
-   <li> Building <a href="https://thatsameguy.netlify.app" target="_blank">thatsameguyokay.netlify.app</a> </li>
+   <li> Building <a href="https://thatsameguy.netlify.app" target="_blank">thatsameguy.netlify.app</a> </li>
    <li> Flutter Development</li>
   </ul>
 </details>
