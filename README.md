@@ -3,7 +3,6 @@
 I am full stack developer looking to solve real world problems. I have a passion for learning and sharing my knowledge with others as publicly as possible. 
 If you found value in something I have created, please feel free to give me a shout out [@_sambhavsaxena](https://twitter.com/_sambhavsaxena) or give some ♥ on [mail](mailto:sambhavsaxena02@outlook.com). Feel free to reach out in case you want to just get in touch also.
 
-### My Digital Footprints 🌱
 <p align='center'>
 <a href="https://www.linkedin.com/in/ikshitijsingh/"><img height="30" src="https://github.com/singhkshitij/singhkshitij/blob/master/linkedin.png?raw=true"></a>&nbsp;&nbsp;
 <a href="https://twitter.com/ikshitijsingh"><img height="30" src="https://github.com/singhkshitij/singhkshitij/blob/master/twitter.png?raw=true"></a>&nbsp;&nbsp;
@@ -11,6 +10,8 @@ If you found value in something I have created, please feel free to give me a sh
 <a href="mailto:singh_kshitij@yahoo.com"><img height="30" src="https://github.com/singhkshitij/singhkshitij/blob/master/mail.png?raw=true"></a>
 <a href="https://mytrashcode.com"><img height="30" src="https://github.com/singhkshitij/singhkshitij/blob/master/blog.png?raw=true"></a>
 </p>
+
+### My Digital Footprints 🌱
 
 #### Few self-built live tools i use everyday :
 * UI Application in Flutter : [TasksApp](https://drive.google.com/file/d/1qEpWmUqx9D1LFbjFQQgDAizoE-aI0_5a/view)
