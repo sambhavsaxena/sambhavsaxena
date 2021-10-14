@@ -1,14 +1,14 @@
 ### Hi there 👋
 
 I am full stack developer looking to solve real world problems. I have a passion for learning and sharing my knowledge with others as publicly as possible. 
-If you found value in something I have created, please feel free to give me a shout out [@_sambhavsaxena](https://twitter.com/_sambhavsaxena) or give some ♥ on [mail](mailto:sambhavsaxena02@outlook.com). Feel free to reach out in case you want to just get in touch also.
+If you found value in something I have created, please feel free to give me a shoutout [@_sambhavsaxena](https://twitter.com/_sambhavsaxena) or give some ♥ on [mail](mailto:sambhavsaxena02@outlook.com). Feel free to reach out in case you want to just get in touch also.
 
 <p align='center'>
-<a href="https://www.linkedin.com/in/ikshitijsingh/"><img height="30" src="https://github.com/singhkshitij/singhkshitij/blob/master/linkedin.png?raw=true"></a>&nbsp;&nbsp;
-<a href="https://twitter.com/ikshitijsingh"><img height="30" src="https://github.com/singhkshitij/singhkshitij/blob/master/twitter.png?raw=true"></a>&nbsp;&nbsp;
-<a href="https://www.instagram.com/singh_kshitij/"><img height="30" src="https://github.com/singhkshitij/singhkshitij/blob/master/instagram.png?raw=true"></a>&nbsp;&nbsp;
-<a href="mailto:singh_kshitij@yahoo.com"><img height="30" src="https://github.com/singhkshitij/singhkshitij/blob/master/mail.png?raw=true"></a>
-<a href="https://mytrashcode.com"><img height="30" src="https://github.com/singhkshitij/singhkshitij/blob/master/blog.png?raw=true"></a>
+<a href="https://www.linkedin.com/in/sambhav-saxena-411985152/"><img height="30" src="https://github.com/singhkshitij/singhkshitij/blob/master/linkedin.png?raw=true"></a>&nbsp;&nbsp;
+<a href="https://twitter.com/_sambhavsaxena"><img height="30" src="https://github.com/singhkshitij/singhkshitij/blob/master/twitter.png?raw=true"></a>&nbsp;&nbsp;
+<a href="https://www.instagram.com/sambhav.jpg/"><img height="30" src="https://github.com/singhkshitij/singhkshitij/blob/master/instagram.png?raw=true"></a>&nbsp;&nbsp;
+<a href="mailto:sambhavsaxena02@outlook.com"><img height="30" src="https://github.com/singhkshitij/singhkshitij/blob/master/mail.png?raw=true"></a>
+<a href="https://thatsameguy.netlify.app"><img height="30" src="https://github.com/singhkshitij/singhkshitij/blob/master/blog.png?raw=true"></a>
 </p>
 
 ### My Digital Footprints 🌱
