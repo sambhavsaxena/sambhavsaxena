@@ -13,6 +13,10 @@ I'm Sambhav Saxena
 -  Please visit my portfolio [website].
 -  Mail: sambhavsaxena02@outlook.com
 
+
+![Sambhav Saxena's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=sambhavsaxena&theme=blue-green)
+
+
 <img src="https://github-readme-stats.vercel.app/api?username=sambhavsaxena&theme=dark&count_private=true&show_icons=truehow_icons=true&hide_border=true" />
 <p><img  src="https://github-readme-streak-stats.herokuapp.com/?user=sambhavsaxena&theme=dark&hide_border=true" alt="Sambhav Saxena" /></p>
 
