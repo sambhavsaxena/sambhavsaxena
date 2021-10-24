@@ -17,6 +17,4 @@ I'm Sambhav Saxena
 
 ![Sambhav Saxena's Stats](https://github-readme-streak-stats.herokuapp.com/?user=sambhavsaxena&theme=dark&hide_border=true)
 
-![Sambhav Saxena's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=sambhavsaxena&theme=dark&hide_border=true&layout=compact)
-
 [website]: https://sambhavsaxena.netlify.app/
