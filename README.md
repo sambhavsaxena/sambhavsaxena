@@ -10,21 +10,16 @@ I'm Sambhav Saxena
 
 
 ## ⚡ About Me
--  Check out my Insta Page for daily coding tips [codecrookshanks]
--  I’m currently pursuing Btech in IT(Data Analytis) from MIT ADT University, Pune.
--  I’m currently learning ML and DL concepts.
--  I’m looking to collaborate on projects.
+-  I’m currently pursuing B.Tech in Computer Science from DCRUST, Sonepat.
+-  I’m currently learning ML and AR concepts.
+-  I’m looking forward to collaborate to major projects.
 -  Please visit my portfolio [website].
--  Contact me: pandeyvanshi3028@gmail.com
-<img align="right" alt="PNG" src="https://github.com/Vanshikapandey30/Vanshikapandey30/blob/main/assets/img/cat.png" width="300" height="300" />
+-  Mail: sambhavsaxena02@outlook.com
+<img src="https://github-readme-stats.vercel.app/api?username=sambhavsaxena&theme=dark&count_private=true&show_icons=truehow_icons=true&hide_border=true" />
+<img  src="https://github-readme-stats.vercel.app/api/top-langs?username=sambhavsaxena&theme=dark&show_icons=true&locale=en&layout=compact" alt="Sambhav Saxena"  />
+<p><img  src="https://github-readme-streak-stats.herokuapp.com/?user=sambhavsaxena&theme=dark" alt="Sambhav Saxena" /></p>
 
-<img alt="" src="https://github-readme-stats.vercel.app/api?username=Vanshikapandey30&theme=dark&count_private=true&show_icons=truehow_icons=true&hide_border=true" />
-
-<img  src="https://github-readme-stats.vercel.app/api/top-langs?username=Vanshikapandey30&theme=dark&show_icons=true&locale=en&layout=compact" alt="Vanshikapandey30"  />
-<p><img  src="https://github-readme-streak-stats.herokuapp.com/?user=Vanshikapandey30&theme=dark" alt="Vanshikapandey30" /></p>
-
-[website]: https://vanshika.tech/
-[codecrookshanks]: https://www.instagram.com/codecrookshanks/
+[website]: https://sambhavsaxena.netlify.app/
 
 
 
