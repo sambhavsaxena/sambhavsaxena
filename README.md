@@ -29,5 +29,5 @@ If you found value in something I have created, please feel free to give me a sh
   </ul>
 </details>
 
- ![Sambhav's github stats](https://github-readme-stats.vercel.app/api?username=sambhavsaxena&hide=contribs&show_icons=true&hide_border=true&title_color=000)
- ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sambhavsaxena&layout=compact&hide_border=true)
+ ![Sambhav's github stats](https://github-readme-stats.vercel.app/api?username=sambhavsaxena&hide=contribs&show_icons=true&hide_border=true&title_color=000&theme=dark)
+ ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sambhavsaxena&layout=compact&hide_border=true&theme=dark)
