@@ -12,6 +12,8 @@ I'm Sambhav Saxena
 -  I’m looking forward to collaborate to major projects.
 -  Please visit my portfolio [website].
 -  Mail: sambhavsaxena02@outlook.com
+
+<img  src="https://github-readme-stats.vercel.app/api/top-langs?username=sambhavsaxena&theme=dark&show_icons=true&locale=en&layout=compact" alt="Sambhav Saxena"  />
 <img src="https://github-readme-stats.vercel.app/api?username=sambhavsaxena&theme=dark&count_private=true&show_icons=truehow_icons=true&hide_border=true" />
 <p><img  src="https://github-readme-streak-stats.herokuapp.com/?user=sambhavsaxena&theme=dark" alt="Sambhav Saxena" /></p>
 
