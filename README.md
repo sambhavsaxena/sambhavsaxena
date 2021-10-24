@@ -4,7 +4,7 @@ I'm Sambhav Saxena
 [![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/_sambhavsaxena)](https://twitter.com/_sambhavsaxena)
 [![Outlook Badge](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white&link=mailto:sambhavsaxena02@gmail.com)](mailto:sambhavsaxena02@gmail.com)
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/sambhav-saxena-411985152/)](https://www.linkedin.com/in/sambhav-saxena-411985152/)
-[![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&link=https://www.instagram.com/in/sambhav.jpg/)](https://www.instagram.com/in/sambhav.jpg/)
+[![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&link=https://www.instagram.com/in/sambhav.jpg/)](https://www.instagram.com/sambhav.jpg/)
 
 ## ⚡ About Me
 -  I’m currently pursuing B.Tech in Computer Science from DCRUST, Sonepat.
