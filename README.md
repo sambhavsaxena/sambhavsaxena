@@ -1,7 +1,7 @@
 ### HELLO, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
  <!-- Actual text -->
 
-[![Twitter Badge](https://img.shields.io/badge/-@_sambhavsaxena-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/_sambhavsaxena)](https://twitter.com/_sambhavsaxena) [![Linkedin Badge](https://img.shields.io/badge/-Sambhav Saxena-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sambhav-saxena-411985152/)](https://www.linkedin.com/in/sambhav-saxena-411985152/) 
+[![Twitter Badge](https://img.shields.io/badge/-@_sambhavsaxena-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/_sambhavsaxena)](https://twitter.com/_sambhavsaxena)
 [![Gmail Badge](https://img.shields.io/badge/-sambhavsaxena02@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:sambhavsaxena02@gmail.com)](mailto:sambhavsaxena02@gmail.com)
 
 I'm Sambhav Saxena
