@@ -2,7 +2,8 @@
  <!-- Actual text -->
 
 [![Twitter Badge](https://img.shields.io/badge/-@_sambhavsaxena-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/_sambhavsaxena)](https://twitter.com/_sambhavsaxena)
-[![Gmail Badge](https://img.shields.io/badge/-sambhavsaxena02@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:sambhavsaxena02@gmail.com)](mailto:sambhavsaxena02@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white&link=mailto:sambhavsaxena02@gmail.com)](mailto:sambhavsaxena02@gmail.com)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/sambhav-saxena-411985152/)](https://www.linkedin.com/in/sambhav-saxena-411985152/)
 
 I'm Sambhav Saxena
 
