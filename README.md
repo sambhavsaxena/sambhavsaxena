@@ -1,34 +1,35 @@
-### Hi there 👋
+### HELLO, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+ <!-- Actual text -->
+![](y.gif)
+![](x.gif)
 
-I am full stack developer looking to solve real world problems. I have a passion for learning and sharing my knowledge with others as publicly as possible. 
-If you found value in something I have created, please feel free to give me a shoutout [@_sambhavsaxena](https://twitter.com/_sambhavsaxena) or give some ♥ on [mail](mailto:sambhavsaxena02@outlook.com). Feel free to reach out in case you want to just get in touch also.
+[![Twitter Badge](https://img.shields.io/badge/-@Vanshika302-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/Vanshika302)](https://twitter.com/Vanshika302) [![Linkedin Badge](https://img.shields.io/badge/-VanshikaPandey-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vanshika-pandey-b448391a5/)](https://www.linkedin.com/in/vanshika-pandey-b448391a5/) 
+[![Gmail Badge](https://img.shields.io/badge/-pandeyvanshi3028@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:pandeyvanshi3028@gmail.com)](mailto:pandeyvanshi3028@gmail.com)
 
-<p align='center'>
-<a href="https://thatsameguy.netlify.app"><img height="30" src="https://github.com/sambhavsaxena/sambhavsaxena/blob/main/blog.png?raw=true"></a>
-<a href="https://www.linkedin.com/in/sambhav-saxena-411985152/"><img height="30" src="https://github.com/sambhavsaxena/sambhavsaxena/blob/main/linkedin.png?raw=true"></a>&nbsp;&nbsp;
-<a href="https://twitter.com/_sambhavsaxena"><img height="30" src="https://github.com/sambhavsaxena/sambhavsaxena/blob/main/twitter.png?raw=true"></a>&nbsp;&nbsp;
-<a href="https://www.instagram.com/sambhav.jpg/"><img height="30" src="https://github.com/sambhavsaxena/sambhavsaxena/blob/main/instagram.png?raw=true"></a>&nbsp;&nbsp;
-<a href="mailto:sambhavsaxena02@outlook.com"><img height="30" src="https://github.com/sambhavsaxena/sambhavsaxena/blob/main/mail.png?raw=true"></a>
-</p>
+I'm Vanshika Pandey 😃
 
-### My Digital Footprints 🌱
 
-#### Few self-built live tools i use everyday :
-* UI Application in Flutter : [TasksApp](https://drive.google.com/file/d/1qEpWmUqx9D1LFbjFQQgDAizoE-aI0_5a/view)
-* Online music player and Downloader : [Rhythmix](https://drive.google.com/file/d/1uRbKsD6kl9Jw54mr4CL3_obYg6vl7ZzV/view)
-* Encrypting Files: [Crypto](https://github.com/thatsameguyokay/crypto)
+## ⚡ About Me
+-  Check out my Insta Page for daily coding tips [codecrookshanks]
+-  I’m currently pursuing Btech in IT(Data Analytis) from MIT ADT University, Pune.
+-  I’m currently learning ML and DL concepts.
+-  I’m looking to collaborate on projects.
+-  Please visit my portfolio [website].
+-  Contact me: pandeyvanshi3028@gmail.com
+<img align="right" alt="PNG" src="https://github.com/Vanshikapandey30/Vanshikapandey30/blob/main/assets/img/cat.png" width="300" height="300" />
 
-<details>
- <summary><strong>What i am learning/working on these days</strong></summary>
- <ul>
-   <li> Efficient system designing </li>
-   <li> Working with Python </li>
-   <li> Playing around with Competitive Questions </li>
-   <li> Building <a href="https://thatsameguy.netlify.app" target="_blank">thatsameguy.netlify.app</a> </li>
-   <li> Flutter Development</li>
-  </ul>
-</details>
+<img alt="" src="https://github-readme-stats.vercel.app/api?username=Vanshikapandey30&theme=dark&count_private=true&show_icons=truehow_icons=true&hide_border=true" />
 
- ![Sambhav's github stats](https://github-readme-stats.vercel.app/api?username=sambhavsaxena&hide=contribs&show_icons=true&hide_border=true&theme=dark)
- ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sambhavsaxena&layout=compact&hide_border=true&theme=dark)
- ![Github Stats](https://github-readme-streak-stats.herokuapp.com/?user=Vanshikapandey30&theme=dark)
+<img  src="https://github-readme-stats.vercel.app/api/top-langs?username=Vanshikapandey30&theme=dark&show_icons=true&locale=en&layout=compact" alt="Vanshikapandey30"  />
+<p><img  src="https://github-readme-streak-stats.herokuapp.com/?user=Vanshikapandey30&theme=dark" alt="Vanshikapandey30" /></p>
+<!-- Links to my social media accounts 
+
+[1]: https://twitter.com/Vanshika302
+[2]: https://www.linkedin.com/in/vanshika-pandey-b448391a5/-->
+[website]: https://vanshika.tech/
+[codecrookshanks]: https://www.instagram.com/codecrookshanks/
+
+
+
+
+
