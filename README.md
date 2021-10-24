@@ -1,5 +1,6 @@
 ### Hi there,
 I'm Sambhav Saxena
+![Profile views](https://gpvc.arturio.dev/sambhavsaxena)
 
 [![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/_sambhavsaxena)](https://twitter.com/_sambhavsaxena)
 [![Outlook Badge](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white&link=mailto:sambhavsaxena02@gmail.com)](mailto:sambhavsaxena02@gmail.com)
