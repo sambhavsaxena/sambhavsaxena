@@ -17,8 +17,3 @@ I'm Sambhav Saxena
 <p><img  src="https://github-readme-streak-stats.herokuapp.com/?user=sambhavsaxena&theme=dark" alt="Sambhav Saxena" /></p>
 
 [website]: https://sambhavsaxena.netlify.app/
-
-
-
-
-
