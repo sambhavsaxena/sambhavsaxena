@@ -2,7 +2,7 @@
  <!-- Actual text -->
 
 [![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/_sambhavsaxena)](https://twitter.com/_sambhavsaxena)
-[![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&link=https://instagram.com/sambhav.jpg)]
+![Instagram Badge(https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&link=https://instagram.com/sambhav.jpg)]
 [![Gmail Badge](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white&link=mailto:sambhavsaxena02@gmail.com)](mailto:sambhavsaxena02@gmail.com)
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/sambhav-saxena-411985152/)](https://www.linkedin.com/in/sambhav-saxena-411985152/)
 
@@ -22,10 +22,7 @@ I'm Sambhav Saxena
 
 <img  src="https://github-readme-stats.vercel.app/api/top-langs?username=Vanshikapandey30&theme=dark&show_icons=true&locale=en&layout=compact" alt="Vanshikapandey30"  />
 <p><img  src="https://github-readme-streak-stats.herokuapp.com/?user=Vanshikapandey30&theme=dark" alt="Vanshikapandey30" /></p>
-<!-- Links to my social media accounts 
 
-[1]: https://twitter.com/Vanshika302
-[2]: https://www.linkedin.com/in/vanshika-pandey-b448391a5/-->
 [website]: https://vanshika.tech/
 [codecrookshanks]: https://www.instagram.com/codecrookshanks/
 
