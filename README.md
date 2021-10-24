@@ -14,7 +14,7 @@ I'm Sambhav Saxena
 -  Mail: sambhavsaxena02@outlook.com
 
 
-![Sambhav Saxena's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=sambhavsaxena&theme=dark&hide_border=true)
+![Sambhav Saxena's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=sambhavsaxena&theme=dark&hide_border=true&style=compact)
 ![Sambhav Saxena's Stats](https://github-readme-stats.vercel.app/api?username=sambhavsaxena&theme=dark&count_private=true&show_icons=truehow_icons=true&hide_border=true)
 ![Sambhav Saxena's Stats](https://github-readme-streak-stats.herokuapp.com/?user=sambhavsaxena&theme=dark&hide_border=true)
 
