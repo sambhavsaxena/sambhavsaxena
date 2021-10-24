@@ -8,7 +8,7 @@ I'm Sambhav Saxena
 [![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&link=https://www.instagram.com/in/sambhav.jpg/)](https://www.instagram.com/sambhav.jpg/)
 ## ⚡ About Me
 -  I’m currently pursuing B.Tech in Computer Science from DCRUST, Sonepat.
--  I’m currently learning ML and AR concepts.
+-  I’m currently learning ML and cryptography concepts.
 -  I’m looking forward to collaborate to major projects.
 -  Please visit my portfolio [website].
 -  Mail: sambhavsaxena02@outlook.com
