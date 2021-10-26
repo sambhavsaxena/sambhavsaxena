@@ -1,7 +1,7 @@
 <div align="center"><img src="https://gpvc.arturio.dev/sambhavsaxena"></div>
 
-### Hi there,
-I'm Sambhav Saxena
+## Hi there,
+### I'm Sambhav Saxena
 
 
 [![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/_sambhavsaxena)](https://twitter.com/_sambhavsaxena)
@@ -13,7 +13,6 @@ I'm Sambhav Saxena
 -  I’m currently learning ML and cryptography concepts.
 -  I’m looking forward to collaborate to major projects.
 -  Mail: sambhavsaxena02@outlook.com
-
 
 <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=sambhavsaxena&theme=dark&count_private=true&show_icons=truehow_icons=true&hide_border=true"><img src="https://github-readme-streak-stats.herokuapp.com/?user=sambhavsaxena&theme=dark&hide_border=true"></div>
 <div align="center"><img src="https://activity-graph.herokuapp.com/graph?username=sambhavsaxena&theme=gotham"></div>
