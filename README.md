@@ -15,5 +15,5 @@ I'm Sambhav Saxena
 <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=sambhavsaxena&theme=dark&count_private=true&show_icons=truehow_icons=true&hide_border=true"></div>
 
 <div align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=sambhavsaxena&theme=dark&hide_border=true"></div>
-<div align="center"><img src="https://activity-graph.herokuapp.com/graph?username=sambhavsaxena&theme=react-dark)](https://github.com/sambhavsaxena/github-readme-activity-graph"></div>
+<div align="center"><img src="https://activity-graph.herokuapp.com/graph?username=sambhavsaxena&theme=redical)](https://github.com/sambhavsaxena/github-readme-activity-graph"></div>
 
