@@ -1,4 +1,5 @@
-![Profile views](https://gpvc.arturio.dev/sambhavsaxena)
+<div align="center"><img src="https://gpvc.arturio.dev/sambhavsaxena"></div>
+
 ### Hi there,
 I'm Sambhav Saxena
 
