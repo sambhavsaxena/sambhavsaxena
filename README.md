@@ -11,6 +11,7 @@ I'm Sambhav Saxena
 -  I’m currently learning ML and cryptography concepts.
 -  I’m looking forward to collaborate to major projects.
 -  Mail: sambhavsaxena02@outlook.com
-<div align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Your_GitHub_Username&theme=blue-green"></div>
+-  
+<div align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sambhavsaxena&theme=blue-green"></div>
 <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=sambhavsaxena&theme=dark&count_private=true&show_icons=truehow_icons=true&hide_border=true"><img src="https://github-readme-streak-stats.herokuapp.com/?user=sambhavsaxena&theme=dark&hide_border=true"></div>
 <div align="center"><img src="https://activity-graph.herokuapp.com/graph?username=sambhavsaxena&theme=gotham"></div>
