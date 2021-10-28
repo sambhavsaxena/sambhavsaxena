@@ -16,5 +16,5 @@
 
 <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=sambhavsaxena&theme=dark&count_private=true&show_icons=truehow_icons=true&hide_border=true"><img src="https://github-readme-streak-stats.herokuapp.com/?user=sambhavsaxena&theme=dark&hide_border=true"></div>
 <div align="center"><img src="https://activity-graph.herokuapp.com/graph?username=sambhavsaxena&theme=gotham"></div>
-<div align="center"><a href="https://www.buymeacoffee.com/sambhavsaxena">Sponser this user</a></div>
+<div align="center"><a href="https://www.buymeacoffee.com/sambhavsaxena">Sponser profile</a></div>
 
