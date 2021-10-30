@@ -9,7 +9,7 @@
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/sambhav-saxena-411985152/)](https://www.linkedin.com/in/sambhav-saxena-411985152/)
 [![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&link=https://www.instagram.com/in/sambhav.jpg/)](https://www.instagram.com/sambhav.jpg/)
 ## ⚡ About Me
--  Pursuing B.Tech in Computer Science from DCRUST, Sonepat.
+-  Pursuing bachelors in Computer Science.
 -  Learning ML and cryptography concepts.
 -  Looking forward to collaborate to major open source projects.
 -  Email: sambhavsaxena02@outlook.com
