@@ -9,10 +9,10 @@
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/sambhav-saxena-411985152/)](https://www.linkedin.com/in/sambhav-saxena-411985152/)
 [![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&link=https://www.instagram.com/in/sambhav.jpg/)](https://www.instagram.com/sambhav.jpg/)
 ## ⚡ About Me
--  I’m currently pursuing B.Tech in Computer Science from DCRUST, Sonepat.
--  I’m currently learning ML and cryptography concepts.
--  I’m looking forward to collaborate to major projects.
--  Mail: sambhavsaxena02@outlook.com
+-  Pursuing B.Tech in Computer Science from DCRUST, Sonepat.
+-  Learning ML and cryptography concepts.
+-  Looking forward to collaborate to major open source projects.
+-  Email: sambhavsaxena02@outlook.com
 
 <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=sambhavsaxena&theme=dark&count_private=true&show_icons=truehow_icons=true&hide_border=true"><img src="https://github-readme-streak-stats.herokuapp.com/?user=sambhavsaxena&theme=dark&hide_border=true"></div>
 <div align="center"><img src="https://activity-graph.herokuapp.com/graph?username=sambhavsaxena&theme=gotham"></div>
