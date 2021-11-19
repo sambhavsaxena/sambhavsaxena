@@ -15,7 +15,7 @@
 -  Looking forward to collaborate to major open source projects.
 -  Email: sambhavsaxena02@outlook.com
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sambhavsaxena&theme=github)
+<div><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sambhavsaxena&theme=github"></div>
 
 <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=sambhavsaxena&theme=dark&count_private=true&show_icons=truehow_icons=true&hide_border=true"><img src="https://github-readme-streak-stats.herokuapp.com/?user=sambhavsaxena&theme=dark&hide_border=true"></div>
 <div align="center"><img src="https://activity-graph.herokuapp.com/graph?username=sambhavsaxena&theme=gotham"></div>
