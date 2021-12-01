@@ -16,5 +16,5 @@
 -  Email: sambhavsaxena02@outlook.com
 
 <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=sambhavsaxena&theme=dark&count_private=true&show_icons=truehow_icons=true&hide_border=true"><img src="https://github-readme-streak-stats.herokuapp.com/?user=sambhavsaxena&theme=dark&hide_border=true"></div>
-<div align="center"><img src="https://activity-graph.herokuapp.com/graph?username=sambhavsaxena&theme=gotham"></div>
+<div align="center"><img src="https://camo.githubusercontent.com/727b46e1d3fa1dc9460d1f7a8c4f4fb8a5523029a3389abf818bc1f95430b4ac/68747470733a2f2f726561646d652d6a6f6b65732e76657263656c2e6170702f617069"></div>
 <div align="center"><a href="https://www.buymeacoffee.com/sambhavsaxena">Sponser profile</a></div>
