@@ -17,4 +17,4 @@
 <div align="center"><img src="https://activity-graph.herokuapp.com/graph?username=sambhavsaxena&theme=gotham"></div>
 
 
-<div align="center"><a href="https://www.buymeacoffee.com/sambhavsaxena">Sponser profile</a></div>
+<h5 align="center"><a href="https://www.buymeacoffee.com/sambhavsaxena">Sponser profile</a></h5>
