@@ -6,7 +6,7 @@
 
 <div align="center"><h2>About me ⚡</h2></div>
 <div align="center">
-  <img src="stats.svg" height="100%" width="100%">
+  <img src="stats.svg" height="72%" width="72%">
 </div>
 
 <div align="center"><a href="https://www.buymeacoffee.com/sambhavsaxena">Sponser profile</a></div>
