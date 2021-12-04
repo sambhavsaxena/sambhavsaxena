@@ -15,7 +15,7 @@
 ---
 
 <div align="center">
-<img width="80%" height="80%" src="stats.svg" >
+<img width="50%" height="50%" src="stats.svg" >
 </div>
 
 <div align="center"><a href="https://www.buymeacoffee.com/sambhavsaxena">Sponser profile</a></div>
