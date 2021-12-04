@@ -18,4 +18,7 @@
 <div align="center"><img src="https://activity-graph.herokuapp.com/graph?username=sambhavsaxena&theme=gotham"></div>
 
 
+![Metrics](https://metrics.lecoq.io/sambhavsaxena?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&achievements=1&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&config.timezone=Asia%2FCalcutta)
+
+
 <div align="center"><a href="https://www.buymeacoffee.com/sambhavsaxena">Sponser profile</a></div>
