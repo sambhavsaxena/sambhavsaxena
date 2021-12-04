@@ -6,6 +6,9 @@
 
 <div align="center"><h2>About me ⚡</h2></div>
 
+<h3><p align = "center"> I am Sambhav Saxena from Faridabad, Haryana, India. I am currently in sophomore year of my bachelors. I'm interested in various fields including open source contributions, creative coding, competitive programming and I'm passionate to work on ambitious projects with ambitious people.</p></h3>
+<h3>
+
 <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=sambhavsaxena&theme=dark&count_private=true&show_icons=truehow_icons=true&hide_border=true"><img src="https://github-readme-streak-stats.herokuapp.com/?user=sambhavsaxena&theme=dark&hide_border=true"></div>
 <div align="center"><img src="https://activity-graph.herokuapp.com/graph?username=sambhavsaxena&theme=gotham"></div>
 
