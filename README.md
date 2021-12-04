@@ -15,7 +15,7 @@
 ---
 
 <div align="center">
-<img width="100%" src="https://github.com/rohansaini886/rohansaini886/blob/output/github-contribution-grid-snake.svg" >
+<img width="100%" src="stats.svg" >
 </div>
 
 <div align="center"><a href="https://www.buymeacoffee.com/sambhavsaxena">Sponser profile</a></div>
