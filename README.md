@@ -10,7 +10,7 @@
 <h5>
 
   
-  <div align="center"><h2>Some stats about me:</h2></div>
+  <div align="center"><h2>Here are some stats:</h2></div>
   
   
 <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=sambhavsaxena&theme=dark&count_private=true&show_icons=truehow_icons=true&hide_border=true"><img src="https://github-readme-streak-stats.herokuapp.com/?user=sambhavsaxena&theme=dark&hide_border=true"></div>
