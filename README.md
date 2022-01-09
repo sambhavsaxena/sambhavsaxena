@@ -1,4 +1,4 @@
-<div align="center"><img src="https://gpvc.arturio.dev/sambhavsaxena"></div>
+<div align="center"><img src="https://profile-counter.glitch.me/sambhavsaxena/count.svg"></div>
 
 ---
 
