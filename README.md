@@ -1,4 +1,4 @@
-<div align="center"><img src="https://profile-counter.glitch.me/sambhavsaxena/count.svg"></div>
+<div align="center">Hi, I'm Sambhav Saxena. Check out some repositories:)</div>
 
 ---
 
