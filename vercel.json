@@ -1,0 +1,28 @@
+{
+	"$schema": "https://openapi.vercel.sh/vercel.json",
+	"version": 2,
+	"alias": "interpreted.vercel.app",
+	"cleanUrls": true,
+	"public": true,
+	"regions": [
+		"lhr1"
+	],
+	"redirects": [
+		{
+			"source": "/github",
+			"destination": "https://github.com/sambhavsaxena"
+		},
+		{
+			"source": "/linkedin",
+			"destination": "https://www.linkedin.com/in/sambhavsaxena"
+		},
+		{
+			"source": "/portfolio",
+			"destination": "/projects"
+		},
+		{
+			"source": "/twitter",
+			"destination": "https://twitter.com/_sambhavsaxena"
+		}
+	]
+}
