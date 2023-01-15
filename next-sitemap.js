@@ -1,5 +1,5 @@
 const isProduction = process.env.NODE_ENV === 'production';
-const domain = isProduction ? 'nuro.dev' : 'localhost:3000';
+const domain = isProduction ? 'interpreted.vercel.app' : 'localhost:3000';
 const protocol = isProduction ? 'https' : 'http';
 
 /**
