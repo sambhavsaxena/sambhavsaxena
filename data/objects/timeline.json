@@ -2,7 +2,7 @@
 	{
 		"date": "11-21-2022",
 		"title": "SDE Intern @EarthOnly",
-		"description": "Implemented passwordless authentication architecture in NodeJS with unit testing in JEST and AWS hosting.",
+		"description": "Implemented passwordless authentication architecture in NodeJS with unit testing in JEST. Created API key creation service referenced to ACLs.",
 		"icon": "feather:briefcase",
 		"link": {
 			"text": "Visit EarthOnly",
