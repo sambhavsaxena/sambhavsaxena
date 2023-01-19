@@ -57,7 +57,7 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			type: NavigationItemType.LINK,
 			icon: 'feather:file-text',
 			text: 'Resume',
-			href: 'https://cdn.statically.io/gh/thatsameguyokay/images/main/Resume.pdf',
+			href: 'https://cdn.statically.io/gh/thatsameguyokay/images/main/CV-v2.pdf',
 			external: true,
 		},
 	],
