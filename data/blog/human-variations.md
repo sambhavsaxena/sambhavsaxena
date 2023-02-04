@@ -16,7 +16,7 @@ So I was reading the whole case and went on reading more about discrimination an
 #### Philosophy
 The study of the fundamental nature o knowledge, reality and existance, when considered in the context of the academics, is what the web says.
 
-#### What happening in India?
+#### What's happening in India?
 Well okay, do you know about the SC Act of the IPC(Indian Penal Code)? The SC Act of the IPC is a law that was passed by the Supreme Court, which states that calling a person belonging to a lower caste or race is a punishable CRIME, and the VICTIM will have the authorise the name that seems satisfactory in their perspective. 
 
 But the fact is, nobody has the right to call anyone inferior. But, in today's world of equality, people find being called to the caste or creed they belong to UNJUST and the law stands absolutely true and necessary. While philosophically, it seems to ruin the significance of natural human variation and originality.
