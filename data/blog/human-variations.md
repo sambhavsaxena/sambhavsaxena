@@ -11,7 +11,7 @@ date: '2020-07-28'
 #### What happened on 25th May, 2020?
 George Floyd, a black native American was brutally murdered by white police officers in Dallas, Texas. The police officers held responsible for the murder were set free of all the charges against them, even after committing a non-bailable offense, Events after which lead to the BLM movement across the globe.
 
-So I was reading the whole case and went on reading more about discrimination and human rights. This time not on inclined and curropt news websites, but on National Geographic, got to the roots of this issue, roughly called the _Philosophy of Human Variations_.
+So I was reading the whole case and went on reading more about discrimination and human rights. This time not on inclined and corrupt news websites, but on National Geographic, got to the roots of this issue, roughly called the _Philosophy of Human Variations_.
 
 #### Philosophy
 The study of the fundamental nature o knowledge, reality and existance, when considered in the context of the academics, is what the web says.
