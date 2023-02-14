@@ -30,6 +30,12 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			text: 'Blog',
 			href: '/blog',
 		},
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:key',
+			text: 'Intel',
+			href: '/main-pub-key.asc',
+		},
 	],
 	[
 		{

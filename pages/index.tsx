@@ -25,7 +25,7 @@ const ACTIONS: Array<NavigationItem> = [
 		href: '/blog',
 		icon: <Icon className="mr-3" icon="feather:edit-3" />,
 		text: 'Blog',
-	}
+	},
 ];
 
 export default function HomePage() {
@@ -47,8 +47,7 @@ export default function HomePage() {
 							opacity: [0, 1],
 							scale: [0.75, 1],
 						}}
-						className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-6xl tracking-tight font-extrabold"
-					>
+						className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-6xl tracking-tight font-extrabold">
 						Hey <span className="inline-block origin-70 hover:(animate-wave)">👋</span>{' '}
 						I&apos;m Sambhav <br className="hidden sm:block" />
 					</Animate>
@@ -62,8 +61,7 @@ export default function HomePage() {
 						className="max-w-xs mt-4 md:mt-8 mx-auto text-base text-gray-300 sm:text-lg md:text-xl md:max-w-3xl"
 						transition={{
 							delay: 0.5,
-						}}
-					>
+						}}>
 						{description}
 					</Animate>
 
@@ -81,8 +79,7 @@ export default function HomePage() {
 									key={index}
 									transition={{
 										delay: 0.1 * (index + 2) + 0.5,
-									}}
-								>
+									}}>
 									<Button.Outline href={action.href}>
 										{action.icon}
 										<span>{action.text}</span>
