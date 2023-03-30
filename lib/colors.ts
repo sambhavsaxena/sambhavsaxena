@@ -25,5 +25,5 @@ export const colors: Record<string, Record<number, string>> = {
 		700: '#005eeb',
 		800: '#0054e1',
 		900: '#004ad7',
-	},
+	}
 };

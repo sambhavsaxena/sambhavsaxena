@@ -31,10 +31,10 @@ const ACTIONS: Array<NavigationItem> = [
 export default function HomePage() {
 	const today = new Date();
 	const birthday = new Date('2002-01-17');
-	const age = differenceInYears(today, birthday);
 	const isBirthday = isSameDay(today, birthday) && isSameMonth(today, birthday);
 
-	const heading = `You have landed on Sambhav Saxena's place on the internet.`;
+	const heading = `This is Sambhav's place on the internet.`;
+	const subheading = `Explore this wizardry looking for more.`;
 
 	return (
 		<Layout.Default>
@@ -48,7 +48,7 @@ export default function HomePage() {
 							scale: [0.75, 1],
 						}}
 						className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-6xl tracking-tight font-extrabold">
-						Hey{' '}
+						Hey💖{' '}
 					</Animate>
 					<Animate
 						as="p"
@@ -61,6 +61,8 @@ export default function HomePage() {
 							delay: 0.5,
 						}}>
 						{heading}
+						<br />
+						{subheading}
 					</Animate>
 					<div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-4 space-y-4 sm:space-y-0 w-full mt-8 sm:mt-4">
 						{ACTIONS.map((action, index) => {
