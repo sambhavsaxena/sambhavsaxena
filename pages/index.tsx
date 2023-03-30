@@ -10,6 +10,12 @@ import type { NavigationItem } from '~/types';
 const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
+		href: '/blog',
+		icon: <Icon className="mr-3" icon="feather:edit-3" />,
+		text: 'Blog',
+	},
+	{
+		type: NavigationItemType.LINK,
 		href: '/projects',
 		icon: <Icon className="mr-3" icon="feather:code" />,
 		text: 'Projects',
@@ -20,12 +26,6 @@ const ACTIONS: Array<NavigationItem> = [
 		icon: <Icon className="mr-3" icon="feather:clock" />,
 		text: 'Timeline',
 	},
-	{
-		type: NavigationItemType.LINK,
-		href: '/blog',
-		icon: <Icon className="mr-3" icon="feather:edit-3" />,
-		text: 'Blog',
-	},
 ];
 
 export default function HomePage() {
@@ -34,7 +34,7 @@ export default function HomePage() {
 	const age = differenceInYears(today, birthday);
 	const isBirthday = isSameDay(today, birthday) && isSameMonth(today, birthday);
 
-	const description = `I am a ${age} year old software developer & open source enthusiast`;
+	const heading = `You have landed on Sambhav Saxena's place on the internet.`;
 
 	return (
 		<Layout.Default>
@@ -48,10 +48,8 @@ export default function HomePage() {
 							scale: [0.75, 1],
 						}}
 						className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-6xl tracking-tight font-extrabold">
-						Hey <span className="inline-block origin-70 hover:(animate-wave)">👋</span>{' '}
-						I&apos;m Sambhav <br className="hidden sm:block" />
+						Hey{' '}
 					</Animate>
-
 					<Animate
 						as="p"
 						animation={{
@@ -62,9 +60,8 @@ export default function HomePage() {
 						transition={{
 							delay: 0.5,
 						}}>
-						{description}
+						{heading}
 					</Animate>
-
 					<div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-4 space-y-4 sm:space-y-0 w-full mt-8 sm:mt-4">
 						{ACTIONS.map((action, index) => {
 							if (action.type !== NavigationItemType.LINK) return null;
