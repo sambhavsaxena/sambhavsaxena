@@ -34,7 +34,7 @@ Turns out, this was enough to motivate me to start competitive programming along
 
 #### How's the record?
 
-Right now, I'm in a state to push forward my limits and achieve the next goal. Also established our university's first society for Computer Science department, a coding club to with an initiative to send more people into ICPC, give more 5 star coders, and excellent placement records over the coming years. On a personal level, I have been thinking about for a very long time, and finally did take the step to start with.
+Right now, I'm in a state to push forward my limits and achieve the next goal. Also established our university's first society for Computer Science department, a coding club with an initiative to send more people into ICPC, give more 5 star coders, and excellent placement records over the coming years. On a personal level, I have been thinking about it for a very long time, and finally took the step to start with this.
 
 #### What's next?
 
