@@ -11,7 +11,7 @@ date: '2023-03-30'
 
 #### When did I loose track?
 
-Well, I fell hard. After fifth semester exams got over, I over-budged and did all sorts of shit. All the booze and weed, it got too much onto me. Like in order to tell you how I felt, all of friends got together, drunk and high at the same time, playing extra-loud music, and kept doing this on loop for 3 hours straight. I enjoyed the moment overall, my friends were telling me how good they felt with an altered psyche, while my brain was constantly resisting to get into its effect. I drunk and smoked equally (might have smoked more), but didn't feel the effect of it anyhow. Slept late at night in Ansal's room.
+Well, I fell hard. After fifth semester exams got over, I over-budged and did all sorts of shit. All the booze and weed, it got too much onto me. Like in order to tell you how I felt, all of friends got together, drunk and high at the same time, playing extra-loud music, and kept doing this on loop for 3 hours straight. I enjoyed the moment overall, my friends were telling me how good they felt with an altered psyche, while my brain was constantly resisting to get into its effect. I drank and smoked equally (might have smoked more), but didn't feel the effect of it anyhow. Slept late at night in Ansal's room.
 
 Next day, I got up all drowsy around 10AM, had a shower, prayed (it came out of nowhere), ate and left for home.
 
