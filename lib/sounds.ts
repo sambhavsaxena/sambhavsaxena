@@ -3,7 +3,7 @@ import { usePersistantState } from '.';
 
 export function useClick() {
 	const state = usePersistantState();
-	const result = useSound('/sounds/click.ogg', {
+	const result = useSound('/sounds/click.mp3', {
 		volume: 0.25,
 	});
 

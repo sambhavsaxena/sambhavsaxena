@@ -34,7 +34,7 @@ export default function HomePage() {
 	const isBirthday = isSameDay(today, birthday) && isSameMonth(today, birthday);
 
 	const heading = `This is Sambhav's place on the internet.`;
-	const subheading = `Explore this wizardry looking for more.`;
+	const subheading = `Explore this wizardry to know more.`;
 
 	return (
 		<Layout.Default>
@@ -48,7 +48,7 @@ export default function HomePage() {
 							scale: [0.75, 1],
 						}}
 						className="text-gray-500 dark:text-white text-5xl sm:text-6xl md:text-6xl lg:text-6xl tracking-tight font-extrabold">
-						Hey💖{' '}
+						Hey 💖
 					</Animate>
 					<Animate
 						as="p"
