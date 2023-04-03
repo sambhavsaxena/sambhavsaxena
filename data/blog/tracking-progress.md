@@ -16,7 +16,7 @@ Well, I fell hard. After fifth semester exams got over, I over-budged and did al
 Next day, I got up all drowsy around 10AM, had a shower, prayed (it came out of nowhere), ate and left for home.
 
 <center>
-    <img src="https://raw.githubusercontent.com/thatsameguyokay/images/main/ded.jpg" style={{width: "90%"}}></img>
+    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/ded.jpg" style={{width: "90%"}}></img>
 </center>
 
 
@@ -27,7 +27,7 @@ When I got home, I still felt drowsy, and that feeling got away after another 12
 Turns out, this was enough to motivate me to start competitive programming along with DSA that I was doing already. So I have been solving regularly for the past few weeks, and this happened yesterday.
 
 <center>
-    <img src="https://raw.githubusercontent.com/thatsameguyokay/images/main/cc-15.png" style={{width: "90%"}}></img>
+    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/cc-15.png" style={{width: "90%"}}></img>
     Secured Global Rank 15 in the previous contest on Codechef, all thanks to logic that got built on Codeforces.
 </center>
 
