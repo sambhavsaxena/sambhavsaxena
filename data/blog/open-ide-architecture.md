@@ -84,6 +84,11 @@ This is the file structure I had for the backend initially, but now has some twe
 
 #### How does network-system calls flow?
 
+<center>
+    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/ide.gif" style={{width: "110%", marginBottom: "-20px"}}></img>
+    Current flow of execution
+</center>
+
 The execution of a full request-response cycle takes place in the following manner:
     - The user submits the code as request body to the API endpoint
     - The server captures this request and passes it to the controller
