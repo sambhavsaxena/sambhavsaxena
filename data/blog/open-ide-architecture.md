@@ -107,16 +107,14 @@ As a finished product, it still has several bugs to debug, and several features 
 
 #### What are the current problems?
 The current problems are:
-    - The frontend is not responsive
-    - The backend is not optimized
+    - The backend is not very optimized
     - The server is not secure
     - The server is vulnurable to crashes
-    - The backend is not modular
     - There are tests to be written
 
 #### What's next?
 Well, I think I should work on improving and making this IDE more optimal, but as of now, it is far from reality. Frankly, I don't want to raise funds for this product and just keep it as a personal project for now. I also have to think of an idea for [DCRUSTODC](https://github.com/DCRUSTODC), but I'll be working on that later.
 
-For now, I'll go listen to [Desi Crime Podcast](https://desicrime.com/) till I sleep.
+Now yet, it's 12AM, I'll probably go listen to [Desi Crime Podcast](https://desicrime.com/) till I sleep.
 
 ---
