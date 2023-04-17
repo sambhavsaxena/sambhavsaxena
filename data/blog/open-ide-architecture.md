@@ -102,7 +102,7 @@ The execution of a full request-response cycle takes place in the following mann
 
 The controller is the first file that is called when a request is made to the server. The controller is responsible for parsing the request body, and detecting the language of the source code. The controller then calls the respective functions in the `operations` folder, and returns the response to the user.
 
-Now, operations are independent of each other and the platform. If a language needs to be compiled before execution, the control goes to the [compilers](https://github.com/sambhavsaxena/openIDE/tree/main/operations/compilers) directory, where the compiler commands create a binary file for each source.
+Now, operations are independent of each other and of the platform. If a language needs to be compiled before execution, the control goes to the [compilers](https://github.com/sambhavsaxena/openIDE/tree/main/operations/compilers) directory, where the compiler commands create a binary file for each source.
 This binary is stored [here](https://github.com/sambhavsaxena/openIDE/tree/main/operations/binaries). Compilers for each supported language had to be installed on the server before deployment.
 
 Next, these binaries are called by the controller, execution takes place in order of FCFS handled by the server OS, and the output is returned to the user.
