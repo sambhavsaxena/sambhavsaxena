@@ -98,7 +98,7 @@ The execution of a full request-response cycle takes place in the following mann
     - The response is sent back to the user
 
 
-#### What happens inside each controller and how does operations operate?
+#### What happens inside each controller and how do operations operate?
 
 The controller is the first file that is called when a request is made to the server. The controller is responsible for parsing the request body, and detecting the language of the source code. The controller then calls the respective functions in the `operations` folder, and returns the response to the user.
 
