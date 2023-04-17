@@ -93,15 +93,27 @@ The execution of a full request-response cycle takes place in the following mann
     - The user submits the code as request body to the API endpoint
     - The server captures this request and passes it to the controller
     - The controller parses the source code and detects the language
-    - Respective functions written in operations directry are called
+    - Respective functions written in operations directory are called
     - Each function performs the required operations and returns the output
     - The response is sent back to the user
 
+
+#### What happens inside each controller and how does operations operate?
+
+The controller is the first file that is called when a request is made to the server. The controller is responsible for parsing the request body, and detecting the language of the source code. The controller then calls the respective functions in the `operations` folder, and returns the response to the user.
+
+Now, operations are independent of each other and the platform. If a language needs to be compiled before execution, the control goes to the [compilers](https://github.com/sambhavsaxena/openIDE/tree/main/operations/compilers) directory, where the compiler commands create a binary file for each source.
+This binary is stored [here](https://github.com/sambhavsaxena/openIDE/tree/main/operations/binaries). Compilers for each supported language had to be installed on the server before deployment.
+
+Next, these binaries are called by the controller, execution takes place in order of FCFS handled by the server OS, and the output is returned to the user.
+
+If the language is interpreted, the control goes to the [interpreters](https://github.com/sambhavsaxena/openIDE/tree/main/operations/interpreters) directory, where the interpreter commands execute the source code and return the output directly.
+
 After the iterations hit and trials, I finally decided to just stick with a compiler framework, that would be more versatile than most of the existing online compilers.
 
-There are two main components of the system, the frontend and the backend. The frontend is a React app, and the backend is a NodeJS app. The frontend is hosted on Vercel, and the backend is hosted on Render. 
+There are two main components of the system, the frontend and the backend. The frontend is a React app, and the backend is a NodeJS runtime. The frontend is hosted on Vercel, where as, the backend is hosted on Render. 
 
-Why choose Render? Because it's servers already have compilers like `Javac`, `GCC`, `G++`, `Python3`, `NodeJS` and `Java` installed, and it's servers are effectively fast.
+Why choose Render? Because... it is the only free of cost service to host server based apps remotely. I had to use a service like Render because I didn't want to host the server on my local machine, and I didn't want to pay for a service like Heroku. Render is a great service, it's servers are fast, and eats up less bandwidth per request, providing low latency.
 
 As a finished product, it still has several bugs to debug, and several features to add. But, I'm pretty happy with the current architecture, and I'm that I got to learn a lot more OS oriented concepts while working on this project.
 
