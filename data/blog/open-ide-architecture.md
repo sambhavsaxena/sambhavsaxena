@@ -85,7 +85,7 @@ This is the file structure I had for the backend initially, but now has some twe
 #### How does network-system calls flow?
 
 <center>
-    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/ide.gif" style={{width: "110%", marginBottom: "-20px"}}></img>
+    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/ide.gif" style={{width: "100%", marginBottom: "-20px"}}></img>
     Current flow of execution
 </center>
 
