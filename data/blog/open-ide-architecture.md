@@ -17,7 +17,7 @@ I had been looking for a new project idea for a very long time, and last week wh
 </center>
 
 #### What's the idea behind complexity of this architecture?
-Initially, while I had a basic idea of how the system would work, I had no idea how to go about it. I had never worked on a project of this, and had been outlooking for sources of information on how to structure these frameworks. Following is a list of problems I had to solve while working on this project:
+Initially, while I had a basic idea of how the system would work, I had no idea how to go about it. I had never worked on a project of this scale, and had been outlooking for sources of information on how to structure these frameworks. Following is a list of problems I had to solve while working on this project:
     - Should I use a monorepo or a multi-repo architecture?
     - How to model the database tables?
     - How should different tables be connected to each other?
