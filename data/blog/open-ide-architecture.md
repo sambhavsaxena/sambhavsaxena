@@ -115,7 +115,7 @@ There are two main components of the system, the frontend and the backend. The f
 
 Why choose Render? Because... it is the only free of cost service to host server based apps remotely. I had to use a service like Render because I didn't want to host the server on my local machine, and I didn't want to pay for a service like Heroku. Render is a great service, it's servers are fast, and eats up less bandwidth per request, providing low latency.
 
-As a finished product, it still has several bugs to debug, and several features to add. But, I'm pretty happy with the current architecture, and I'm that I got to learn a lot more OS oriented concepts while working on this project.
+As a finished product, it still has several bugs to debug, and several features to add. But, I'm pretty happy with the current architecture, and I'm happy that I got to learn a lot more OS oriented concepts while working on this project.
 
 #### What are the current problems?
 The current problems are:
