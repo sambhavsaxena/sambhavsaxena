@@ -1,6 +1,6 @@
 ---
 banner_alt: Himalayan peaks
-banner: https://pixabay.com/images/download/mountain-7980514.jpg
+banner: https://cdn.pixabay.com/photo/2023/05/09/07/05/mountain-7980514_960_720.jpg
 title: Mountain man
 title_prefix: Travel
 description: Wild off-roads, hike, trek and raft.
