@@ -77,7 +77,7 @@ Next morning, we again went to the top to have a warm shower and got back to get
 
 <XStreamable id="0dim8v" title="Up within the Himalayas" />
 
-We had made unforgettable memories during the time we spent there, helping and singing along the way, exploring more about Himalayas, and having a nice time with the group. The trek lasted for about 4 hours of getting back to the base camp continuously walking in the mediocre temperature.
+We had made unforgettable memories during the time we spent there, singing along the way, exploring more about Himalayas, and having a nice time with the group. The trek lasted for about 4 hours of getting back to the base camp continuously walking downhill in the mediocre sunburning temperature.
 
 <XStreamable id="4e6uau" title="Through our way back" />
 
@@ -85,10 +85,18 @@ During our way back, we ate at the Manikaran Gurudwara, again having a nice hot 
 
 Played those soft romantic songs while everyone went sleeping and finally reached the campus the next day, bringing lots of memories and experiences with us.
 
+---
+
 Finally, after posting all those photos of the time I had spent with people I didn't know much, here's a photo with [Parikshit](https://www.instagram.com/parikshitverma.eth/) from our last expedition to George Everest.
 
 <center>
     <img src="https://cdn.pixabay.com/photo/2023/05/09/07/16/boys-7980545_960_720.jpg" style={{width: "90%"}}></img>
+</center>
+
+After the previous '_once in a lifetime_' experience I had while sitting on the banks of Ganga river at Rishikesh, 6 months ago when I visited Uttarakhand, I had another one while sitting on the top of the mountain within the Himalayas, and I'm sure there are many more to come.
+
+<center>
+    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/lakshman.jpg" style={{width: "90%"}}></img>
 </center>
 
 ---
