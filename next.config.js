@@ -46,6 +46,7 @@ const config = {
 
 			//Pixabay
 			'cdn.pixabay.com',
+			'pixabay.com',
 
 			//chess.com
 			'images.chesscomfiles.com',
