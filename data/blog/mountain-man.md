@@ -99,4 +99,6 @@ After the previous '_once in a lifetime_' experience I had while sitting on the 
     <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/lakshman.jpg" style={{width: "90%"}}></img>
 </center>
 
+_:until next time_
+
 ---
