@@ -1,5 +1,5 @@
 ---
-banner_alt: A man jumping over cliffs
+banner_alt: Himalayan peaks
 banner: https://pixabay.com/images/download/mountain-7980514.jpg
 title: Mountain man
 title_prefix: Travel
