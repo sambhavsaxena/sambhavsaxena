@@ -57,13 +57,13 @@ Had a few photographs and fun moments with the group and got back singing and da
  
 #### Kheerganga base camp
 <center>
-    <img src="https://pixabay.com/get/g52da9c61af4625c5f1a0d8c04263c1f8606cdbcd623ce1f2f7f62b880716952b2a306af2171e5e008abdf204a14c08f1.jpg" style={{width: "90%"}}></img>
+    <img src="https://cdn.pixabay.com/photo/2023/05/09/07/18/mountain-7980560_960_720.jpg" style={{width: "90%"}}></img>
 </center>
 
 The next day was the beginning of this trek we specifically came for. We had to leave early in the morning, so we woke up at around 5 AM, got ready and left the campus at around 6 AM. We had a 3 hour drive to the base camp near Manikaran, where we had to start our trek. We reached the base camp at around 9 AM, and started our trek. The trek was about 12 KM long(one way), and we had to reach the top by 5 PM strictly before dark. We had a guide with us, who was a localite and had been to the top of the mountain a lot of times. Even before we started the trek, we had to cross a dam from where we had this beautiful landscape. I got even more excited about the top.
 
 <center>
-    <img src="https://pixabay.com/get/g68a6506c56d667eee4ab2f0ca57258240d834c4518973813940c740228b07ddbd1e54bd5867b3fbebed51d9acf78393b.jpg" style={{width: "90%"}}></img>
+    <img src="https://cdn.pixabay.com/photo/2023/05/09/07/19/river-7980562_960_720.jpg" style={{width: "90%"}}></img>
 </center>
 
 Trekking our way throughout and having talked to a few people on the way, we had reached the top crossing certain bridges like this one.
