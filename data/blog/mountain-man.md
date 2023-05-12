@@ -44,7 +44,7 @@ We went out to explore the laboratories and incubation center of the campus, and
 While we were having these worthwhile moments of joy, we had decided to live in each of them to the fullest before leaving. That evening, we visited the famous Parashar Lake and had a small trek of about 2KM to the top, where this temple was located alongside with a beautiful lake. 
 
 <center>
-    <img src="https://pixabay.com/images/download/temple-7980565.jpg" style={{width: "90%"}}></img>
+    <img src="https://cdn.pixabay.com/photo/2023/05/09/07/20/temple-7980565_960_720.jpg" style={{width: "90%"}}></img>
 </center>
 
 and discovered a few hidden cults of Himachal recognized by the cap they wear.
