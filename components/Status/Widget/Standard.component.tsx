@@ -51,20 +51,8 @@ export function Widget() {
 			icon: 'mdi:crosshairs-gps',
 		},
 	};
-	const { codeforces } = {
-		codeforces: {
-			avatar: {
-				alt: 'Codeforces Avatar',
-				href: 'https://codeforces.com/profile/jerx/',
-				url: 'https://assets.leetcode.com/users/avatars/avatar_1662357637.png',
-			},
-			title: 'jerx',
-			description: 'NEWBIE on codeforces',
-			icon: 'mdi:code-braces',
-		},
-	};
 
-	const array_of_other_activities: Array<Activity> = [chess, codeforces, valorant];
+	const array_of_other_activities: Array<Activity> = [chess, valorant];
 
 	if (loading) return <Loading />;
 
