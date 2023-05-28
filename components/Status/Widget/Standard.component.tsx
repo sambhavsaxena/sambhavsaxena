@@ -27,37 +27,8 @@ interface Activity {
 
 export function Widget() {
 	const { color, loading, status } = useStatus();
-	const { chess } = {
-		chess: {
-			avatar: {
-				alt: 'Chess Avatar',
-				href: 'https://chess.com/member/sambhavsaxena',
-				url: 'https://images.chesscomfiles.com/uploads/v1/user/62116234.05203101.200x200o.2f455e1f6668.jpeg',
-			},
-			title: 'sambhavsaxena',
-			description: 'max rating: 968',
-			icon: 'mdi:chess-queen',
-		},
-	};
-	const { valorant } = {
-		valorant: {
-			avatar: {
-				alt: 'Valorant Avatar',
-				href: 'https://tracker.gg/valorant/profile/riot/dank%23smurf/overview',
-				url: 'https://www.clipartmax.com/png/full/452-4528875_riot-logo-fist-riot-games.png',
-			},
-			title: 'dank #smurf',
-			description: 'current rank: Gold 1',
-			icon: 'mdi:crosshairs-gps',
-		},
-	};
-
-	const array_of_other_activities: Array<Activity> = [chess, valorant];
-
 	if (loading) return <Loading />;
-
 	if (!status || Object.keys(status).length === 0 || !status) return <Error />;
-
 	const activities: Array<Activity> = [
 		/**
 		 * Discord User
@@ -75,25 +46,7 @@ export function Widget() {
 			icon: <Status.Indicator color={color} pulse={status.discord_status !== 'offline'} />,
 		},
 		/**
-		 * Spotify
-		 */
-		...(status.spotify && status.listening_to_spotify
-			? [
-					{
-						avatar: {
-							alt: `${status.spotify.song} - ${status.spotify.artist}`,
-							href: `https://open.spotify.com/track/${status.spotify.track_id}`,
-							url: status.spotify.album_art_url,
-						},
-						title: status.spotify.song,
-						description: 'by ' + status.spotify.artist,
-						icon: 'feather:headphones',
-					},
-			  ]
-			: []),
-
-		/**
-		 * All other activities
+		 * Other activities
 		 */
 		...(status.activities.length > 0
 			? status.activities.map((activity) => {
@@ -118,10 +71,27 @@ export function Widget() {
 							activity.details,
 							...(activity.state ? [activity.state] : []),
 						],
+						icon: 'mdi:code-braces',
 					};
 			  })
 			: []),
-		...array_of_other_activities,
+		/**
+		 * Spotify
+		 */
+		...(status.spotify && status.listening_to_spotify
+			? [
+					{
+						avatar: {
+							alt: `${status.spotify.song} - ${status.spotify.artist}`,
+							href: `https://open.spotify.com/track/${status.spotify.track_id}`,
+							url: status.spotify.album_art_url,
+						},
+						title: status.spotify.song,
+						description: 'by ' + status.spotify.artist,
+						icon: 'feather:headphones',
+					},
+			  ]
+			: []),
 	].filter((item) => item !== null);
 
 	return (
@@ -164,7 +134,6 @@ export function Widget() {
 									/>
 								</div>
 							)}
-
 							<div className="flex-1 ml-4">
 								{'icon' in activity.avatar && activity.avatar.icon ? (
 									<>
