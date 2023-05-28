@@ -1,5 +1,4 @@
 import { NextSeo } from 'next-seo';
-
 import { Navbar } from '~/components';
 import { useSeoProps } from '~/lib';
 

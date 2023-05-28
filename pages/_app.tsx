@@ -40,7 +40,6 @@ export default function App({ Component, pageProps }: AppProps) {
 	const router = useRouter();
 	const [play] = useClick();
 	useEvent('mousedown', () => play());
-	useEvent('mouseup', () => play());
 	useEffectOnce(() => {
 		router.events.on('routeChangeStart', () => NProgress.start());
 		router.events.on('routeChangeComplete', () => NProgress.done());
