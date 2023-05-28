@@ -57,6 +57,9 @@ export function Widget() {
 						? {
 								alt: activity.details,
 								url: `https://cdn.discordapp.com/app-assets/${activity.application_id}/${activity.assets.large_image}.webp`,
+								href: `https://github.com/sambhavsaxena/${activity.state.substring(
+									11,
+								)}`,
 						  }
 						: {
 								alt: activity.name,
