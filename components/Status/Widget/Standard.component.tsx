@@ -51,10 +51,22 @@ export function Widget() {
 		...(status.activities.length > 0
 			? status.activities.map((activity) => {
 					if (activity.id === 'custom' || activity.id.includes('spotify')) return null;
-					var elapsedHours = new Date(activity.created_at).getHours();
-					var elapsedMins = new Date(activity.created_at).getMinutes();
-					var elapsed = 'Started at: ' + elapsedHours + ':' + elapsedMins;
 					const hasAsset = activity.assets && activity.assets.large_image ? true : false;
+					/**
+					 * Elapsed time
+					 */
+					var elapsedHours =
+						new Date(activity.created_at).getHours() < 10
+							? '0' + new Date(activity.created_at).getHours()
+							: new Date(activity.created_at).getHours();
+					var elapsedMins =
+						new Date(activity.created_at).getMinutes() < 10
+							? '0' + new Date(activity.created_at).getMinutes()
+							: new Date(activity.created_at).getMinutes();
+					var elapsed = 'Started at: ' + elapsedHours + ':' + elapsedMins + ' IST';
+					/**
+					 * Premid assets config
+					 */
 					var url = activity.assets.large_image;
 					var id = url.split('/');
 					var finalURL = id[2] + '://' + id[3] + '/' + id[4];
@@ -77,13 +89,11 @@ export function Widget() {
 						title: activity.name,
 						description: [
 							activity.details,
-							activity.name === 'Visual Studio Code' ? elapsed : null,
+							elapsed,
 							...(activity.state ? [activity.state] : []),
 						],
 						icon:
-							activity.name !== 'Visual Studio Code'
-								? 'feather:sliders'
-								: 'mdi:code-braces',
+							activity.name !== 'Visual Studio Code' ? 'mdi:web' : 'mdi:code-braces',
 					};
 			  })
 			: []),
