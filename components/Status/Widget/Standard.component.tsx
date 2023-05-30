@@ -51,8 +51,15 @@ export function Widget() {
 		...(status.activities.length > 0
 			? status.activities.map((activity) => {
 					if (activity.id === 'custom' || activity.id.includes('spotify')) return null;
-
 					const hasAsset = activity.assets && activity.assets.large_image ? true : false;
+					var startHours = new Date(activity.created_at).getHours();
+					var startMinutes = new Date(activity.created_at).getMinutes();
+					var currentHour = new Date().getHours();
+					var currentMinutes = new Date().getMinutes();
+					var timeDifferenceHours = currentHour - startHours;
+					var timeDifferenceMinutes = currentMinutes - startMinutes;
+					var timeDifferenceString =
+						'Time elapsed: ' + timeDifferenceHours + 'h ' + timeDifferenceMinutes + 'm';
 					const avatar = hasAsset
 						? {
 								alt: activity.details,
@@ -69,6 +76,7 @@ export function Widget() {
 						title: activity.name,
 						description: [
 							activity.details,
+							timeDifferenceString,
 							...(activity.state ? [activity.state] : []),
 						],
 						icon: 'mdi:code-braces',
