@@ -21,6 +21,9 @@ const config = {
 			// Discord assets
 			'cdn.discordapp.com',
 
+			//imgur
+			'i.imgur.com',
+
 			// GitHub assets
 			'raw.githubusercontent.com',
 			'avatars.githubusercontent.com',

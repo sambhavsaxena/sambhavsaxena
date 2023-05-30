@@ -51,19 +51,20 @@ export function Widget() {
 		...(status.activities.length > 0
 			? status.activities.map((activity) => {
 					if (activity.id === 'custom' || activity.id.includes('spotify')) return null;
+					var elapsedHours = new Date(activity.created_at).getHours();
+					var elapsedMins = new Date(activity.created_at).getMinutes();
+					var elapsed = 'Started at: ' + elapsedHours + ':' + elapsedMins;
 					const hasAsset = activity.assets && activity.assets.large_image ? true : false;
-					var startHours = new Date(activity.created_at).getHours();
-					var startMinutes = new Date(activity.created_at).getMinutes();
-					var currentHour = new Date().getHours();
-					var currentMinutes = new Date().getMinutes();
-					var timeDifferenceHours = currentHour - startHours;
-					var timeDifferenceMinutes = currentMinutes - startMinutes;
-					var timeDifferenceString =
-						'Time elapsed: ' + timeDifferenceHours + 'h ' + timeDifferenceMinutes + 'm';
+					var url = activity.assets.large_image;
+					var id = url.split('/');
+					var finalURL = id[2] + '://' + id[3] + '/' + id[4];
 					const avatar = hasAsset
 						? {
 								alt: activity.details,
-								url: `https://cdn.discordapp.com/app-assets/${activity.application_id}/${activity.assets.large_image}.webp`,
+								url:
+									activity.name === 'Visual Studio Code'
+										? `https://cdn.discordapp.com/app-assets/${activity.application_id}/${activity.assets.large_image}.webp`
+										: finalURL,
 						  }
 						: {
 								alt: activity.name,
@@ -76,10 +77,13 @@ export function Widget() {
 						title: activity.name,
 						description: [
 							activity.details,
-							timeDifferenceString,
+							activity.name === 'Visual Studio Code' ? elapsed : null,
 							...(activity.state ? [activity.state] : []),
 						],
-						icon: 'mdi:code-braces',
+						icon:
+							activity.name !== 'Visual Studio Code'
+								? 'feather:sliders'
+								: 'mdi:code-braces',
 					};
 			  })
 			: []),
