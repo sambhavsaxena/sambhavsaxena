@@ -4,7 +4,7 @@ banner: https://cdn.pixabay.com/photo/2023/05/09/07/05/mountain-7980514_960_720.
 title: Mountain man
 title_prefix: Travel
 description: Wild off-roads, hike, trek and raft.
-date: '2023-05-05'
+date: '2023-05-09'
 ---
 --- 
 
@@ -15,7 +15,6 @@ When I was a 12 yo kid, I had made a decision to travel more freqently to remote
 Let's start from the beginning. It was 23rd of April, when Rahul came to my room late around at night. I was already in a discussion with him about the hierarchy of [DCRUSTODC](https://github.com/DCRUSTODC). Now most people of our group were visiting Jammu during the same time, so I had to go one way or the other. Later on, Rahul told me that he had been talking to the faculty members of the university, and they had decided to send a group of students to IIT Mandi for a 3 day campus visit. Further, Prof. Suman Sangwan's daughter was also a part of this group and she wanted to extend this campus visit to other places in Himachal Pradesh. So they had finalized to trek their way through Kheergang on the next two days after the campus visit. I was not a very active member of this discussion, but had already made up my mind to not leave this opportunity. I had been told that Kheerganga was a beautiful trek, so how could I deny. I asked Dhruv, and he instantly agreed to join in. Finalized the list that very night and went back home the next day prepping for the journey.
 
 Fast forward 3 days, we picked our rugsacks and gathered near the university complex, where these buses were waiting for us. We got in and started our journey to the first destination, which was an 10 hour drive from the campus. 
-
 
 #### IIT Mandi campus
 We reached Mandi at around 10 AM the next day, and were welcomed by showers of Mandi soon after. As soon as the rooms were allotted in the main guest house, we (me and Dhruv) went out to explore more about this place when we saw the first proper look of IIT Mandi.
