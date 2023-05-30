@@ -89,8 +89,8 @@ export function Widget() {
 						title: activity.name,
 						description: [
 							activity.details,
-							elapsed,
 							...(activity.state ? [activity.state] : []),
+							elapsed
 						],
 						icon:
 							activity.name !== 'Visual Studio Code' ? 'mdi:web' : 'mdi:code-braces',
