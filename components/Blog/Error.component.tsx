@@ -22,30 +22,27 @@ export function Error({ routeBlog = true }: ErrorProps) {
 						<h1 className="mt-2 text-4xl font-extrabold text-gray-500 dark:text-white tracking-tight sm:text-5xl">
 							No Posts Found
 						</h1>
-						<p className="mt-4 text-sm font-medium text-gray-300 dark:text-gray-400">
+						<p className="mt-4 text-sm font-medium text-gray-400 dark:text-gray-300">
 							Sorry, we couldn’t find any blog posts ¯\_(ツ)_/¯
 						</p>
 						<div className="mt-6 flex justify-center items-center space-x-4">
 							<Button.Standard
 								icon="feather:arrow-left"
 								onClick={() => history.go(-1)}
-								type={NavigationItemType.ACTION}
-							>
+								type={NavigationItemType.ACTION}>
 								Back
 							</Button.Standard>
 							<Button.Standard
 								href="/"
 								icon="feather:home"
-								type={NavigationItemType.LINK}
-							>
+								type={NavigationItemType.LINK}>
 								Home
 							</Button.Standard>
 							{routeBlog && (
 								<Button.Standard
 									href="/blog"
 									icon="feather:book"
-									type={NavigationItemType.LINK}
-								>
+									type={NavigationItemType.LINK}>
 									Blog
 								</Button.Standard>
 							)}

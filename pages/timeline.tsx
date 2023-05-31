@@ -65,7 +65,7 @@ export default function TimelinePage({ timeline: rawTimeline }: TimelineProps) {
 												</Pill.Date>
 											</h1>
 
-											<p className="my-2 text-gray-300 text-base">
+											<p className="my-2 text-gray-400 text-base">
 												{event.description}
 											</p>
 
@@ -75,8 +75,7 @@ export default function TimelinePage({ timeline: rawTimeline }: TimelineProps) {
 													href={event.link.url}
 													rel="noopener noreferrer"
 													small={true}
-													target="_blank"
-												>
+													target="_blank">
 													{event.link.text}
 													<Icon
 														aria-hidden="true"

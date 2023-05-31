@@ -12,7 +12,7 @@ export default function Devotion() {
 						<Icon className="h-12 text-primary-500 w-auto" icon="feather:sun" />
 					</div>
 					<div className="py-4 text-center">
-						<p className="mt-8 text-sm font-medium text-gray-300 dark:text-gray-400">
+						<p className="mt-8 text-sm font-medium text-gray-400 dark:text-gray-300">
 							“Time will outlast everything”
 							<br />
 						</p>

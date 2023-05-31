@@ -34,7 +34,7 @@ export function CodeStyles() {
 
 				code[class*='language-'],
 				pre[class*='language-'] {
-					@apply bg-white dark:bg-gray-800 text-gray-300 dark:text-gray-200;
+					@apply bg-white dark:bg-gray-800 text-gray-400 dark:text-gray-200;
 					font-family: 'Fira Code', 'Fira Mono', Menlo, Consolas, 'DejaVu Sans Mono',
 						monospace;
 					direction: ltr;

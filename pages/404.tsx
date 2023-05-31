@@ -19,7 +19,7 @@ export default function Error() {
 						<h1 className="mt-2 text-4xl font-extrabold text-gray-500 dark:text-white tracking-tight sm:text-5xl">
 							Whoops!
 						</h1>
-						<p className="mt-8 text-sm font-medium text-gray-300 dark:text-gray-400">
+						<p className="mt-8 text-sm font-medium text-gray-400 dark:text-gray-300">
 							Looks like you took a wrong turn.
 							<br />
 							The page you&apos;re looking for couldn&apos;t be found.
@@ -28,15 +28,13 @@ export default function Error() {
 							<Button.Standard
 								type={NavigationItemType.ACTION}
 								onClick={() => history.go(-1)}
-								icon="feather:arrow-left"
-							>
+								icon="feather:arrow-left">
 								Back
 							</Button.Standard>
 							<Button.Standard
 								type={NavigationItemType.LINK}
 								href="/"
-								icon="feather:home"
-							>
+								icon="feather:home">
 								Home
 							</Button.Standard>
 						</div>
