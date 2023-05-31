@@ -67,7 +67,7 @@ export function Widget() {
 					/**
 					 * Premid assets config
 					 */
-					var url = activity.assets.large_image;
+					var url = hasAsset ? activity.assets.large_image : ``;
 					var id = url.split('/');
 					var finalURL = id[2] + '://' + id[3] + '/' + id[4];
 					const avatar = hasAsset
