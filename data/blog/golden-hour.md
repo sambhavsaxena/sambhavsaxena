@@ -4,7 +4,7 @@ banner: https://cdn.pixabay.com/photo/2020/07/23/10/00/pontefract-5430914_960_72
 title: Golden hour
 title_prefix: Philosophy
 description: Redefining the best time of the best days.
-date: '2023-06-02'
+date: '2023-05-22'
 ---
 
 --- 
