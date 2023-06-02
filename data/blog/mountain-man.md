@@ -14,7 +14,7 @@ When I was a 12 yo kid, I had made a decision to travel more freqently to remote
 #### Hostel Room, 11PM
 Let's start from the beginning. It was 23rd of April, when Rahul came to my room late around at night. I was already in a discussion with him about the hierarchy of [DCRUSTODC](https://github.com/DCRUSTODC). Now most people of our group were visiting Jammu during the same time, so I had to go one way or the other. Later on, Rahul told me that he had been talking to the faculty members of the university, and they had decided to send a group of students to IIT Mandi for a 3 day campus visit. Further, Prof. Suman Sangwan's daughter was also a part of this group and she wanted to extend this campus visit to other places in Himachal Pradesh. So they had finalized to trek their way through Kheergang on the next two days after the campus visit. I was not a very active member of this discussion, but had already made up my mind to not leave this opportunity. I had been told that Kheerganga was a beautiful trek, so how could I deny. I asked Dhruv, and he instantly agreed to join in. Finalized the list that very night and went back home the next day prepping for the journey.
 
-Fast forward 3 days, we picked our rugsacks and gathered near the university complex, where these buses were waiting for us. We got in and started our journey to the first destination, which was an 10 hour drive from the campus. 
+Fast forward 3 days, we picked our rugsacks and gathered near the university complex, where these buses were waiting for us. We got in and started our journey to the first destination, which was a 10 hour drive from the campus. 
 
 #### IIT Mandi campus
 We reached Mandi at around 10 AM the next day, and were welcomed by showers of Mandi soon after. As soon as the rooms were allotted in the main guest house, we (me and Dhruv) went out to explore more about this place when we saw the first proper look of IIT Mandi.
@@ -70,7 +70,7 @@ Trekking our way throughout and having talked to a few people on the way, we had
 <XStreamable id="g405jp" title="Bridge of death" />
 
 #### Top of the world
-After reaching the top, we had nice tea and went top further for experiencing the sauna. Well, not very much of a sauna, it was an open shower where we could bath under warm (I would say burning hot) water coming directly from the geysers on top, but it didn't feel much due to the cold outside. Had our clothes all dirty with dirt and our shoes wet after it had been raining during the trek, we spent the night partying and dancing in the cold, obviously after having a fine dinner and joint. We had a bonfire and a DJ playing songs for us. Had one of those '_once in a lifetime_' that night, and later slept in the tents surrounded by the Himalayas from all directions.
+After reaching the top, we had nice tea and went top further for experiencing the sauna. Well, not very much of a sauna, it was an open shower where we could bath under warm (I would say burning hot) water coming directly from the geysers on top, but it didn't feel much due to the cold outside. Had our clothes all dirty and our shoes wet after it had been raining during the trek, we spent the night partying and dancing in the cold, obviously after having a fine dinner and joint. We had a bonfire and a DJ playing songs for us. Had one of those '_once in a lifetime_' that night, and later slept in the tents surrounded by the Himalayas from all directions.
 
 Next morning, we again went to the top to have a warm shower and got back to get done with the breakfast and start our way back.
 
@@ -86,13 +86,13 @@ Played those soft romantic songs while everyone went sleeping and finally reache
 
 ---
 
-Finally, after posting all those photos of the time I had spent with people I didn't know much, here's a photo with [Parikshit](https://www.instagram.com/parikshitverma.eth/) from our last expedition to George Everest.
+Finally, after posting all those photos of the time I had spent with people I didn't know much, here's a photo with [Parikshit](https://www.instagram.com/parikshitverma.eth/) from one of our previous expedition to George Everest.
 
 <center>
     <img src="https://cdn.pixabay.com/photo/2023/05/09/07/16/boys-7980545_960_720.jpg" style={{width: "90%"}}></img>
 </center>
 
-After the previous '_once in a lifetime_' experience I had while sitting on the banks of Ganga river at Rishikesh, 6 months ago when I visited Uttarakhand, I had another one while sitting on the top of the mountain within the Himalayas, and I'm sure there are many more to come.
+After the '_once in a lifetime_' experience I had while sitting on the banks of Ganga river at Rishikesh, 6 months ago when I visited Uttarakhand, I had another one while sitting on the top of the Himalayan mountains, and I'm sure there are many more to come.
 
 <center>
     <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/lakshman.jpg" style={{width: "90%"}}></img>
