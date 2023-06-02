@@ -2,7 +2,7 @@
 banner_alt: A random sudo code from Linux terminal
 banner: https://images.unsplash.com/photo-1629654297299-c8506221ca97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80
 title: Linux vs Windows
-title_prefix: Development
+title_prefix: Technology
 description: Use of Linux has been skyrocketing for the last decade. What has changed?
 date: '2022-02-16'
 ---

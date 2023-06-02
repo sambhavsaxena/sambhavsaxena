@@ -2,7 +2,7 @@
 banner_alt: A Chrome tab on tablet computer
 banner: https://raw.githubusercontent.com/thatsameguyokay/images/main/html.jpg
 title: JS frameworks or basic HTML stack, what's better?
-title_prefix: Development
+title_prefix: Technology
 description: My previous portfolios has been written in basic HTML. The reason? Here you go.
 date: '2022-06-10'
 ---

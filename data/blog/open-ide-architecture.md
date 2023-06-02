@@ -2,7 +2,7 @@
 banner_alt: Image of a 
 banner: https://cdn.pixabay.com/photo/2020/04/05/00/26/web-5004174_960_720.jpg
 title: Open IDE Architecture
-title_prefix: Development
+title_prefix: Technology
 description: Understanding the architecture of an online compiler.
 date: '2023-04-01'
 ---
