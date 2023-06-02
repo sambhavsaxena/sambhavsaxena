@@ -4,7 +4,7 @@ banner: https://cdn.pixabay.com/photo/2020/07/23/10/00/pontefract-5430914_960_72
 title: Golden hour
 title_prefix: Philosophy
 description: Redefining the best time of the best days.
-date: '2023-05-22'
+date: '2022-09-16'
 ---
 
 --- 
@@ -17,7 +17,7 @@ When you google this term, you'll get [this](https://open.spotify.com/track/5odl
     <img src="https://images.unsplash.com/photo-1519370159120-226cb8b70f88" style={{width: "90%"}}></img>
 </center>
 
-Speaking of my travel ventures in other blog posts like [this](https://interpreted.vercel.app/blog/mountain-man), you might have come across a term as a moment being `once in  a lifetime experience`. Golden hour, in my terms, is an extended version to this.
+Speaking of my travel ventures in other blog posts like [this](https://interpreted.vercel.app/blog/mountain-man)(edit), you might have come across a term as a moment being `once in  a lifetime experience`. Golden hour, in my terms, is an extended version to this.
 
 Now, talking about golden hours, I hope to see many more of them in the next few years, but mentioning that it is one of the best moments to capture in everyone's life, and has a psychological connection to major changes that takes place when some major event occurs. But could it be more spiritual as well? I think so.
 
