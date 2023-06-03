@@ -68,8 +68,9 @@ export function Widget() {
 					 * Premid assets config
 					 */
 					var url = hasAsset ? activity.assets.large_image : ``;
-					var id = url.split('/');
-					var finalURL = id[2] + '://' + id[3] + '/' + id[4];
+					console.log(url);
+					var id = url.split('https');
+					var finalURL = 'https:/' + id[1];
 					const avatar = hasAsset
 						? {
 								alt: activity.details,
@@ -83,14 +84,13 @@ export function Widget() {
 								icon: true,
 								url: '',
 						  };
-
 					return {
 						avatar,
 						title: activity.name,
 						description: [
 							activity.details,
 							...(activity.state ? [activity.state] : []),
-							elapsed
+							elapsed,
 						],
 						icon:
 							activity.name !== 'Visual Studio Code' ? 'mdi:web' : 'mdi:code-braces',

@@ -24,6 +24,12 @@ const config = {
 			//imgur
 			'i.imgur.com',
 
+			//wiki
+			'upload.wikimedia.org',
+
+			//reddit
+			'cdn.rcd.gg',
+
 			// GitHub assets
 			'raw.githubusercontent.com',
 			'avatars.githubusercontent.com',
