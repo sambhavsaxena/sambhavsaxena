@@ -68,7 +68,6 @@ export function Widget() {
 					 * Premid assets config
 					 */
 					var url = hasAsset ? activity.assets.large_image : ``;
-					console.log(url);
 					var id = url.split('https');
 					var finalURL = 'https:/' + id[1];
 					const avatar = hasAsset

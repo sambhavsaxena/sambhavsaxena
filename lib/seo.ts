@@ -8,8 +8,8 @@ export function useSeoProps(
 ): Partial<ComponentProps<typeof NextSeo>> {
 	const router = useRouter();
 
-	const title = 'sambhavsaxena ─ developer';
-	const description = "Hey I'm Sambhav, a developer";
+	const title = 'sambhavsaxena';
+	const description = "Sambhav Saxena's personal website.";
 
 	return {
 		title,
@@ -33,7 +33,7 @@ export function useSeoProps(
 		twitter: {
 			cardType: 'summary_large_image',
 			handle: '@_sambhavsaxena',
-			site: '@s_ambhavsaxena',
+			site: '@sambhavsaxena',
 		},
 		...props,
 	};

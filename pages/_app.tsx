@@ -1,5 +1,4 @@
 import NProgress from 'nprogress';
-import splitbee from '@splitbee/web';
 import { AppProps } from 'next/app';
 import { ThemeProvider } from 'next-themes';
 import { useEffectOnce, useEvent } from 'react-use';
@@ -44,11 +43,6 @@ export default function App({ Component, pageProps }: AppProps) {
 		router.events.on('routeChangeStart', () => NProgress.start());
 		router.events.on('routeChangeComplete', () => NProgress.done());
 		router.events.on('routeChangeError', () => NProgress.done());
-
-		if (process.env.NODE_ENV === 'production')
-			splitbee.init({
-				disableCookie: true,
-			});
 	});
 
 	return (
