@@ -1,10 +1,8 @@
 import Image from 'next/image';
 import { MDXRemote } from 'next-mdx-remote';
-
 import { Blog, Pill } from '~/components';
 import { getPost, getAllPostSlugs } from '~/lib/post';
 import { Layout } from '~/layouts';
-
 import type { GetStaticPaths, GetStaticProps } from 'next';
 import type { ParsedUrlQuery } from 'querystring';
 import type { Post } from '~/types';
@@ -67,7 +65,7 @@ export default function BlogPost({ post }: BlogPostProps) {
 					<div className="relative px-4 sm:px-6 lg:px-8">
 						{post.frontmatter.banner && (post.frontmatter.banner_show ?? true) && (
 							<div className="relative sm:max-w-2xl lg:sm:max-w-6xl mx-auto my-2 sm:my-4">
-								<div className="w-full h-full h-64 lg:h-96 mb-8 bg-gray-200 dark:bg-gray-600 rounded-3xl motion-safe:animate-pulse" />
+								<div className="w-full h-full lg:h-96 mb-8 bg-gray-200 dark:bg-gray-600 rounded-3xl motion-safe:animate-pulse" />
 								<Image
 									alt={post.frontmatter.banner_alt ?? post.frontmatter.title}
 									className="absolute top-0 left-0 w-full h-auto max-h-64 lg:max-h-96 mb-8 rounded-3xl object-cover select-none shadow-xl default-transition"
@@ -101,7 +99,7 @@ export default function BlogPost({ post }: BlogPostProps) {
 							)}
 						</div>
 
-						<article className="max-w-prose mx-auto prose prose-primary prose-lg text-gray-500 mx-auto">
+						<article className="max-w-prose prose prose-primary prose-lg text-gray-500 mx-auto">
 							<MDXRemote {...post.source} components={Blog.X} />
 						</article>
 					</div>

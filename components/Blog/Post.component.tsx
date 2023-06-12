@@ -37,7 +37,7 @@ export function _Post({ index, frontmatter }: PostProps) {
 
 				<div
 					className={clsx(
-						'flex-1 flex flex-col justify-between p-6 bg-transparent rounded-2xl bg-transparent',
+						'flex-1 flex flex-col justify-between p-6 rounded-2xl bg-transparent',
 						frontmatter.banner && 'lg:(rounded-tr-none rounded-tl-none)',
 					)}>
 					<div className="flex flex-col flex-1 justify-around rounded-lg text-gray-300 dark:text-gray-400 default-focus">

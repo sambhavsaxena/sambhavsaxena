@@ -17,10 +17,10 @@ export function Latest({ frontmatter }: LatestProps) {
 		<Link aria-label={ariaLabel} href={href} passHref>
 			<a
 				aria-label={ariaLabel}
-				className="flex flex-col lg:flex-row mt-12 bg-white bg-opacity-75 dark:(bg-gray-900 bg-opacity-75 border-gray-500) backdrop-filter backdrop-blur-sm rounded-2xl hover:shadow-xl cursor-pointer border-2 border-gray-100 transform motion-safe:hover:-translate-y-1 default-transition default-focus"
+				className="flex flex-col lg:flex-row mt-12 bg-white bg-opacity-75 dark:(bg-gray-900 border-gray-500) backdrop-filter backdrop-blur-sm rounded-2xl hover:shadow-xl cursor-pointer border-2 border-gray-100 transform motion-safe:hover:-translate-y-1 default-transition default-focus"
 				href={href}>
 				{(frontmatter.banner_show ?? true) && (
-					<div className="relative flex justify-center my-auto w-full xl:w-2/4 h-64 border-b-2 sm:(h-72 border-0 border-r-2) border-gray-100 dark:border-gray-500 overflow-hidden rounded-2xl rounded-b-none lg:(max-w-xl h-96 rounded-l-2xl rounded-r-none) default-transition">
+					<div className="relative flex justify-center my-auto w-full xl:w-2/4 border-b-2 sm:(h-72 border-0 border-r-2) border-gray-100 dark:border-gray-500 overflow-hidden rounded-2xl rounded-b-none lg:(max-w-xl h-96 rounded-l-2xl rounded-r-none) default-transition">
 						<div className="w-full h-full mb-8 bg-gray-200 dark:bg-gray-600 rounded-lg rounded-l-none lg:(rounded-l-lg rounded-r-none motion-safe:animate-pulse)" />
 						<Image
 							alt={frontmatter.banner_alt ?? frontmatter.title}
@@ -32,7 +32,7 @@ export function Latest({ frontmatter }: LatestProps) {
 					</div>
 				)}
 				<div className="flex flex-col flex-1 justify-evenly m-auto sm:m-0 pb-3 sm:p-1 sm:pt-0 lg:px-12 text-gray-400 dark:text-gray-300">
-					<h2 className="mt-6 mx-4 py-4 text-3xl sm:text-4xl lg:(mt-0 mx-0 text-5xl) font-bold line-clamp-4 text-gray-500 dark:text-white text-left">
+					<h2 className="mt-6 mx-4 py-4 text-3xl sm:text-4xl lg:(mt-0 text-5xl) font-bold line-clamp-4 text-gray-500 dark:text-white text-left">
 						{frontmatter.title || frontmatter.title}
 					</h2>
 					{((frontmatter.description && frontmatter.description_show) || true) && (
