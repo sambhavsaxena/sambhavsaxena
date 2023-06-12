@@ -30,7 +30,7 @@ export default function BlogPage({ serialisedFrontmatters }: BlogProps) {
 
 	const toggleSelection = (e) => {
 		e.preventDefault();
-		setCategory(e.target.innerText);
+		setCategory(e.target.innerText.split(' ')[0].trim());
 	};
 
 	return (
@@ -39,19 +39,43 @@ export default function BlogPage({ serialisedFrontmatters }: BlogProps) {
 				<div className="relative max-w-6xl mx-auto">
 					<div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-4 space-y-4 sm:space-y-0 w-full mt-8 sm:mt-4">
 						<Button.Outline href="" onClick={toggleSelection}>
-							All
+							All ({frontmatters.length})
 						</Button.Outline>
 						<Button.Outline href="" onClick={toggleSelection}>
-							Technology
+							Technology (
+							{
+								frontmatters.filter(
+									(frontmatter) => frontmatter.title_prefix === 'Technology',
+								).length
+							}
+							)
 						</Button.Outline>
 						<Button.Outline href="" onClick={toggleSelection}>
-							Philosophy
+							Philosophy (
+							{
+								frontmatters.filter(
+									(frontmatter) => frontmatter.title_prefix === 'Philosophy',
+								).length
+							}
+							)
 						</Button.Outline>
 						<Button.Outline href="" onClick={toggleSelection}>
-							Travel
+							Travel (
+							{
+								frontmatters.filter(
+									(frontmatter) => frontmatter.title_prefix === 'Travel',
+								).length
+							}
+							)
 						</Button.Outline>
 						<Button.Outline href="" onClick={toggleSelection}>
-							Stargazing
+							Stargazing (
+							{
+								frontmatters.filter(
+									(frontmatter) => frontmatter.title_prefix === 'Stargazing',
+								).length
+							}
+							)
 						</Button.Outline>
 					</div>
 					<div className="mt-4 lg:mt-12 grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:max-w-none">
