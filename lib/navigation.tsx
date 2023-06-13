@@ -34,7 +34,7 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			type: NavigationItemType.LINK,
 			icon: 'feather:key',
 			text: 'Intel',
-			href: '/main-pub-key.asc',
+			href: '/public.txt',
 		},
 	],
 	[
@@ -65,6 +65,15 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			text: 'Resume',
 			href: 'https://cdn.statically.io/gh/thatsameguyokay/images/main/CV-v2.pdf',
 			external: true,
+		},
+	],
+	[
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:lock',
+			text: 'Secret',
+			href: '/secret.txt',
+			external: false,
 		},
 	],
 ];
