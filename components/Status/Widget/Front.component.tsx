@@ -37,9 +37,7 @@ export function Front() {
 				url: `https://cdn.discordapp.com/avatars/${status.discord_user.id}/${status.discord_user.avatar}.webp?size=256`,
 			},
 			title: status.discord_user.username,
-			description: `#${status.discord_user.discriminator} is ${
-				status.discord_status === 'dnd' ? 'busy' : status.discord_status
-			}`,
+			description: `${status.discord_status === 'dnd' ? 'busy' : status.discord_status}`,
 			icon: <Status.Indicator color={color} pulse={status.discord_status !== 'offline'} />,
 		},
 	].filter((item) => item !== null);
@@ -47,7 +45,7 @@ export function Front() {
 	return (
 		<Link href={'/status'}>
 			<div
-				className="flex flex-col space-y-5 w-full max-w-sm mx-auto px-4 py-4 bg-white bg-opacity-50 dark:(bg-gray-900 bg-opacity-50 border-gray-600) backdrop-filter backdrop-blur-sm border-2 border-gray-200 rounded-lg hover:shadow-lg default-transition"
+				className="flex flex-col space-y-5 w-full max-w-sm mx-auto px-4 py-4 bg-white bg-opacity-50 dark:(bg-gray-900 border-gray-600) backdrop-filter backdrop-blur-sm border-2 border-gray-200 rounded-lg hover:shadow-lg default-transition"
 				style={{ cursor: 'pointer' }}>
 				{activities.map((activity, index) => {
 					return (
