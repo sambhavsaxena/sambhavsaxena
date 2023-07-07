@@ -53,9 +53,9 @@ export default function BlogPost({ post }: BlogPostProps) {
 		setLikes(res.data.likes);
 	};
 	const updateLikes = async () => {
-		setLikes((parseInt(likes) + 1).toString());
 		if (updated) return;
 		else {
+			setLikes((parseInt(likes) + 1).toString());
 			setUpdated(true);
 			await axios.post(`https://likescount.onrender.com/api`, {
 				title: post.frontmatter.slug,
@@ -130,7 +130,8 @@ export default function BlogPost({ post }: BlogPostProps) {
 									onClick={updateLikes}
 									style={
 										updated ? { cursor: 'not-allowed' } : { cursor: 'pointer' }
-									}>
+									}
+									aria-disabled>
 									<Pill.Likes>{likes}</Pill.Likes>
 								</div>
 							</span>
