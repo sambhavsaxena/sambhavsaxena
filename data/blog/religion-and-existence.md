@@ -5,6 +5,7 @@ title: Religion and existance
 title_prefix: Philosophy
 description: What gave birth to modern day religion? Let's dive deep.
 date: '2022-03-02'
+likes: 0
 ---
 
 --- 

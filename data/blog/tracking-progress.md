@@ -5,6 +5,7 @@ title: Tracking progress
 title_prefix: Philosophy
 description: A summary of the last few sophisticated months spent exploring.
 date: '2023-03-30'
+likes: 0
 ---
 --- 
 

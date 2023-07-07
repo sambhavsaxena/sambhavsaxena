@@ -5,6 +5,7 @@ title: Mountain man
 title_prefix: Travel
 description: Wild off-roads, hike, trek and raft.
 date: '2023-05-09'
+likes: 0
 ---
 --- 
 

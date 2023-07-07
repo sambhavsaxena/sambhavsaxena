@@ -5,6 +5,7 @@ title: Caught the total lunar eclipse on May 26th
 title_prefix: Stargazing
 description: Feels like a while since the Moon got into Earth's shadow.
 date: '2021-05-27'
+likes: 0
 ---
 
 --- 

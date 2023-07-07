@@ -5,6 +5,7 @@ title: Philosophy of human variations
 title_prefix: Philosophy
 description: About George Floyd and localized roots of casteism in India.
 date: '2020-07-28'
+likes: 0
 ---
 --- 
 

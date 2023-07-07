@@ -6,7 +6,9 @@ import { Layout } from '~/layouts';
 import type { GetStaticPaths, GetStaticProps } from 'next';
 import type { ParsedUrlQuery } from 'querystring';
 import type { Post } from '~/types';
-
+import { useState } from 'react';
+import { useEffectOnce } from 'react-use';
+import axios from 'axios';
 interface PathProps extends ParsedUrlQuery {
 	slug: string;
 }
@@ -42,6 +44,27 @@ export const getStaticProps: GetStaticProps<BlogPostProps, PathProps> = async ({
 };
 
 export default function BlogPost({ post }: BlogPostProps) {
+	const [likes, setLikes] = useState('...');
+	const [updated, setUpdated] = useState(false);
+	const fetchLikes = async () => {
+		const res = await axios.get(
+			`https://likescount.onrender.com/api?title=${post.frontmatter.slug}`,
+		);
+		setLikes(res.data.likes);
+	};
+	const updateLikes = async () => {
+		setLikes((parseInt(likes) + 1).toString());
+		if (updated) return;
+		else {
+			setUpdated(true);
+			await axios.post(`https://likescount.onrender.com/api`, {
+				title: post.frontmatter.slug,
+			});
+		}
+	};
+	useEffectOnce(() => {
+		fetchLikes();
+	});
 	return (
 		<>
 			<Layout.Blog
@@ -59,8 +82,7 @@ export default function BlogPost({ post }: BlogPostProps) {
 							},
 						],
 					},
-				}}
-			>
+				}}>
 				<div className="relative px-4 py-16 overflow-hidden">
 					<div className="relative px-4 sm:px-6 lg:px-8">
 						{post.frontmatter.banner && (post.frontmatter.banner_show ?? true) && (
@@ -102,6 +124,17 @@ export default function BlogPost({ post }: BlogPostProps) {
 						<article className="max-w-prose prose prose-primary prose-lg text-gray-500 mx-auto">
 							<MDXRemote {...post.source} components={Blog.X} />
 						</article>
+						<div className="flex flex-col space-y-4 max-w-prose mx-auto my-4 text-lg text-center">
+							<span className="flex justify-center items-center">
+								<div
+									onClick={updateLikes}
+									style={
+										updated ? { cursor: 'not-allowed' } : { cursor: 'pointer' }
+									}>
+									<Pill.Likes>{likes}</Pill.Likes>
+								</div>
+							</span>
+						</div>
 					</div>
 				</div>
 			</Layout.Blog>
