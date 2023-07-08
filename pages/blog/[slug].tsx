@@ -58,7 +58,7 @@ export default function BlogPost({ post }: BlogPostProps) {
 		setIsExploding(true);
 		if (updated) return;
 		else {
-			setLikes((parseInt(likes) + 1).toString());
+			setLikes((prev) => prev + 1);
 			setUpdated(true);
 			await axios.post(`https://likescount.onrender.com/api`, {
 				title: post.frontmatter.slug,
