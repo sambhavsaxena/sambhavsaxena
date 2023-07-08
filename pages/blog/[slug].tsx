@@ -6,6 +6,7 @@ import { Layout } from '~/layouts';
 import type { GetStaticPaths, GetStaticProps } from 'next';
 import type { ParsedUrlQuery } from 'querystring';
 import type { Post } from '~/types';
+import ConfettiExplosion from 'react-confetti-explosion';
 import { useState } from 'react';
 import { useEffectOnce } from 'react-use';
 import axios from 'axios';
@@ -45,6 +46,7 @@ export const getStaticProps: GetStaticProps<BlogPostProps, PathProps> = async ({
 
 export default function BlogPost({ post }: BlogPostProps) {
 	const [likes, setLikes] = useState('...');
+	const [isExploding, setIsExploding] = useState(false);
 	const [updated, setUpdated] = useState(false);
 	const fetchLikes = async () => {
 		const res = await axios.get(
@@ -53,6 +55,7 @@ export default function BlogPost({ post }: BlogPostProps) {
 		setLikes(res.data.likes);
 	};
 	const updateLikes = async () => {
+		setIsExploding(true);
 		if (updated) return;
 		else {
 			setLikes((parseInt(likes) + 1).toString());
@@ -126,6 +129,14 @@ export default function BlogPost({ post }: BlogPostProps) {
 						</article>
 						<div className="flex flex-col space-y-4 max-w-prose mx-auto my-4 text-lg text-center">
 							<span className="flex justify-center items-center">
+								{isExploding && (
+									<ConfettiExplosion
+										force={0.2}
+										duration={3000}
+										particleCount={15}
+										width={400}
+									/>
+								)}
 								<div
 									onClick={updateLikes}
 									style={

@@ -51,6 +51,7 @@
 		"ogl-typescript": "^0.1.40",
 		"preact": "^10.10.0",
 		"react": "^17.0.2",
+		"react-confetti-explosion": "^2.1.2",
 		"react-dom": "^17.0.2",
 		"react-hot-toast": "^2.1.1",
 		"react-use": "^17.3.1",
