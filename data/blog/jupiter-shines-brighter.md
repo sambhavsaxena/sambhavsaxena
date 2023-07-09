@@ -5,7 +5,6 @@ title: Jupiter shines brighter
 title_prefix: Stargazing
 description: Jupiter shines brighter and closer than at any other time this year.
 date: '2021-08-20'
-likes: 0
 ---
 
 --- 

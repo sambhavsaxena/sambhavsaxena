@@ -5,7 +5,6 @@ title: Starting with competitive programming
 title_prefix: Technology
 description: Strategies I follow while getting started with competitive programming.
 date: '2022-08-11'
-likes: 0
 ---
 ---
 

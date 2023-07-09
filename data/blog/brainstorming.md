@@ -5,7 +5,6 @@ title: How do I brainstorm technical issues?
 title_prefix: Technology
 description: My personal approach for resolving errors in a technology efficiently.
 date: '2022-07-28'
-likes: 0
 ---
 --- 
 

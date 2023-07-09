@@ -5,7 +5,6 @@ title: Creating a passwordless auth system in NodeJS
 title_prefix: Technology
 description: Implementing a passwordless auth architecture during my internship.
 date: '2023-01-22'
-likes: 0
 ---
 ---
 

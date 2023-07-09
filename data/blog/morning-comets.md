@@ -5,7 +5,6 @@ title: Making time for morning comets
 title_prefix: Stargazing
 description: Since the last few years, all I do is development and stargazing.
 date: '2021-10-26'
-likes: 0
 ---
 
 --- 

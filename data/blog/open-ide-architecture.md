@@ -5,7 +5,6 @@ title: Open IDE Architecture
 title_prefix: Technology
 description: Understanding the architecture of an online compiler.
 date: '2023-04-01'
-likes: 0
 ---
 --- 
 

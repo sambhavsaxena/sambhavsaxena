@@ -5,7 +5,6 @@ title: Linux vs Windows
 title_prefix: Technology
 description: Use of Linux has been skyrocketing for the last decade. What has changed?
 date: '2022-02-16'
-likes: 0
 ---
 --- 
 

@@ -5,7 +5,6 @@ title: Tweaks I make around the web
 title_prefix: Technology
 description: How I take every virtual obstacle on my ego and find a way to resolve.
 date: '2022-10-09'
-likes: 0
 ---
 --- 
 

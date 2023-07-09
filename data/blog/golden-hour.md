@@ -5,7 +5,6 @@ title: Golden hour
 title_prefix: Philosophy
 description: Redefining the best time of the best days.
 date: '2022-09-16'
-likes: 0
 ---
 
 --- 

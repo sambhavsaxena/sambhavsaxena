@@ -5,7 +5,6 @@ title: Modern humanity
 title_prefix: Philosophy
 description: How has humanity developed through phases of existential crisis?
 date: '2021-06-24'
-likes: 0
 ---
 --- 
 
