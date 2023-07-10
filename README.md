@@ -1,3 +1,1 @@
-<div align="center">
-  <img src="https://userpic.codeforces.org/2766960/title/bc56725c6a249aa3.jpg">
-</div>
+![code quality check](https://cdn.statically.io/gh/thatsameguyokay/images/main/meme.jpg)
