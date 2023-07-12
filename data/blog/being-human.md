@@ -47,8 +47,6 @@ If you ask me why I do a certain thing, I can point out exactly how I picked it 
 
 I can go on but the point is, everything about us is a result of experiences.
 
-> Stop reading for a minute and note down 3 good or bad things about yourself. Can you think about how you acquired those traits? You probably can if you introspect enough and if you can't, that's what therapists are for.
-
 We become what we experience, there are no exceptions. A major chunk of our personality is shaped by our childhood. An age where one has little to no control over their life. That's just sad if you think about it.
 
 Sure, you can think of an exception like a good kid raised by a bad family. How does that happen? Well, they must have been influenced by something else - like a movie, some outsiders, or even just a book. Nothing comes from within unless intended, it's all acquired.
