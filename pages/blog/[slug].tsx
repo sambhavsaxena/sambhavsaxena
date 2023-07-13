@@ -95,7 +95,7 @@ export default function BlogPost({ post }: BlogPostProps) {
 		setValue('');
 		await axios.post(`https://likescomments.onrender.com/api/comment`, {
 			title: post.frontmatter.slug,
-			comment: value + '-' + name,
+			comment: value + '*' + name,
 		});
 		setComments((prev) => [...prev, value + '*' + name]);
 	};
