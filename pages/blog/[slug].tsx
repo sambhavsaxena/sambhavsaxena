@@ -188,14 +188,14 @@ export default function BlogPost({ post }: BlogPostProps) {
 						<div className="max-w-prose prose prose-primary prose-sm text-gray-500 mx-auto">
 							<div className="btn text-center flex flex-col">
 								<input
-									className="rounded-md text-center dark:text-gray-200 text-base p-2 my-1 bg-white dark:bg-gray-900 border-1 dark:border-gray-500 focus:border-amber-900 focus:outline-none"
+									className="rounded-md text-center dark:text-gray-200 text-base p-2 my-1 bg-white dark:bg-gray-900 border-1 dark:border-gray-500 focus:border-orange-500 focus:outline-none"
 									placeholder="yo what do you think about it?"
 									onChange={updateChange}
 									value={value}
 									maxLength={100}
 								/>
 								<input
-									className="rounded-md text-center dark:text-gray-200 text-base p-2 my-1 bg-white dark:bg-gray-900 border-1 dark:border-gray-500 focus:border-amber-900 focus:outline-none"
+									className="rounded-md text-center dark:text-gray-200 text-base p-2 my-1 bg-white dark:bg-gray-900 border-1 dark:border-gray-500 focus:border-orange-500 focus:outline-none"
 									placeholder="and what's your name?"
 									onChange={updateChangeX}
 									value={name}
@@ -211,13 +211,13 @@ export default function BlogPost({ post }: BlogPostProps) {
 										</Button.Icon>
 									) : (
 										<Button.Icon onClick={postComments}>
-											<div className="w-60">Post</div>
+											<div className="w-60 text-orange-500">Post</div>
 										</Button.Icon>
 									)}
 								</div>
 							</div>
 							<div className="flex flex-col mx-auto my-4 text-sm overflow-hidden">
-								<div className="text-orange-600 text-center my-5">
+								<div className="text-orange-500 text-center my-5">
 									<u>Recent comments</u>
 								</div>
 								{comments.length === 0 ? (
@@ -225,10 +225,10 @@ export default function BlogPost({ post }: BlogPostProps) {
 								) : (
 									comments.map((comment) => (
 										<div className="flex flex-row">
-											<div className="text-gray-400 m-2">&rarr;</div>
-											<div className="text-gray-400 my-2">
+											<div className="text-orange-500 m-2">&rarr;</div>
+											<div className="text-gray500 dark:text-gray-300 my-2">
 												{comment.split('*')[0]}{' '}
-												<span className="text-green-500">
+												<span className="text-gray-400">
 													- {comment.split('*')[1]}
 												</span>
 											</div>
