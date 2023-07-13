@@ -50,16 +50,25 @@ export default function BlogPost({ post }: BlogPostProps) {
 	const [likes, setLikes] = useState('...');
 	const [comments, setComments] = useState([]);
 	const [value, setValue] = useState('');
+	const [name, setName] = useState('');
 	const [isExploding, setIsExploding] = useState(false);
 	const [updated, setUpdated] = useState(false);
 	const updateChange = (e) => {
-		if (e.target.value.length > 60) return;
 		if (e.target.value.length > 1) {
 			if (e.target.value[e.target.value.length - 1] === ' ') {
 				if (e.target.value[e.target.value.length - 2] === ' ') return;
 			}
 		}
 		setValue(e.target.value);
+	};
+	const updateChangeX = (e) => {
+		if (e.target.value.length > 60) return;
+		if (e.target.value.length > 1) {
+			if (e.target.value[e.target.value.length - 1] === ' ') {
+				if (e.target.value[e.target.value.length - 2] === ' ') return;
+			}
+		}
+		setName(e.target.value);
 	};
 	const fetchLikes = async () => {
 		const res = await axios.get(
@@ -82,12 +91,13 @@ export default function BlogPost({ post }: BlogPostProps) {
 	};
 	const postComments = async () => {
 		if (value === '' || value === ' ') return;
+		setName('');
+		setValue('');
 		await axios.post(`https://likescomments.onrender.com/api/comment`, {
 			title: post.frontmatter.slug,
-			comment: value,
+			comment: value + '-' + name,
 		});
-		setComments((prev) => [...prev, value]);
-		setValue('');
+		setComments((prev) => [...prev, value + '*' + name]);
 	};
 	useEffectOnce(() => {
 		fetchLikes();
@@ -175,23 +185,36 @@ export default function BlogPost({ post }: BlogPostProps) {
 							</span>
 							<hr />
 						</div>
-						<div className="max-w-prose prose prose-primary prose-lg text-gray-500 mx-auto">
-							<div className="btn text-center">
+						<div className="max-w-prose prose prose-primary prose-sm text-gray-500 mx-auto">
+							<div className="btn text-center flex flex-col">
 								<input
-									className="rounded-md text-gray-200 text-base p-1 bg-zinc-900 focus:border-1 focus:border-amber-900 focus:outline-none"
-									placeholder="..."
+									className="rounded-md text-center text-gray-200 text-base p-2 my-1 bg-zinc-900 focus:border-1 focus:border-amber-900 focus:outline-none"
+									placeholder="add comment"
 									onChange={updateChange}
 									value={value}
+									maxLength={100}
 								/>
-								{value === '' || value === ' ' ? (
-									<Button.Icon disabled className="mx-2" onClick={postComments}>
-										Post
-									</Button.Icon>
-								) : (
-									<Button.Icon className="mx-2" onClick={postComments}>
-										Post
-									</Button.Icon>
-								)}
+								<input
+									className="rounded-md text-center text-gray-200 text-base p-2 my-1 bg-zinc-900 focus:border-1 focus:border-amber-900 focus:outline-none"
+									placeholder="add name"
+									onChange={updateChangeX}
+									value={name}
+									maxLength={20}
+								/>
+								<div className="text-center my-1">
+									{value === '' ||
+									value === ' ' ||
+									name === '' ||
+									name === ' ' ? (
+										<Button.Icon disabled onClick={postComments}>
+											<div className="w-60">Post</div>
+										</Button.Icon>
+									) : (
+										<Button.Icon onClick={postComments}>
+											<div className="w-60">Post</div>
+										</Button.Icon>
+									)}
+								</div>
 							</div>
 							<div className="flex flex-col mx-auto px-10 my-4 text-sm">
 								<div className="text-orange-600 text-center my-5">
@@ -201,11 +224,18 @@ export default function BlogPost({ post }: BlogPostProps) {
 									<div className="text-center">No comments yet</div>
 								) : (
 									comments.map((comment) => (
-										<div className="text-white my-1">- {comment}</div>
+										<div className="flex flex-row">
+											<div className="text-white m-2">&rarr;</div>
+											<div className="text-white my-2">
+												{comment.split('*')[0]}{' '}
+												<span className="text-gray-400">
+													- {comment.split('*')[1]}
+												</span>
+											</div>
+										</div>
 									))
 								)}
 							</div>
-							<hr />
 						</div>
 					</div>
 				</div>
