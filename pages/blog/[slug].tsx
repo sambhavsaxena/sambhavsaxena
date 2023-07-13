@@ -223,7 +223,7 @@ export default function BlogPost({ post }: BlogPostProps) {
 								{comments.length === 0 ? (
 									<div className="text-center">No comments yet</div>
 								) : (
-									comments.reverse().map((comment) => (
+									comments.map((comment) => (
 										<div className="flex flex-row">
 											<div className="text-gray-400 m-2">&rarr;</div>
 											<div className="text-gray-400 my-2">
