@@ -189,17 +189,17 @@ export default function BlogPost({ post }: BlogPostProps) {
 							<div className="btn text-center flex flex-col">
 								<input
 									className="rounded-md text-center dark:text-gray-200 text-base p-2 my-1 bg-white dark:bg-gray-900 border-1 dark:border-gray-500 focus:border-amber-900 focus:outline-none"
-									placeholder="yo, who are you?"
-									onChange={updateChangeX}
-									value={name}
-									maxLength={20}
-								/>
-								<input
-									className="rounded-md text-center dark:text-gray-200 text-base p-2 my-1 bg-white dark:bg-gray-900 border-1 dark:border-gray-500 focus:border-amber-900 focus:outline-none"
-									placeholder="and what do you think about it?"
+									placeholder="yo what do you think about it?"
 									onChange={updateChange}
 									value={value}
 									maxLength={100}
+								/>
+								<input
+									className="rounded-md text-center dark:text-gray-200 text-base p-2 my-1 bg-white dark:bg-gray-900 border-1 dark:border-gray-500 focus:border-amber-900 focus:outline-none"
+									placeholder="and what's your name?"
+									onChange={updateChangeX}
+									value={name}
+									maxLength={20}
 								/>
 								<div className="text-center my-1">
 									{value === '' ||
@@ -223,7 +223,7 @@ export default function BlogPost({ post }: BlogPostProps) {
 								{comments.length === 0 ? (
 									<div className="text-center">No comments yet</div>
 								) : (
-									comments.map((comment) => (
+									comments.reverse().map((comment) => (
 										<div className="flex flex-row">
 											<div className="text-gray-400 m-2">&rarr;</div>
 											<div className="text-gray-400 my-2">
