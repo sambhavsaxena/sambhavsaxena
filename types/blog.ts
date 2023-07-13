@@ -9,7 +9,6 @@ export interface RawFrontMatter {
 	description?: string;
 	title_prefix?: string;
 	title: string;
-	likes: number;
 }
 
 export interface FrontMatter extends RawFrontMatter {

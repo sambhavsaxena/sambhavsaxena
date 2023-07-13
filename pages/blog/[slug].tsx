@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { MDXRemote } from 'next-mdx-remote';
+import { Button } from '~/components';
 import { Blog, Pill } from '~/components';
 import { getPost, getAllPostSlugs } from '~/lib/post';
 import { Layout } from '~/layouts';
@@ -46,13 +47,25 @@ export const getStaticProps: GetStaticProps<BlogPostProps, PathProps> = async ({
 
 export default function BlogPost({ post }: BlogPostProps) {
 	const [likes, setLikes] = useState('...');
+	const [comments, setComments] = useState([]);
+	const [value, setValue] = useState('');
 	const [isExploding, setIsExploding] = useState(false);
 	const [updated, setUpdated] = useState(false);
+	const updateChange = (e) => {
+		if (e.target.value.length > 60) return;
+		if (e.target.value.length > 1) {
+			if (e.target.value[e.target.value.length - 1] === ' ') {
+				if (e.target.value[e.target.value.length - 2] === ' ') return;
+			}
+		}
+		setValue(e.target.value);
+	};
 	const fetchLikes = async () => {
 		const res = await axios.get(
-			`https://likescount.onrender.com/api?title=${post.frontmatter.slug}`,
+			`https://likescomments.onrender.com/api?title=${post.frontmatter.slug}`,
 		);
 		setLikes(res.data.likes);
+		setComments(res.data.comments);
 	};
 	const updateLikes = async () => {
 		setIsExploding(true);
@@ -60,10 +73,19 @@ export default function BlogPost({ post }: BlogPostProps) {
 		else {
 			setLikes((prev) => prev + 1);
 			setUpdated(true);
-			await axios.post(`https://likescount.onrender.com/api`, {
+			await axios.post(`https://likescomments.onrender.com/api`, {
 				title: post.frontmatter.slug,
 			});
 		}
+	};
+	const postComments = async () => {
+		if (value === '' || value === ' ') return;
+		await axios.post(`https://likescomments.onrender.com/api/comment`, {
+			title: post.frontmatter.slug,
+			comment: value,
+		});
+		setValue('');
+		fetchLikes();
 	};
 	useEffectOnce(() => {
 		fetchLikes();
@@ -123,7 +145,6 @@ export default function BlogPost({ post }: BlogPostProps) {
 								</p>
 							)}
 						</div>
-
 						<article className="max-w-prose prose prose-primary prose-lg text-gray-500 mx-auto">
 							<MDXRemote {...post.source} components={Blog.X} />
 						</article>
@@ -146,6 +167,38 @@ export default function BlogPost({ post }: BlogPostProps) {
 									<Pill.Likes>{likes}</Pill.Likes>
 								</div>
 							</span>
+							<hr />
+						</div>
+						<div className="max-w-prose prose prose-primary prose-lg text-gray-500 mx-auto">
+							<div className="btn text-center">
+								<input
+									className="rounded-md text-gray-200 text-base p-1 bg-zinc-900 focus:border-1 focus:border-amber-900 focus:outline-none"
+									placeholder="..."
+									onChange={updateChange}
+									value={value}
+								/>
+								{value === '' || value === ' ' ? (
+									<Button.Icon disabled className="mx-2" onClick={postComments}>
+										Post
+									</Button.Icon>
+								) : (
+									<Button.Icon className="mx-2" onClick={postComments}>
+										Post
+									</Button.Icon>
+								)}
+							</div>
+							<div className="flex flex-col mx-auto px-50 my-4 text-sm text-left">
+								<div className="">
+									{comments.length === 0 ? (
+										<div className="text-center">No comments yet</div>
+									) : (
+										comments.map((comment) => (
+											<div className="text-white my-1">&rarr; {comment}</div>
+										))
+									)}
+								</div>
+							</div>
+							<hr />
 						</div>
 					</div>
 				</div>
