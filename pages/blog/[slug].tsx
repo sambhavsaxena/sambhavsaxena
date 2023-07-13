@@ -216,7 +216,7 @@ export default function BlogPost({ post }: BlogPostProps) {
 									)}
 								</div>
 							</div>
-							<div className="flex flex-col mx-auto px-10 my-4 text-sm">
+							<div className="flex flex-col mx-auto my-4 text-sm overflow-hidden">
 								<div className="text-orange-600 text-center my-5">
 									<u>Recent comments</u>
 								</div>
