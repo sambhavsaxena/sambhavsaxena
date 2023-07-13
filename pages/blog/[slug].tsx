@@ -46,6 +46,7 @@ export const getStaticProps: GetStaticProps<BlogPostProps, PathProps> = async ({
 };
 
 export default function BlogPost({ post }: BlogPostProps) {
+	const [views, setViews] = useState('...');
 	const [likes, setLikes] = useState('...');
 	const [comments, setComments] = useState([]);
 	const [value, setValue] = useState('');
@@ -64,6 +65,7 @@ export default function BlogPost({ post }: BlogPostProps) {
 		const res = await axios.get(
 			`https://likescomments.onrender.com/api?title=${post.frontmatter.slug}`,
 		);
+		setViews(res.data.views);
 		setLikes(res.data.likes);
 		setComments(res.data.comments);
 	};
@@ -84,8 +86,8 @@ export default function BlogPost({ post }: BlogPostProps) {
 			title: post.frontmatter.slug,
 			comment: value,
 		});
+		setComments((prev) => [...prev, value]);
 		setValue('');
-		fetchLikes();
 	};
 	useEffectOnce(() => {
 		fetchLikes();
@@ -150,20 +152,24 @@ export default function BlogPost({ post }: BlogPostProps) {
 						</article>
 						<div className="flex flex-col space-y-4 max-w-prose mx-auto my-4 text-lg text-center">
 							<span className="flex justify-center items-center">
-								{isExploding && (
-									<ConfettiExplosion
-										force={0.2}
-										duration={3000}
-										particleCount={15}
-										width={400}
-									/>
-								)}
+								<div className="mx-10" aria-disabled>
+									<Pill.Eye>{views}</Pill.Eye>
+								</div>
 								<div
+									className="mx-10"
 									onClick={updateLikes}
 									style={
 										updated ? { cursor: 'not-allowed' } : { cursor: 'pointer' }
 									}
 									aria-disabled>
+									{isExploding && (
+										<ConfettiExplosion
+											force={0.2}
+											duration={3000}
+											particleCount={15}
+											width={400}
+										/>
+									)}
 									<Pill.Likes>{likes}</Pill.Likes>
 								</div>
 							</span>
@@ -187,16 +193,17 @@ export default function BlogPost({ post }: BlogPostProps) {
 									</Button.Icon>
 								)}
 							</div>
-							<div className="flex flex-col mx-auto px-50 my-4 text-sm text-left">
-								<div className="">
-									{comments.length === 0 ? (
-										<div className="text-center">No comments yet</div>
-									) : (
-										comments.map((comment) => (
-											<div className="text-white my-1">&rarr; {comment}</div>
-										))
-									)}
+							<div className="flex flex-col mx-auto px-10 my-4 text-sm">
+								<div className="text-orange-600 text-center my-5">
+									<u>Recent comments</u>
 								</div>
+								{comments.length === 0 ? (
+									<div className="text-center">No comments yet</div>
+								) : (
+									comments.map((comment) => (
+										<div className="text-white my-1">- {comment}</div>
+									))
+								)}
 							</div>
 							<hr />
 						</div>
