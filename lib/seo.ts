@@ -16,8 +16,8 @@ export function useSeoProps(
 		description,
 		canonical: `https://interpreted.vercel.app/${router.asPath}`,
 		openGraph: {
-			title,
-			description,
+			title: title,
+			description: description,
 			site_name: 'sambhavsaxena',
 			url: `https://interpreted.vercel.app/${router.asPath}`,
 			type: 'website',
