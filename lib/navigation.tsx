@@ -30,26 +30,20 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			text: 'Blog',
 			href: '/blog',
 		},
-		{
-			type: NavigationItemType.LINK,
-			icon: 'feather:key',
-			text: 'Intel',
-			href: '/public.txt',
-		},
 	],
 	[
-		{
-			type: NavigationItemType.LINK,
-			icon: 'feather:twitter',
-			text: 'Twitter',
-			href: 'https://twitter.com/_sambhavsaxena',
-			external: true,
-		},
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:github',
 			text: 'GitHub',
 			href: 'https://github.com/sambhavsaxena',
+			external: true,
+		},
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:twitter',
+			text: 'Twitter',
+			href: 'https://twitter.com/_sambhavsaxena',
 			external: true,
 		},
 		{
@@ -68,6 +62,12 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 		},
 	],
 	[
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:key',
+			text: 'Intel',
+			href: '/public.txt',
+		},
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:lock',
