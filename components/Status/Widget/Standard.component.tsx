@@ -1,12 +1,12 @@
 import Image from 'next/image';
 import { Fragment } from 'react';
 import { Icon } from '@iconify/react';
-import { tw } from 'twind';
+
 import { Error, Loading } from '~/components/Status';
 import { Status } from '~/components';
 import { useStatus } from '~/lib';
 
-import { ReactNode, useState } from 'react';
+import { ReactNode } from 'react';
 
 type Avatar =
 	| {
@@ -27,23 +27,8 @@ interface Activity {
 
 export function Widget() {
 	const { color, loading, status } = useStatus();
-	const [progress, setProgress] = useState(0);
 	if (loading) return <Loading />;
 	if (!status || Object.keys(status).length === 0 || !status) return <Error />;
-
-	setInterval(() => {
-		if (status.listening_to_spotify) {
-			const progressUpdate = setInterval(() => {
-				if (!status || !status.listening_to_spotify) return;
-				const total = status.spotify.timestamps.end! - status.spotify.timestamps.start;
-				setProgress(
-					100 - (100 * (status.spotify.timestamps.end! - new Date().getTime())) / total,
-				);
-			}, 250);
-			return () => clearInterval(progressUpdate);
-		}
-	}, 1000);
-
 	const activities: Array<Activity> = [
 		/**
 		 * Discord User
@@ -217,15 +202,7 @@ export function Widget() {
 									activity.icon
 								))}
 						</div>
-						{activity.icon === 'feather:headphones' && (
-							<div
-								className={tw`bg-orange-500 w-[${progress}%] h-1 transition duration-150`}
-								role="progressbar"
-								aria-label="Progress in song"
-								aria-valuenow={progress}
-								aria-valuemin={0}
-								aria-valuemax={100}></div>
-						)}
+
 						{index + 1 !== activities.length && (
 							<hr className="h-0.5 bg-gray-100 dark:bg-gray-600 border-none rounded-full" />
 						)}
