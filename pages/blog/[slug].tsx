@@ -71,7 +71,9 @@ export default function BlogPost({ post }: BlogPostProps) {
 		setName(e.target.value);
 	};
 	const fetchLikes = async () => {
-		const res = await axios.get(`${process.env.STATE_URL}?title=${post.frontmatter.slug}`);
+		const res = await axios.get(
+			`https://likescomments.onrender.com/api?title=${post.frontmatter.slug}`,
+		);
 		setViews(res.data.views);
 		setLikes(res.data.likes);
 		setComments(res.data.comments);
@@ -82,7 +84,7 @@ export default function BlogPost({ post }: BlogPostProps) {
 		else {
 			setLikes((prev) => prev + 1);
 			setUpdated(true);
-			await axios.post(`${process.env.STATE_URL}`, {
+			await axios.post(`https://likescomments.onrender.com/api`, {
 				title: post.frontmatter.slug,
 			});
 		}
@@ -91,7 +93,7 @@ export default function BlogPost({ post }: BlogPostProps) {
 		if (value === '' || value === ' ') return;
 		setName('');
 		setValue('');
-		await axios.post(`${process.env.STATE_URL}/comment`, {
+		await axios.post(`https://likescomments.onrender.com/api/comment`, {
 			title: post.frontmatter.slug,
 			comment: value + '*' + name,
 		});
