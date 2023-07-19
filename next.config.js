@@ -21,6 +21,9 @@ const config = {
 			// Discord assets
 			'cdn.discordapp.com',
 
+			// Netflix assets
+			'occ-0-6246-2164.1.nflxso.net',
+
 			//imgur
 			'i.imgur.com',
 
