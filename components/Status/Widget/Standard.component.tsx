@@ -87,7 +87,7 @@ export function Widget() {
 						avatar,
 						title: activity.name,
 						description: [
-							activity.details.includes('Idling')
+							activity.details && activity.details.includes('Idling')
 								? 'sudo in terminal'
 								: activity.details,
 							...(activity.state ? [activity.state] : []),
