@@ -68,11 +68,5 @@
 		"title": "Wrote the first line of code!",
 		"description": "Created my first ever shell script using visual basic.",
 		"icon": "feather:code"
-	},
-	{
-		"date": "01-17-2002",
-		"title": "Birthday!",
-		"description": "Born the 17th of January, 2002!",
-		"icon": "feather:gift"
 	}
 ]
