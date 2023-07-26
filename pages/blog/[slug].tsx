@@ -188,14 +188,14 @@ export default function BlogPost({ post }: BlogPostProps) {
 						<div className="max-w-prose prose prose-primary prose-sm text-gray-500 mx-auto">
 							<div className="btn text-center flex flex-col">
 								<input
-									className="rounded-md text-center dark:text-gray-200 text-base p-2 my-1 bg-white dark:bg-gray-900 border-1 dark:border-gray-500 focus:border-orange-500 focus:outline-none"
+									className="rounded-md text-center dark:text-gray-200 text-base p-2 my-1 bg-white dark:bg-gray-900 border-1 dark:border-gray-500 hover:border-orange-500 focus:outline-none"
 									placeholder="yo what do you think about it?"
 									onChange={updateChange}
 									value={value}
 									maxLength={100}
 								/>
 								<input
-									className="rounded-md text-center dark:text-gray-200 text-base p-2 my-1 bg-white dark:bg-gray-900 border-1 dark:border-gray-500 focus:border-orange-500 focus:outline-none"
+									className="rounded-md text-center dark:text-gray-200 text-base p-2 my-1 bg-white dark:bg-gray-900 border-1 dark:border-gray-500 hover:border-orange-500 focus:outline-none"
 									placeholder="and what's your name?"
 									onChange={updateChangeX}
 									value={name}
