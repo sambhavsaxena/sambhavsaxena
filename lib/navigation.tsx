@@ -73,7 +73,12 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			icon: 'feather:lock',
 			text: 'Secret',
 			href: '/secret.txt',
-			external: false,
+		},
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:alert-triangle',
+			text: 'NSFW',
+			href: '/nsfw',
 		},
 	],
 ];
