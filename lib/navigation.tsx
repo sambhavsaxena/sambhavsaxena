@@ -53,13 +53,6 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			href: 'https://linkedin.com/in/sambhavsaxena',
 			external: true,
 		},
-		{
-			type: NavigationItemType.LINK,
-			icon: 'feather:file-text',
-			text: 'Resume',
-			href: 'https://cdn.statically.io/gh/thatsameguyokay/images/main/CV.pdf',
-			external: true,
-		},
 	],
 	[
 		{
