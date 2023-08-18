@@ -32,12 +32,10 @@ export default function HomePage() {
 	const today = new Date();
 	const birthday = new Date('2002-01-17');
 	const isBirthday = isSameDay(today, birthday) && isSameMonth(today, birthday);
-
 	const heading = `I am Sambhav, a ${differenceInYears(
 		today,
 		birthday,
 	)} years young software developer. Sometimes I make fun projects, read about history and politics, travel and capture landscapes, and share my experiences here.`;
-
 	return (
 		<Layout.Default>
 			{isBirthday && <Event event={EventType.BIRTHDAY} />}
@@ -68,7 +66,6 @@ export default function HomePage() {
 					<div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-4 space-y-4 sm:space-y-0 w-full mt-8 sm:mt-4">
 						{ACTIONS.map((action, index) => {
 							if (action.type !== NavigationItemType.LINK) return null;
-
 							return (
 								<Animate
 									animation={{

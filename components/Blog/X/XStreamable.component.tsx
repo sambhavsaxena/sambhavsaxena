@@ -5,7 +5,6 @@ interface XStreamableProps {
 	loop?: boolean;
 	title: string;
 }
-
 interface IFrameProps extends IframeHTMLAttributes<HTMLElement> {}
 
 export function XStreamable({ id, loop = false, title }: XStreamableProps) {

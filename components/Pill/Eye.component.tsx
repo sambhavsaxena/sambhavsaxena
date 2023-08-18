@@ -1,6 +1,5 @@
 import clsx from 'clsx';
 import { Icon } from '@iconify/react';
-
 import type { WithChildren, WithClassName } from '~/types';
 
 interface EyePillProps extends WithClassName, WithChildren {

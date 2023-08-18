@@ -1,5 +1,4 @@
 import clsx from 'clsx';
-
 import { LanyardAvatarType } from '~/types';
 
 interface LoadingTypes {

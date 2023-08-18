@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { forwardRef, Fragment } from 'react';
 import { Icon } from '@iconify/react';
 import { Menu, Transition } from '@headlessui/react';
-
 import { NavigationItemType, WithChildren, WithClassName } from '~/types';
 
 import type { AnchorHTMLAttributes, ReactNode } from 'react';

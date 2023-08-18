@@ -8,6 +8,7 @@ import 'nprogress/nprogress.css';
 import 'windi.css';
 import { colors, useClick } from '~/lib';
 import { Theme } from '~/types';
+
 import type { NextWebVitalsMetric } from 'next/app';
 
 NProgress.configure({
@@ -44,7 +45,6 @@ export default function App({ Component, pageProps }: AppProps) {
 		router.events.on('routeChangeComplete', () => NProgress.done());
 		router.events.on('routeChangeError', () => NProgress.done());
 	});
-
 	return (
 		<ThemeProvider attribute="class" defaultTheme={Theme.SYSTEM} themes={Object.values(Theme)}>
 			<Component {...pageProps} />

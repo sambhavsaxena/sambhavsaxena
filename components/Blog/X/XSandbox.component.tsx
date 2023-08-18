@@ -7,7 +7,6 @@ export function XSandbox({ height = 32, id }: XFigureProps) {
 	const src = id
 		? 'https://codesandbox.io/embed/new?codemirror=1'
 		: `https://codesandbox.io/embed/${id}?hidenavigation=1&theme=dark`;
-
 	return (
 		<iframe
 			allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"

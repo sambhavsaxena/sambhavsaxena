@@ -76,7 +76,6 @@ export function useNavigation() {
 	const { animations: background, sound } = state.get();
 	const { color, loading, status } = useStatus();
 	const { theme, setTheme } = useTheme();
-
 	const menuItems: NavigationItems = [
 		...staticMenuItems,
 		...(!loading && status.discord_status !== 'offline'
@@ -152,7 +151,6 @@ export function useNavigation() {
 			},
 		],
 	];
-
 	return {
 		menu: menuItems,
 		settings: settingsItems,

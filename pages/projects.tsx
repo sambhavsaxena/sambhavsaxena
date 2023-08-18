@@ -4,7 +4,6 @@ import { Animate, List } from '~/components';
 import { ListActionType } from '~/types';
 
 import type { GetStaticProps } from 'next';
-
 import type { ListAction, Project } from '~/types';
 
 interface ProjectProps {
@@ -13,7 +12,6 @@ interface ProjectProps {
 
 export const getStaticProps: GetStaticProps<ProjectProps> = async () => {
 	const projects = await fetchProjects();
-
 	return {
 		props: {
 			stringifiedProjects: JSON.stringify(projects),
@@ -24,7 +22,6 @@ export const getStaticProps: GetStaticProps<ProjectProps> = async () => {
 
 export default function ProjectsPage({ stringifiedProjects }: ProjectProps) {
 	const projects = JSON.parse(stringifiedProjects) as Array<Project>;
-
 	return (
 		<Layout.Default seo={{ title: 'sambhavsaxena ─ projects' }}>
 			<div className="my-24 mx-2 sm:mx-6 lg:mb-28 lg:mx-8">

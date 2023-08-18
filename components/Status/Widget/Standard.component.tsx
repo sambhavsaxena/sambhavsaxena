@@ -1,11 +1,9 @@
 import Image from 'next/image';
 import { Fragment } from 'react';
 import { Icon } from '@iconify/react';
-
 import { Error, Loading } from '~/components/Status';
 import { Status } from '~/components';
 import { useStatus } from '~/lib';
-
 import { ReactNode } from 'react';
 
 type Avatar =

@@ -13,7 +13,6 @@ export function BlogLayout({ children, seo }: PropsWithChildren<BlogLayoutProps>
 		title: 'sambhavsaxena ─ blog',
 		...seo,
 	});
-
 	return (
 		<>
 			<NextSeo {...seoProps} />

@@ -1,5 +1,4 @@
 import { NextSeo } from 'next-seo';
-
 import { useSeoProps } from '~/lib';
 
 import type { WithChildren, WithProps } from '~/types';
@@ -13,7 +12,6 @@ export function ErrorLayout({ children, seo }: DefaultLayoutProps) {
 		title: 'sambhavsaxena ─ Whoops!',
 		...seo,
 	});
-
 	return (
 		<>
 			<NextSeo {...seoProps} />

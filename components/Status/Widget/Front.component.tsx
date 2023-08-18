@@ -4,7 +4,6 @@ import { Icon } from '@iconify/react';
 import { Error, Loading } from '~/components/Status';
 import { Status } from '~/components';
 import { useStatus } from '~/lib';
-
 import { ReactNode } from 'react';
 import Link from 'next/link';
 
@@ -41,7 +40,6 @@ export function Front() {
 			icon: <Status.Indicator color={color} pulse={status.discord_status !== 'offline'} />,
 		},
 	].filter((item) => item !== null);
-
 	return (
 		<Link href={'/status'}>
 			<div

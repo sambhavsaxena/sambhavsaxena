@@ -1,10 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
-
 import { Pill } from '~/components';
+import clsx from 'clsx';
 
 import type { FrontMatter } from '~/types';
-import clsx from 'clsx';
 
 interface PostProps {
 	index: number;
@@ -14,7 +13,6 @@ interface PostProps {
 export function _Post({ index, frontmatter }: PostProps) {
 	const ariaLabel = `Read blog post: ${frontmatter.title}`;
 	const href = `/blog/${frontmatter.slug}`;
-
 	return (
 		<Link aria-label={ariaLabel} href={href} passHref>
 			<a
@@ -34,7 +32,6 @@ export function _Post({ index, frontmatter }: PostProps) {
 						/>
 					</div>
 				)}
-
 				<div
 					className={clsx(
 						'flex-1 flex flex-col justify-between p-6 rounded-2xl bg-transparent',

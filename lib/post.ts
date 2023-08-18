@@ -3,7 +3,6 @@ import { format } from 'date-fns';
 import { join } from 'path';
 import { readdirSync, readFileSync } from 'fs';
 import { serialize } from 'next-mdx-remote/serialize';
-
 import RehypeAutolinkHeadings from 'rehype-autolink-headings';
 import RemarkCodeTitles from 'remark-code-titles';
 import RemarkEmoji from 'remark-emoji';
@@ -62,10 +61,8 @@ export async function getPost(slug: string): Promise<Post> {
 			remarkPlugins: [RemarkCodeTitles, RemarkEmoji, RemarkPrism, RemarkSlug],
 		},
 	});
-
 	const frontmatter = data as RawFrontMatter;
 	const trimmedSlug = slug.replace('.md', '');
-
 	return {
 		frontmatter: {
 			...frontmatter,

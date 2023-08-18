@@ -8,12 +8,6 @@ namespace NodeJS {
 		 * @see https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-
 		 */
 		NEXT_PUBLIC_DISCORD_ID: string;
-
-		/**
-		 * GitHub Personal Access Token (PAT)
-		 *
-		 * @description Token used for fetching repositories
-		 */
 		GITHUB_PAT: string;
 	}
 }

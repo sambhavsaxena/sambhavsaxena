@@ -1,6 +1,5 @@
 import dynamic from 'next/dynamic';
 import { NextSeo } from 'next-seo';
-
 import { Navbar } from '~/components';
 import { usePersistantState, useSeoProps } from '~/lib';
 
@@ -22,9 +21,7 @@ export function DefaultLayout({
 }: DefaultLayoutProps) {
 	const { animations: background } = usePersistantState().get();
 	const showBackground = overrideBackground ?? background;
-
 	const seo = useSeoProps(customSeo);
-
 	return (
 		<>
 			<NextSeo {...seo} />

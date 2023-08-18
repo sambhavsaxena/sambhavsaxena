@@ -15,20 +15,15 @@ export const STATE_KEY = 'settings';
 
 export function usePersistantState() {
 	const noMotionPreference = useMedia('(prefers-reduced-motion: no-preference)', false);
-
 	const persistance = Persistence(STATE_KEY);
 	const state = useState<Settings>(DEFAULT_STATE);
-
 	useEffect(() => {
 		state.attach(persistance);
-
-		// @TODO Add event listener to handle switching dynamically
 		if (state.get().animations === null)
 			state.set((state) => ({
 				...state,
 				animations: noMotionPreference,
 			}));
 	}, [noMotionPreference, persistance, state]);
-
 	return state;
 }

@@ -1,7 +1,5 @@
 import clsx from 'clsx';
-
 import { colors } from '~/lib';
-
 import type { WithClassName } from '~/types';
 
 interface IndicatorProps extends WithClassName {
@@ -15,8 +13,7 @@ export function Indicator({ className, color = 'gray', pulse = false }: Indicato
 			className={clsx(
 				'relative inline-flex justify-center items-center w-5 h-5 mr-3',
 				className,
-			)}
-		>
+			)}>
 			<span className="absolute flex h-3 w-3">
 				{pulse && (
 					<span

@@ -1,6 +1,5 @@
 import { Icon } from '@iconify/react';
 import { useRouter } from 'next/router';
-
 import { Button } from '~/components';
 import { Layout } from '~/layouts';
 import { NavigationItemType } from '~/types';
@@ -8,7 +7,6 @@ import { NavigationItemType } from '~/types';
 export default function Error() {
 	const router = useRouter();
 	const { status } = router.query;
-
 	return (
 		<Layout.Error>
 			<div className="flex flex-grow min-h-full pt-16 pb-12">

@@ -2,9 +2,7 @@ import { animate, spring } from 'motion';
 import { isCrawlerUserAgent } from 'is-web-crawler';
 import { useEffect, useRef } from 'react';
 import { useMedia } from 'react-use';
-
 import { usePersistantState } from '~/lib';
-
 import type { AnimationOptionsWithOverrides, MotionKeyframesDefinition } from '@motionone/dom';
 import type { ComponentPropsWithRef, ElementType } from 'react';
 
@@ -32,9 +30,7 @@ export function Animate<T extends ElementType>({
 }: AnimateProps<T>): JSX.Element {
 	const { animations } = usePersistantState().get();
 	const prefersReducedMotion = useMedia('(prefers-reduced-motion)', true);
-
 	const ref = useRef<HTMLElement | null>(null);
-
 	useEffect(() => {
 		if (ref.current && enabled && animations && !(prefersReducedMotion || isCrawlerUserAgent()))
 			animate(ref.current, animation, {
@@ -42,7 +38,6 @@ export function Animate<T extends ElementType>({
 				...transition,
 			});
 	}, [animation, animations, enabled, prefersReducedMotion, transition]);
-
 	return (
 		// @ts-expect-error
 		<Component ref={ref} {...rest}>

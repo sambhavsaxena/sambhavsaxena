@@ -1,5 +1,4 @@
 import { useLanyard } from 'react-use-lanyard';
-
 import { DISCORD_STATUS_COLOR } from '~/types';
 
 export function useStatus() {
@@ -8,7 +7,6 @@ export function useStatus() {
 		userId,
 		socket: true,
 	});
-
 	return {
 		...result,
 		color:

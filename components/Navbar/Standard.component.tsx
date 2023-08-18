@@ -1,11 +1,9 @@
 import { Disclosure } from '@headlessui/react';
-
 import { Button, Navbar } from '~/components';
 import { useNavigation } from '~/lib';
 
 export function Standard() {
 	const { menu, settings } = useNavigation();
-
 	return (
 		<Disclosure as="nav" className="fixed top-0 left-0 w-full z-10">
 			<div className="mx-auto px-2">

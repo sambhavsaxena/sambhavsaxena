@@ -1,11 +1,9 @@
 import clsx from 'clsx';
 import Link from 'next/link';
 import { Icon } from '@iconify/react';
-
 import { NavigationItemType } from '~/types';
 
 import type { MouseEvent } from 'react';
-
 import type { WithChildren, WithClassName } from '~/types';
 
 interface DefaultProps extends WithClassName, WithChildren {
@@ -36,7 +34,6 @@ export function Standard({ children, className, icon, ...rest }: StandardProps) 
 						{children}
 					</a>
 				);
-
 			return (
 				<Link href={rest.href} passHref>
 					<a {...rest} className={clsx(ButtonStyles, className)} href={rest.href}>
@@ -45,7 +42,6 @@ export function Standard({ children, className, icon, ...rest }: StandardProps) 
 					</a>
 				</Link>
 			);
-
 		case NavigationItemType.ACTION:
 			return (
 				<button

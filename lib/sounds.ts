@@ -6,8 +6,6 @@ export function useClick() {
 	const result = useSound('/sounds/click.mp3', {
 		volume: 0.25,
 	});
-
 	if (!state.get().sound) return [() => { }, null];
-
 	return result;
 }

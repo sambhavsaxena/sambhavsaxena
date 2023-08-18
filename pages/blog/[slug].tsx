@@ -11,6 +11,7 @@ import ConfettiExplosion from 'react-confetti-explosion';
 import { useState } from 'react';
 import { useEffectOnce } from 'react-use';
 import axios from 'axios';
+
 interface PathProps extends ParsedUrlQuery {
 	slug: string;
 }
@@ -21,7 +22,6 @@ interface BlogPostProps {
 
 export const getStaticPaths: GetStaticPaths<PathProps> = async () => {
 	const posts = await getAllPostSlugs();
-
 	return {
 		paths: posts.map((post) => ({
 			params: {
@@ -34,7 +34,6 @@ export const getStaticPaths: GetStaticPaths<PathProps> = async () => {
 
 export const getStaticProps: GetStaticProps<BlogPostProps, PathProps> = async ({ params }) => {
 	const { frontmatter, source } = await getPost(params.slug);
-
 	return {
 		props: {
 			post: {
@@ -134,7 +133,6 @@ export default function BlogPost({ post }: BlogPostProps) {
 								/>
 							</div>
 						)}
-
 						<div className="flex flex-col space-y-4 max-w-prose mx-auto my-4 text-lg text-center">
 							<div>
 								{post.frontmatter.title_prefix && (
@@ -150,7 +148,6 @@ export default function BlogPost({ post }: BlogPostProps) {
 							<span className="flex justify-center items-center">
 								<Pill.Date>{post.frontmatter.date}</Pill.Date>
 							</span>
-
 							{post.frontmatter.description && post.frontmatter.description_show && (
 								<p className="mt-8 text-xl text-gray-400 leading-8">
 									{post.frontmatter.description}

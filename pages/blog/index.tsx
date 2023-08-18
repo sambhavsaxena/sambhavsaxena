@@ -12,7 +12,6 @@ interface BlogProps {
 
 export const getStaticProps: GetStaticProps<BlogProps> = async () => {
 	const frontmatters = await getAllPostsFrontMatter();
-
 	return {
 		props: {
 			serialisedFrontmatters: JSON.stringify(frontmatters),
@@ -22,17 +21,12 @@ export const getStaticProps: GetStaticProps<BlogProps> = async () => {
 
 export default function BlogPage({ serialisedFrontmatters }: BlogProps) {
 	const frontmatters = JSON.parse(serialisedFrontmatters) as Array<FrontMatter>;
-
-	//useState to filter the frontmatters based on the category
 	const [category, setCategory] = useState('All');
-
 	if (frontmatters.length <= 0) return <Blog.Error routeBlog={false} />;
-
 	const toggleSelection = (e) => {
 		e.preventDefault();
 		setCategory(e.target.innerText.split(' ')[0].trim());
 	};
-
 	return (
 		<Layout.Default seo={{ title: 'sambhavsaxena ─ blog' }}>
 			<div className="mt-8 sm:mt-16 mb-20 mx-0 sm:mx-6 lg:mb-28 lg:mx-8">
