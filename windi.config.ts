@@ -1,6 +1,5 @@
 import defaultTheme from 'windicss/defaultTheme';
 import { defineConfig } from 'windicss/helpers';
-
 import { colors } from './lib/colors';
 
 export default defineConfig({

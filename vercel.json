@@ -4,9 +4,7 @@
 	"alias": "interpreted.vercel.app",
 	"cleanUrls": true,
 	"public": true,
-	"regions": [
-		"lhr1"
-	],
+	"regions": ["lhr1"],
 	"redirects": [
 		{
 			"source": "/github",
