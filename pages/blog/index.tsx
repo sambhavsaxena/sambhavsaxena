@@ -23,9 +23,9 @@ export default function BlogPage({ serialisedFrontmatters }: BlogProps) {
 	const frontmatters = JSON.parse(serialisedFrontmatters) as Array<FrontMatter>;
 	const [category, setCategory] = useState('All');
 	if (frontmatters.length <= 0) return <Blog.Error routeBlog={false} />;
-	const toggleSelection = (e) => {
+	const toggleSelection = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
 		e.preventDefault();
-		setCategory(e.target.innerText.split(' ')[0].trim());
+		setCategory(e.currentTarget.innerText.split('(')[0].trim());
 	};
 	return (
 		<Layout.Default seo={{ title: 'sambhavsaxena ─ blog' }}>

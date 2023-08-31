@@ -52,7 +52,7 @@ export default function BlogPost({ post }: BlogPostProps) {
 	const [name, setName] = useState('');
 	const [isExploding, setIsExploding] = useState(false);
 	const [updated, setUpdated] = useState(false);
-	const updateChange = (e) => {
+	const updateChange = (e: React.ChangeEvent<HTMLInputElement>) => {
 		if (e.target.value.length > 1) {
 			if (e.target.value[e.target.value.length - 1] === ' ') {
 				if (e.target.value[e.target.value.length - 2] === ' ') return;
@@ -60,7 +60,7 @@ export default function BlogPost({ post }: BlogPostProps) {
 		}
 		setValue(e.target.value);
 	};
-	const updateChangeX = (e) => {
+	const updateChangeX = (e: React.ChangeEvent<HTMLInputElement>) => {
 		if (e.target.value.length > 60) return;
 		if (e.target.value.length > 1) {
 			if (e.target.value[e.target.value.length - 1] === ' ') {
@@ -71,10 +71,14 @@ export default function BlogPost({ post }: BlogPostProps) {
 	};
 	const fetchLikes = async () => {
 		const res = await axios.get(
-			`https://likescomments.onrender.com/api?title=${post.frontmatter.slug}`,
+			`${process.env.NEXT_PUBLIC_FETCH_URL}/api?title=${post.frontmatter.slug}`,
 		);
 		setViews(res.data.views);
-		setLikes(res.data.likes);
+		if (res.data.likes > 999) {
+			setLikes((res.data.likes / 1000).toFixed(1) + 'k');
+		} else {
+			setLikes(res.data.likes);
+		}
 		setComments(res.data.comments);
 	};
 	const updateLikes = async () => {
@@ -83,7 +87,7 @@ export default function BlogPost({ post }: BlogPostProps) {
 		else {
 			setLikes((prev) => prev + 1);
 			setUpdated(true);
-			await axios.post(`https://likescomments.onrender.com/api`, {
+			await axios.post(`${process.env.NEXT_PUBLIC_FETCH_URL}/api`, {
 				title: post.frontmatter.slug,
 			});
 		}
@@ -92,7 +96,7 @@ export default function BlogPost({ post }: BlogPostProps) {
 		if (value === '' || value === ' ') return;
 		setName('');
 		setValue('');
-		await axios.post(`https://likescomments.onrender.com/api/comment`, {
+		await axios.post(`${process.env.NEXT_PUBLIC_FETCH_URL}/api/comment`, {
 			title: post.frontmatter.slug,
 			comment: value + '*' + name,
 		});
