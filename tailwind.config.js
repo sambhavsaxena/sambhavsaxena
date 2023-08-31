@@ -8,6 +8,7 @@ module.exports = {
 		extend: {
 			backgroundOpacity: {
 				15: '0.15',
+				30: '0.30',
 			},
 			colors: {
 				gray: {
