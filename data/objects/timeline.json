@@ -1,9 +1,19 @@
 [
 	{
 		"date": "11-21-2022",
+		"title": "Founder @DCRUSTODC",
+		"description": "Initialized and maintained ideas, technical events, repositories and workflows on several occasions.",
+		"icon": "feather:briefcase",
+		"link": {
+			"text": "Visit DCRUSTODC",
+			"url": "https://dcrustodc.netlify.app"
+		}
+	},
+	{
+		"date": "11-21-2022",
 		"title": "SDE Intern @EarthOnly",
 		"description": "Implemented passwordless authentication architecture in NodeJS with unit testing in JEST. Created API key creation service referenced to ACLs.",
-		"icon": "feather:briefcase",
+		"icon": "feather:server",
 		"link": {
 			"text": "Visit EarthOnly",
 			"url": "https://earthonly.io"
@@ -13,7 +23,7 @@
 		"date": "06-10-2022",
 		"title": "Core Developer @IIC",
 		"description": "Implemented delivery of static assets through CDN, increasing the speed of the website by ~70%.",
-		"icon": "feather:briefcase",
+		"icon": "fa:laptop",
 		"link": {
 			"text": "Visit IIC-DCRUST",
 			"url": "https://iicdcrustm.com/home"
@@ -21,9 +31,9 @@
 	},
 	{
 		"date": "03-14-2022",
-		"title": "Web Developer @WhatCode.in",
+		"title": "Web Designer @WhatCode.in",
 		"description": "Set up responsive frontend templates of small scale startups, dashboard implementation using Firebase.",
-		"icon": "feather:briefcase",
+		"icon": "feather:figma",
 		"link": {
 			"text": "Visit WhatCode.in",
 			"url": "https://whatcode.in/"
@@ -58,9 +68,9 @@
 		"icon": "feather:check-circle"
 	},
 	{
-		"date": "05-04-2017",
-		"title": "Started high school",
-		"description": "Began studying non-medical at St. Thomas Sr. Sec. School",
+		"date": "05-04-2018",
+		"title": "Started senior school",
+		"description": "Began studying non-medical at St. Thomas Sr. Sec. School.",
 		"icon": "feather:book"
 	},
 	{
