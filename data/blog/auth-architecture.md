@@ -60,13 +60,15 @@ Remember to send an auth token to the user cookies, and keep the expiry long (ar
 
 Almost everything is now done, the user is verified. Redirect them to a dashboard page where they could fill in the information you might need either ways.
 
-#### Get input data from as headers for onboarding, and log the user in
+#### Get input data as headers for onboarding, and log the user in
 
 Check the cookies for authentication token that have to be there after verification has been done, do the formalities, check for expiry and stuff like that, get the user data from the body params and call: 
 
 `await User.findByIdAndUpdate(decodedUser.id, { ...req.body })`
 
 This would save the user data into the database. Do some brainstorming with session management and log the user in (SAFELY). Remember to send status response every time you perform a check on the user data. The authentication is now successful.
+
+Every other subsequent request will have a token with 30d as its expiry, which could be authenticated by the server.
 
 <center>
     <span style={{color: "green"}}>status: 200</span>
