@@ -54,7 +54,7 @@ One more reason to trigger the layoffs and lack of jobs is the rise of Artificia
 
 All the above factors have collectively contributed to the rise of unemployment, and the market is still recovering from it(seems like it). I'm not sure how long will it take, but it must get better with time.
 
-For some, it seems like our batch (2024) is the unluckiest one, ever, or if our college is the worst. Just like it would be in a perfect graduation nightmare. For me, its more like some Murphy's law getting true😂. But its not time to loose hope mate.
+For some, it seems like our batch (2024) is the unluckiest one, ever, or if our college is the worst. Just as it would have been in a perfect graduation nightmare. For me, its more like some Murphy's law getting true😂. But its not time to loose hope mate.
 
 > Stand high and fight for it, for only the best shall survive.
 
