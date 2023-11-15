@@ -39,7 +39,7 @@ export default function BlogPage({ serialisedFrontmatters }: BlogProps) {
 							Technology (
 							{
 								frontmatters.filter(
-									(frontmatter) => frontmatter.title_prefix === 'Technology',
+									(frontmatter) => frontmatter.context === 'Technology',
 								).length
 							}
 							)
@@ -48,7 +48,7 @@ export default function BlogPage({ serialisedFrontmatters }: BlogProps) {
 							Philosophy (
 							{
 								frontmatters.filter(
-									(frontmatter) => frontmatter.title_prefix === 'Philosophy',
+									(frontmatter) => frontmatter.context === 'Philosophy',
 								).length
 							}
 							)
@@ -57,7 +57,7 @@ export default function BlogPage({ serialisedFrontmatters }: BlogProps) {
 							Travel (
 							{
 								frontmatters.filter(
-									(frontmatter) => frontmatter.title_prefix === 'Travel',
+									(frontmatter) => frontmatter.context === 'Travel',
 								).length
 							}
 							)
@@ -66,7 +66,7 @@ export default function BlogPage({ serialisedFrontmatters }: BlogProps) {
 							Stargazing (
 							{
 								frontmatters.filter(
-									(frontmatter) => frontmatter.title_prefix === 'Stargazing',
+									(frontmatter) => frontmatter.context === 'Stargazing',
 								).length
 							}
 							)
@@ -78,7 +78,7 @@ export default function BlogPage({ serialisedFrontmatters }: BlogProps) {
 									<Blog.Post key={i} frontmatter={frontmatter} index={i} />
 							  ))
 							: frontmatters
-									.filter((frontmatter) => frontmatter.title_prefix === category)
+									.filter((frontmatter) => frontmatter.context === category)
 									.map((frontmatter, i) => (
 										<Blog.Post key={i} frontmatter={frontmatter} index={i} />
 									))}

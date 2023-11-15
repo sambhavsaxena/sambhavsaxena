@@ -7,7 +7,7 @@ export interface RawFrontMatter {
 	date: string;
 	description_show?: boolean;
 	description?: string;
-	title_prefix?: string;
+	context?: string;
 	title: string;
 }
 

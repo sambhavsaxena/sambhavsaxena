@@ -2,11 +2,12 @@
 banner_alt: A man jumping over cliffs
 banner: https://cdn.pixabay.com/photo/2017/09/03/09/14/clouds-2709663_960_720.jpg
 title: Cycle of Life
-title_prefix: Philosophy
+context: Philosophy
 description: Unanswered questions to supernatural concepts.
 date: '2022-04-04'
 ---
---- 
+
+---
 
 #### If after death, the souls are transfered from one body to another, how is the population of the world increasing?
 
@@ -18,6 +19,6 @@ So till now, we know that the population is increasing because the souls of othe
 
 **_Which actually is so true?!_**
 
-The increasing hatred around, all this voilence, crime, inhumanity, and all the other things that are not a fit for human, or let's say is inhuman, is just because it literally is! As already defined in the Hindu mythologies, during the Satya Yuga, it was almost impossible for an animal to be born as a human. And if it happens in any case, it was the result of some boon given by a Maharishi or Shiva, given to that animal because of his good deeds. But today, as Karma degrades, more and more animals are becoming human, and the human population is increasing. 
+The increasing hatred around, all this voilence, crime, inhumanity, and all the other things that are not a fit for human, or let's say is inhuman, is just because it literally is! As already defined in the Hindu mythologies, during the Satya Yuga, it was almost impossible for an animal to be born as a human. And if it happens in any case, it was the result of some boon given by a Maharishi or Shiva, given to that animal because of his good deeds. But today, as Karma degrades, more and more animals are becoming human, and the human population is increasing.
 
 ---

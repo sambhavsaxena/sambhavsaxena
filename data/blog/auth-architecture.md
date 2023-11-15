@@ -2,10 +2,11 @@
 banner_alt: A security vector thumbnail from pixabay
 banner: https://cdn.pixabay.com/photo/2017/02/19/23/10/finger-2081169_960_720.jpg
 title: Creating a passwordless auth system in NodeJS
-title_prefix: Technology
+context: Technology
 description: Implementing a passwordless auth architecture during my internship.
 date: '2023-01-22'
 ---
+
 ---
 
 #### Is it okay to share what I did during my internship period?
@@ -18,17 +19,17 @@ Just ask your project manager, recruiter about the blog you'll be writing, read 
     <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/chats.png" style={{width: "100%"}}></img>
 </center>
 
-
 #### How far does this make things easy for the users?
 
 If you'd ever used [Slack](https://slack.com/intl/en-in), you'd know how the sign in works. You give your email ID, they send you an email, and you are logged in as soon as you click the URL sent with the mail. Plus you are now verified. The onboarding could be done later.
 
 Security and ease of access are subjective and depends on several factors like what all resources are you allowing your users to access, how difficult is it to make the access available and stuff like that. In the end, this boils down to checks and balances between security and ease of resource access.
 
-Now let's get into the technicalities. And let's break it down into parts: 
- - Get the email and send verification URL.
- - Verify the user and connect to the database for onboarding.
- - Get input data from as headers for onboarding, and log the user in.
+Now let's get into the technicalities. And let's break it down into parts:
+
+-   Get the email and send verification URL.
+-   Verify the user and connect to the database for onboarding.
+-   Get input data from as headers for onboarding, and log the user in.
 
 #### Get the email and send verification URL
 
@@ -45,6 +46,7 @@ Part 1 is done.
 #### Verify the user and connect redirect to the database for onboarding
 
 Following is the email received on the mail ID provided by the user.
+
 <center>
     <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/email.png" style={{width: "100%"}}></img>
 </center>
@@ -62,7 +64,7 @@ Almost everything is now done, the user is verified. Redirect them to a dashboar
 
 #### Get input data as headers for onboarding, and log the user in
 
-Check the cookies for authentication token that have to be there after verification has been done, do the formalities, check for expiry and stuff like that, get the user data from the body params and call: 
+Check the cookies for authentication token that have to be there after verification has been done, do the formalities, check for expiry and stuff like that, get the user data from the body params and call:
 
 `await User.findByIdAndUpdate(decodedUser.id, { ...req.body })`
 

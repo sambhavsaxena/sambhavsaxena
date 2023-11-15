@@ -2,12 +2,12 @@
 banner_alt: An image of Jupiter
 banner: https://cdn.pixabay.com/photo/2022/01/18/23/45/planet-6948529_960_720.jpg
 title: Jupiter shines brighter
-title_prefix: Stargazing
+context: Stargazing
 description: Jupiter shines brighter and closer than at any other time this year.
 date: '2021-08-20'
 ---
 
---- 
+---
 
 #### Where was Jupiter?
 

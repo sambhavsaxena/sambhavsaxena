@@ -2,7 +2,7 @@
 banner_alt: A Buddhist Monk praying
 banner: https://cdn.pixabay.com/photo/2017/04/08/22/26/buddhism-2214532_960_720.jpg
 title: Religion and existence
-title_prefix: Philosophy
+context: Philosophy
 description: What gave birth to modern day religion? Let's dive deep.
 date: '2022-03-02'
 ---

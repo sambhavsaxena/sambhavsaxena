@@ -2,12 +2,12 @@
 banner_alt: An image by SSOL telescope
 banner: https://cdn.pixabay.com/photo/2020/07/15/18/30/comet-5408665_960_720.jpg
 title: Making time for morning comets
-title_prefix: Stargazing
+context: Stargazing
 description: Since the last few years, all I do is development and stargazing.
 date: '2021-10-26'
 ---
 
---- 
+---
 
 #### Where and how to spot celestial bodies?
 

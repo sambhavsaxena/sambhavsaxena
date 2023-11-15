@@ -24,6 +24,8 @@ const config = {
 			// Netflix assets
 			'occ-0-6246-2164.1.nflxso.net',
 
+			'wallpapers.com',
+
 			//imgur
 			'i.imgur.com',
 
