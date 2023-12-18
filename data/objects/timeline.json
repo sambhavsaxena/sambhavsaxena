@@ -1,6 +1,16 @@
 [
 	{
-		"date": "11-21-2022",
+		"date": "01-17-2024",
+		"title": "Associate SWE @Aarohin",
+		"description": "Got hands on experience against CLANG/CUDA, designing versatile low level embedded electronic systems in C++.",
+		"icon": "feather:briefcase",
+		"link": {
+			"text": "Visit Aarohin",
+			"url": "https://www.linkedin.com/company/aarohin-technologies/"
+		}
+	},
+	{
+		"date": "04-20-2023",
 		"title": "Founder @DCRUSTODC",
 		"description": "Initialized and maintained ideas, technical events, repositories and workflows on several occasions.",
 		"icon": "feather:briefcase",
