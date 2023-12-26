@@ -1,4 +1,4 @@
-![image](https://github.com/sambhavsaxena/sambhavsaxena/assets/76242518/51b57d8e-3dfb-4970-ad48-b4e6a037e55a)---
+---
 banner_alt: A laptop with VSCode window
 banner: https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_960_720.jpg
 title: How do I brainstorm technical issues?
