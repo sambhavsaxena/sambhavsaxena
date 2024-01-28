@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import Link from 'next/link';
-import { forwardRef, Fragment } from 'react';
+import { Fragment, forwardRef } from 'react';
 import { Icon } from '@iconify/react';
 import { Menu, Transition } from '@headlessui/react';
 import { NavigationItemType, WithChildren, WithClassName } from '~/types';

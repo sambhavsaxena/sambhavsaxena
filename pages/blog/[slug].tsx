@@ -227,8 +227,8 @@ export default function BlogPost({ post }: BlogPostProps) {
 								{comments.length === 0 ? (
 									<div className="text-center">No comments yet</div>
 								) : (
-									comments.map((comment) => (
-										<div className="flex flex-row">
+									comments.map((comment, i) => (
+										<div className="flex flex-row" key={i}>
 											<div className="text-orange-500 m-2">&rarr;</div>
 											<div className="text-gray500 dark:text-gray-300 my-2">
 												{comment.split('*')[0]}{' '}
