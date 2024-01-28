@@ -1,7 +1,7 @@
 const WindiCSS = require('windicss-webpack-plugin');
 
 const ContentSecurityPolicy = `
-  child-src *.google.com streamable.com;
+  child-src *.google.com *.vimeo.com vimeo.com;
   connect-src *;
   default-src 'self';
   font-src 'self';
@@ -41,9 +41,6 @@ const config = {
 
 			// Spotify Album Art
 			'i.scdn.co',
-
-			// Streamable thumbnails
-			'cdn-cf-east.streamable.com',
 
 			// Unsplash
 			'source.unsplash.com',

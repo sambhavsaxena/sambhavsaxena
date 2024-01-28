@@ -1,24 +1,25 @@
 import type { IframeHTMLAttributes } from 'react';
 
-interface XStreamableProps {
+interface XVimeoProps {
 	id: string;
-	loop?: boolean;
 	title: string;
 }
 interface IFrameProps extends IframeHTMLAttributes<HTMLElement> {}
 
-export function XStreamable({ id, loop = false, title }: XStreamableProps) {
+export function XVimeo({ id, title }: XVimeoProps) {
 	return (
 		<div className="relative w-full h-0 my-2 pb-[56.250%]">
 			<iframe
-				allowFullScreen
 				className="absolute top-0 left-0 w-full h-full border-none rounded-lg overflow-hidden"
+				src={`https://player.vimeo.com/video/${id}?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479`}
 				frameBorder={0}
 				height="100%"
-				loading="lazy"
-				src={`https://streamable.com/e/${id}?loop=${Number(loop)}`}
-				title={title}
 				width="100%"
+				loading="lazy"
+				title={title}
+				allowFullScreen
+				allow="autoplay; fullscreen; picture-in-picture"
+				style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
 			/>
 		</div>
 	);

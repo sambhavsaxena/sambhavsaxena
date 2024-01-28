@@ -51,7 +51,7 @@ While we were having these worthwhile moments of joy, we had decided to live in 
 
 and discovered a few hidden cults of Himachal recognized by the cap they wear.
 
-<XStreamable id="lhompx" title="Cults of Himachal" />
+<XVimeo id="907149857" title="Cults of Himachal" />
 
 Had a few photographs and fun moments with the group and got back singing and dancing in the bus, throughout our way back, we had played romantic songs with everyone hymning altogether. Had dinner, got back to our rooms and slept because we had to leave early the next morning.
 
@@ -71,7 +71,7 @@ The next day was the beginning of this trek we specifically came for. We had to 
 
 Trekking our way throughout and having talked to a few people on the way, we had reached the top crossing certain bridges like this one.
 
-<XStreamable id="g405jp" title="Bridge of death" />
+<XVimeo id="907149427" title="Bridge of death" />
 
 #### Top of the world
 
@@ -79,11 +79,11 @@ After reaching the top, we had nice tea and went top further for experiencing th
 
 Next morning, we again went to the top to have a warm shower and got back to get done with the breakfast and start our way back.
 
-<XStreamable id="0dim8v" title="Up within the Himalayas" />
+<XVimeo id="907149533" title="Up within the Himalayas" />
 
 We had made unforgettable memories during the time we spent there, singing along the way, exploring more about Himalayas, and having a nice time with the group. The trek lasted for about 4 hours of getting back to the base camp continuously walking downhill in the mediocre sunburning temperature.
 
-<XStreamable id="4e6uau" title="Through our way back" />
+<XVimeo id="907149649" title="Through our way back" />
 
 During our way back, we ate at the Manikaran Gurudwara, again having a nice hot spring bath, and hopped on to the bus and started our journey back.
 
@@ -97,7 +97,7 @@ Finally, after posting all those photos of the time I had spent with people I di
     <img src="https://cdn.pixabay.com/photo/2023/05/09/07/16/boys-7980545_960_720.jpg" style={{width: "90%"}}></img>
 </center>
 
-After the '_once in a lifetime_' experience I had while sitting on the banks of Ganga river at Rishikesh, 6 months ago when I visited Uttarakhand, I had another one while sitting on the top of the Himalayan mountains, and I'm sure there are many more to come.
+Before this experience, I had a similar one while sitting on the banks of Ganga river at Rishikesh, 6 months ago when I visited Uttarakhand, I had another one today while sitting on the top of the Himalayan mountains, and I'm sure there are many more to come.
 
 <center>
     <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/lakshman.jpg" style={{width: "90%"}}></img>
