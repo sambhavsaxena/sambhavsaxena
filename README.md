@@ -6,7 +6,7 @@ I'm a 22 year old linux geek & embedded systems engineer;
 
 ## 💎 Experience
 
-I like to say that I am a full-stack developer, but I have most experience with backend development, primarily [NodeJS](https://nodejs.org/) and [TypeScript](https://www.typescriptlang.org/). However previously, I have focused a lot on frontend development, primarily using  & [NextJS](https://nextjs.org/). I am currently working as a Software Engineer at an electronics VP modelling organization;
+I like to say that I am a full-stack developer, but I have most experience with backend development, primarily [NodeJS](https://nodejs.org/) and [TypeScript](https://www.typescriptlang.org/). However previously, I have focused a lot on frontend development, primarily using [NextJS](https://nextjs.org/). I am currently working as a Software Engineer at an electronics VP modelling organization;
 
 Following from this, I spent 4 years studying Computer Science Engineering, focusing on low-level programming using [C++](https://www.cplusplus.com/) & specializing on advanced embedded systems later working with industry standard frameworks such as [SystemC](https://systemc.org/) & [CMAKE](https://cmake.org/).
 
