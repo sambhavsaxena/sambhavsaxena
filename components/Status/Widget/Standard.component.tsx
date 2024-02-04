@@ -78,6 +78,7 @@ export function Widget() {
 						  }
 						: {
 								alt: activity.name,
+								
 								icon: true,
 								url: '',
 						  };
@@ -86,7 +87,7 @@ export function Widget() {
 						title: activity.name,
 						description: [
 							activity.details && activity.details.includes('Idling')
-								? 'sudo in terminal'
+								? 'idle, thinking about you:)'
 								: activity.details,
 							...(activity.state ? [activity.state] : []),
 							elapsed,
