@@ -2,7 +2,7 @@
 	{
 		"date": "01-17-2024",
 		"title": "Associate SWE @Aarohin",
-		"description": "Got hands on experience against CLANG/CUDA, designing versatile low level embedded electronic systems in C++.",
+		"description": "Created virtual prototypes of several SoC components like Network Bus, DMAC, AXI channels of the Samsung Exynos 4421 RISC Microprocessor.",
 		"icon": "feather:briefcase",
 		"link": {
 			"text": "Visit Aarohin",
