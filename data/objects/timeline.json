@@ -1,5 +1,15 @@
 [
 	{
+		"date": "06-10-2024",
+		"title": "Software Engineer @Ambibuzz",
+		"description": "Cloud function migrations, backend development and production deployment, Frappe, ERPNext, AWS and Flutter, all parts of the internal ecosystem.",
+		"icon": "feather:briefcase",
+		"link": {
+			"text": "Visit Ambibuzz",
+			"url": "https://www.linkedin.com/company/ambibuzz/"
+		}
+	},
+	{
 		"date": "01-17-2024",
 		"title": "Associate SWE @Aarohin",
 		"description": "Created virtual prototypes of several SoC components like Network Bus, DMAC, AXI channels of the Samsung Exynos 4421 RISC Microprocessor.",
