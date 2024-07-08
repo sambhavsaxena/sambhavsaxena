@@ -10,7 +10,7 @@ I like to say that I am a full-stack developer, but I have a broader hands-on ex
 
 Following from this, I spent 4 years studying Computer Science & Engineering, specializing on advanced software systems, later on working as a Software Engineer at an electronics firm with industry standard frameworks such as [SystemC / TLM](https://systemc.org/), [CMAKE](https://cmake.org/), customized libraries like SCML, and debugging & performance testing tools like [GDB](https://sourceware.org/gdb/), [Jest](https://jestjs.io/) and [Valgrind](https://valgrind.org/).
 
-My current job envolves ERP cloud based technologies like [ERPNext](https://erpnext.com/) & [Django](https://www.djangoproject.com/);
+My current job envolves ERP cloud based technologies like [ERPNext](https://erpnext.com/), [Flask](https://flask.palletsprojects.com/), enhanced by cloud platforms like [AWS](https://aws.amazon.com/) and [GCP](https://console.cloud.google.com/).
 
 ## 📫 Contact
 
