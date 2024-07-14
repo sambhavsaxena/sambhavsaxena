@@ -2,7 +2,7 @@
 
 ### Hey, I'm Sambhav👋
 
-I'm a 22 year old linux geek & professionally, a backend engineer;
+I'm a 22 year old software engineer, an avid programmer and a linux geek;
 
 ## 💎 Experience
 
