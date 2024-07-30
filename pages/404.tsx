@@ -48,9 +48,15 @@ export default function Error() {
 							</Button.Standard>
 							<Button.Standard
 								type={NavigationItemType.LINK}
-								href="/colleagues"
-								icon="mdi:handshake">
-								Colleagues
+								href="/intel"
+								icon="feather:lock">
+								Intel
+							</Button.Standard>
+							<Button.Standard
+								type={NavigationItemType.LINK}
+								href="/secret"
+								icon="feather:key">
+								Secret
 							</Button.Standard>
 							<Button.Standard
 								type={NavigationItemType.LINK}
