@@ -2,7 +2,7 @@
 banner_alt: A Chrome tab on tablet computer
 banner: https://cdn.pixabay.com/photo/2020/08/02/14/18/blue-5457731_960_720.jpg
 title: JS frameworks or basic HTML stack, what's better?
-context: Technology
+context: Interests
 description: My previous portfolios has been written in basic HTML. The reason? Here you go.
 date: '2022-06-10'
 ---

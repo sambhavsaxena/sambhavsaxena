@@ -2,7 +2,7 @@
 banner_alt: Men running for success
 banner: https://wallpapers.com/images/featured-full/sad-aesthetic-pictures-9dxsbd1ykrghasvu.jpg
 title: The Graduation Nightmare
-context: Philosophy
+context: Life
 description: Layoffs, pandemic, war, recession, ChatGPT and more.
 date: '2023-11-15'
 ---

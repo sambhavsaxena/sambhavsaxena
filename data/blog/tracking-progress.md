@@ -2,7 +2,7 @@
 banner_alt: An imageof railway tracks in the sky
 banner: https://cdn.pixabay.com/photo/2017/09/14/08/28/head-2748333_960_720.jpg
 title: Tracking progress
-context: Philosophy
+context: Life
 description: A summary of the last few sophisticated months spent exploring.
 date: '2023-03-30'
 ---

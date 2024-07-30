@@ -2,7 +2,7 @@
 banner_alt: Lunar eclipse image
 banner: https://cdn.pixabay.com/photo/2018/08/14/12/28/moon-3605437_960_720.jpg
 title: Caught the total lunar eclipse on May 26th
-context: Stargazing
+context: Interests
 description: Feels like a while since the Moon got into Earth's shadow.
 date: '2021-05-27'
 ---

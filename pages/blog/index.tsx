@@ -36,10 +36,10 @@ export default function BlogPage({ serialisedFrontmatters }: BlogProps) {
 							All ({frontmatters.length})
 						</Button.Outline>
 						<Button.Outline href="" onClick={toggleSelection}>
-							Technology (
+							Life (
 							{
 								frontmatters.filter(
-									(frontmatter) => frontmatter.context === 'Technology',
+									(frontmatter) => frontmatter.context === 'Life',
 								).length
 							}
 							)
@@ -54,19 +54,10 @@ export default function BlogPage({ serialisedFrontmatters }: BlogProps) {
 							)
 						</Button.Outline>
 						<Button.Outline href="" onClick={toggleSelection}>
-							Travel (
+							Interests (
 							{
 								frontmatters.filter(
-									(frontmatter) => frontmatter.context === 'Travel',
-								).length
-							}
-							)
-						</Button.Outline>
-						<Button.Outline href="" onClick={toggleSelection}>
-							Stargazing (
-							{
-								frontmatters.filter(
-									(frontmatter) => frontmatter.context === 'Stargazing',
+									(frontmatter) => frontmatter.context === 'Interests',
 								).length
 							}
 							)

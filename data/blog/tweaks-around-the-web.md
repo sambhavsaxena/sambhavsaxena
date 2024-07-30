@@ -2,7 +2,7 @@
 banner_alt: Some random engineering shit
 banner: https://images.unsplash.com/photo-1632749042303-7f7a18ed6ff0
 title: Tweaks I make around the web
-context: Technology
+context: Interests
 description: How I take every virtual obstacle on my ego and find a way to resolve.
 date: '2022-10-09'
 ---

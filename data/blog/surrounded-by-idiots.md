@@ -2,7 +2,7 @@
 banner_alt: A farmer working on his farm in the evening
 banner: https://cdn.pixabay.com/photo/2018/11/16/13/51/sunset-3819469_1280.jpg
 title: Surrounded by Idiots
-context: Philosophy
+context: Life
 description: Months long toxicity, purpose of shared rebound and stability.
 date: '2024-07-07'
 ---
@@ -13,9 +13,9 @@ date: '2024-07-07'
 
 It's an international best-seller by `Thomas Erikson`. It talks about how people you are around makes up what you think about, your personality and attributes. Recently read and got inspired by the ideology that the protagonist follows. Hence the title. Read through and you'll know-
 
-#### So what are you going to talk about now?
+#### What is this going to be about?
 
-Very random, but I wish to share a personal experience within the corporate world as a starter:
+Very random, but I wish to share a personal experience within corporate scope as a starter:
 
 I had started my internship at some electronics startup based out of Bengaluru, and mind you that was the best offer I could secure on-campus, from a very limited companies that visited. I blame the pandamic followed by bad economy and layoffs and stagnation of industry. But I was still happy to have an offer ~6L, where there were people who would take up any job for the sake of getting into the market.
 
@@ -44,7 +44,7 @@ Among the batch of 6 recruits, three of the 4 guys who left got hike to their in
 
 This was a bittersweet story of my first corporate experience.
 
-#### And what are you up to now?
+#### What am I up to?
 
 So okay, while I was going through everything stated above, I started constantly looking for job opportunities so that I could rebound and get back to track and have a stable income and mental health, who paid more or less the same, but have a better WLB (on priority). Thanks to an offer I accepted recently, got a little hike and best of WLB here. And the best thing, I'm back in my domain, backend technologies, cloud and stuff, it's a remote role, and people are really helpful so you're not stranded in the middle of your work.
 
@@ -52,6 +52,6 @@ When you have experienced the rock bottom, everything above it seems to be great
 
 #### What's next?
 
-Well, I don't know. I wish to stick around and get some experience, maybe followed by a promotion. I don't know. I have started investing in IPOs and MFs, in order to understand how the market performs, and I plan to build a home setup now that I'm working from home.
+Well, I don't know. I wish to stick around and get some experience, maybe followed by a promotion. I don't know. I have started investing in IPOs and MFs, in order to understand finance, and I plan to build a home setup first now that I'm working from home.
 
 ---

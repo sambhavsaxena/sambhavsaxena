@@ -2,7 +2,7 @@
 banner_alt: A laptop with VSCode window
 banner: https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_960_720.jpg
 title: How do I brainstorm technical issues?
-context: Technology
+context: Interests
 description: My personal approach for resolving errors in a technology efficiently.
 date: '2022-07-28'
 ---

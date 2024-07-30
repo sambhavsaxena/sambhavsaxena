@@ -2,7 +2,7 @@
 banner_alt: A security vector thumbnail from pixabay
 banner: https://cdn.pixabay.com/photo/2017/02/19/23/10/finger-2081169_960_720.jpg
 title: Creating a passwordless auth system in NodeJS
-context: Technology
+context: Interests
 description: Implementing a passwordless auth architecture during my internship.
 date: '2023-01-22'
 ---
