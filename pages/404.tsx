@@ -15,31 +15,12 @@ export default function Error() {
 						/>
 					</div>
 					<div className="py-4 text-center">
-						<h1 className="mt-2 text-4xl font-extrabold text-gray-500 dark:text-white tracking-tight sm:text-5xl">
-							Woah!
-						</h1>
 						<p className="mt-8 text-sm font-medium text-gray-400 dark:text-gray-300">
-							What have you done?! <br />
-							Enlightenment is not that easy to achieve. <br />
-						</p>
-						<p className="mt-8 text-sm font-medium text-gray-400 dark:text-gray-300">
-							"कर्मजं बुद्धियुक्ता हि फलं त्यक्त्वा मनीषिणः। जन्मबन्धविनिर्मुक्ताः पदं
-							गच्छन्त्यनामयम्॥" २-५१
+							‘when one door closes, another opens’
 							<br />
+							Alexander Graham Bell
 						</p>
-						<p className="mt-8 text-sm font-medium text-gray-400 dark:text-gray-300">
-							The wise, possessed of knowledge, having abandoned the fruits of their
-							actions, and being freed from the fetters of birth, go to the place
-							which is beyond all evil.
-							<br />
-						</p>
-						<p className="mt-8 text-sm font-medium text-gray-400 dark:text-gray-300">
-							~Shri Krishna, Bhagavad Gita
-						</p>
-						<p className="mt-8 text-sm font-medium text-gray-400 dark:text-gray-300">
-							Here's what you can do now: <br />
-						</p>
-						<div className="mt-6 flex justify-center items-center space-x-4">
+						<div className="mt-6 flex justify-center items-center space-x-4 flex-wrap">
 							<Button.Standard
 								type={NavigationItemType.ACTION}
 								onClick={() => history.go(-1)}

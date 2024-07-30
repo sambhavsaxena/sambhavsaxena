@@ -30,6 +30,12 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			text: 'Blog',
 			href: '/blog',
 		},
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:pie-chart',
+			text: 'Ratings',
+			href: '/ratings',
+		},
 	],
 	[
 		{
@@ -53,22 +59,7 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			href: 'https://linkedin.com/in/sambhavsaxena',
 			external: true,
 		},
-	],
-	[
-		{
-			type: NavigationItemType.LINK,
-			icon: 'feather:key',
-			text: 'Intel',
-			href: '/public.txt',
-		},
-		{
-			type: NavigationItemType.LINK,
-			icon: 'feather:lock',
-			text: 'Secret',
-			href: '/secret.txt',
-			external: false,
-		},
-	],
+	]
 ];
 
 export function useNavigation() {

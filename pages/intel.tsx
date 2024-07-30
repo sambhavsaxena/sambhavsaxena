@@ -15,10 +15,10 @@ export default function Intelligence() {
 					</div>
 					<div className="py-4 text-center">
 						<p className="mt-8 text-s font-large text-gray-400 dark:text-gray-300">
-							Here's what you will need: <br />
+							This might be what you&apos;re looking for <br />
 						</p>
 						<div className="mt-6 space-x-4 text-center align-middle">
-                            <span><a href='/public.asc' download>CLICK HERE TO DOWNLOAD</a></span>
+                            <span><a href='/public-key.asc' download>CLICK HERE TO DOWNLOAD</a></span>
 						</div>
 					</div>
 				</div>

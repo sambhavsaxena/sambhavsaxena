@@ -23,7 +23,7 @@ interface PlayerData {
 	streaming_platforms: string[];
 }
 
-const ChessCard = () => {
+const Ratings = () => {
 	const [playerData, setPlayerData] = useState<PlayerData | null>(null);
 	const [loading, setLoading] = useState<boolean>(true);
 	const [error, setError] = useState<string | null>(null);
@@ -63,31 +63,22 @@ const ChessCard = () => {
 	}, [username]);
 
 	if (loading || error) {
-		return <Layout.Default seo={{ title: `Chess Profile - Loading` }}>
-    <div className="my-24 mx-2 sm:mx-6 lg:mb-28 lg:mx-8">
-      <div className="relative max-w-xl mx-auto">
-        <List.Container>
-          <Animate
-            animation={{ y: [50, 0], opacity: [0, 1] }}
-            transition={{
-              delay: 0.1,
-            }}
-          >
-            <List.Item
-              icon={
-                <span className="text-xl">♟</span>
-              }
-              title={loading ? "Loading from chess.com" : `Error: ${error}`}
-            />
-          </Animate>
-        </List.Container>
-      </div>
-    </div>
-  </Layout.Default>
-	}
+		return (
+		<Layout.Default seo={{ title: `Chess Profile - Loading` }}>
+			<div className="my-24 mx-2 sm:mx-6 lg:mb-28 lg:mx-8">
+				<div className="relative max-w-xl mx-auto">
+					<List.Container>
+						<Animate animation={{ y: [50, 0], opacity: [0, 1] }} transition={{delay: 0.1}}>
+							<List.Item icon={<span className="text-xl">♟</span>} title={loading ? "Loading from chess.com" : `Error: ${error}`}/>
+						</Animate>
+					</List.Container>
+				</div>
+			</div>
+		</Layout.Default>
+	)}
 
 	return (
-		<Layout.Default seo={{ title: `Chess Profile - ${playerData.name}` }}>
+		<Layout.Default seo={{ title: `Ratings - ${playerData.name}` }}>
 			<div className="my-24 mx-2 sm:mx-6 lg:mb-28 lg:mx-8">
 				<div className="relative max-w-xl mx-auto">
 					<List.Container>
@@ -124,4 +115,4 @@ const ChessCard = () => {
 	);
 };
 
-export default ChessCard;
+export default Ratings;
