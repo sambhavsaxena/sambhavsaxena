@@ -15,7 +15,7 @@ export default function Secret() {
 					</div>
 					<div className="py-4 text-center">
 						<p className="mt-8 text-s font-large text-gray-400 dark:text-gray-300">
-							Before unvieling, lets play a game? <br />
+							Let's play a game? <br />
 						</p>
 						<div className="mt-6 space-x-4 text-center align-middle">
                             <span><a className='hover:text-primary-500' href='/secret.txt' download>CLICK HERE FOR HINTS</a></span>
