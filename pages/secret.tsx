@@ -18,7 +18,7 @@ export default function Secret() {
 							Let's play a game? <br />
 						</p>
 						<div className="mt-6 space-x-4 text-center align-middle">
-                            <span><a className='hover:text-primary-500' href='/secret.txt' download>CLICK HERE FOR HINTS</a></span>
+                            <span><a className='hover:text-primary-500' href='/secret.txt' download>DOWNLOD CIPHERTEXT</a></span>
 						</div>
 					</div>
 				</div>
