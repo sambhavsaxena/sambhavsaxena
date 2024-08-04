@@ -18,7 +18,7 @@ export default function Intelligence() {
 							This might be what you&apos;re looking for <br />
 						</p>
 						<div className="mt-6 space-x-4 text-center align-middle">
-                            <span><a className='hover:text-primary-500' href='/public-key.asc' download>CLICK HERE TO DOWNLOAD</a></span>
+                            <span><a className='hover:text-primary-500' href='/personal.pub' download>CLICK HERE TO DOWNLOAD</a></span>
 						</div>
 					</div>
 				</div>
