@@ -10,6 +10,16 @@
 		}
 	},
 	{
+		"date": "05-24-2024",
+		"title": "Graduated university",
+		"description": "From passing multiple courses, exams, viva's, to late night voyages with friends, travelling without knowing the destination.",
+		"icon": "feather:award",
+		"link": {
+			"text": "Visit DCRUST",
+			"url": "https://www.dcrustm.ac.in/"
+		}
+	},
+	{
 		"date": "01-17-2024",
 		"title": "Associate SWE @Aarohin",
 		"description": "Created virtual prototypes of several SoC components like Network Bus, DMAC, AXI channels of the Samsung Exynos 4421 RISC Microprocessor.",
