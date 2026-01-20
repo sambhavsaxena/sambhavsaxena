@@ -19,3 +19,9 @@ For faster response, you can mail me at [sambhavsaxena02@gmail.com](mailto:sambh
 Any other queries? Contact me via [LinkedIn](https://www.linkedin.com/in/sambhavsaxena) or [Twitter / X](https://twitter.com/direct_messages/create/_sambhavsaxena)
 
 You can also read my blogs [here](https://interpreted.vercel.app/).
+
+Other ghost profiles:
+
+- [@sambhxv](https://github.com/sambhxv)
+- [@sxmbhxv](https://github.com/sxmbhxv)
+
