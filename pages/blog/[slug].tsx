@@ -1,8 +1,9 @@
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 import { MDXRemote } from 'next-mdx-remote';
 import { Button } from '~/components';
 import { Blog, Pill } from '~/components';
-import { getPost, getAllPostSlugs } from '~/lib/post';
+import { getPost, getAllPostSlugs, getAllPosts } from '~/lib/post';
 import { Layout } from '~/layouts';
 import type { GetStaticPaths, GetStaticProps } from 'next';
 import type { ParsedUrlQuery } from 'querystring';
@@ -16,9 +17,19 @@ interface PathProps extends ParsedUrlQuery {
 	slug: string;
 }
 
+interface PostMeta {
+	slug: string;
+	title: string;
+}
+
 interface BlogPostProps {
 	post: Post;
+	previousPost: PostMeta | null;
+	nextPost: PostMeta | null;
 }
+
+const truncate = (str: string) =>
+	str.length > 20 ? str.slice(0, 20).trimEnd() + '…' : str;
 
 export const getStaticPaths: GetStaticPaths<PathProps> = async () => {
 	const posts = await getAllPostSlugs();
@@ -34,24 +45,58 @@ export const getStaticPaths: GetStaticPaths<PathProps> = async () => {
 
 export const getStaticProps: GetStaticProps<BlogPostProps, PathProps> = async ({ params }) => {
 	const { frontmatter, source } = await getPost(params.slug);
+
+	const allPosts = await getAllPosts();
+	const sorted = allPosts.sort(
+		(a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime(),
+	);
+
+	const currentIndex = sorted.findIndex((p) => p.frontmatter.slug === params.slug);
+
+	const previousPost =
+		currentIndex > 0
+			? {
+					slug: sorted[currentIndex - 1].frontmatter.slug,
+					title: sorted[currentIndex - 1].frontmatter.title,
+			  }
+			: null;
+
+	const nextPost =
+		currentIndex < sorted.length - 1
+			? {
+					slug: sorted[currentIndex + 1].frontmatter.slug,
+					title: sorted[currentIndex + 1].frontmatter.title,
+			  }
+			: null;
+
 	return {
 		props: {
 			post: {
 				frontmatter,
 				source,
 			},
+			previousPost,
+			nextPost,
 		},
 	};
 };
 
-export default function BlogPost({ post }: BlogPostProps) {
-	const [views, setViews] = useState('...');
-	const [likes, setLikes] = useState('...');
-	const [comments, setComments] = useState([]);
+export default function BlogPost({ post, previousPost, nextPost }: BlogPostProps) {
+	const router = useRouter();
+	const [views, setViews] = useState<number>(0);
+	const [likes, setLikes] = useState<number>(0);
+	const [comments, setComments] = useState<string[]>([]);
 	const [value, setValue] = useState('');
 	const [name, setName] = useState('');
 	const [isExploding, setIsExploding] = useState(false);
 	const [updated, setUpdated] = useState(false);
+
+	const formatter = new Intl.NumberFormat('en-US', {
+		notation: "compact",
+		compactDisplay: "short",
+		maximumFractionDigits: 2
+	});
+
 	const updateChange = (e: React.ChangeEvent<HTMLInputElement>) => {
 		if (e.target.value.length > 1) {
 			if (e.target.value[e.target.value.length - 1] === ' ') {
@@ -60,6 +105,7 @@ export default function BlogPost({ post }: BlogPostProps) {
 		}
 		setValue(e.target.value);
 	};
+
 	const updateChangeX = (e: React.ChangeEvent<HTMLInputElement>) => {
 		if (e.target.value.length > 60) return;
 		if (e.target.value.length > 1) {
@@ -69,29 +115,26 @@ export default function BlogPost({ post }: BlogPostProps) {
 		}
 		setName(e.target.value);
 	};
+
 	const fetchLikes = async () => {
 		const res = await axios.get(
 			`${process.env.NEXT_PUBLIC_FETCH_URL}/api?title=${post.frontmatter.slug}`,
 		);
-		setViews(res.data.views);
-		if (res.data.likes > 999) {
-			setLikes((res.data.likes / 1000).toFixed(1) + 'k');
-		} else {
-			setLikes(res.data.likes);
-		}
-		setComments(res.data.comments);
+		setViews(Number(res.data.views));
+		setLikes(Number(res.data.likes));
+		setComments(res.data.comments ?? []);
 	};
+
 	const updateLikes = async () => {
 		setIsExploding(true);
 		if (updated) return;
-		else {
-			setLikes((prev) => prev + 1);
-			setUpdated(true);
-			await axios.post(`${process.env.NEXT_PUBLIC_FETCH_URL}/api`, {
-				title: post.frontmatter.slug,
-			});
-		}
+		setLikes((prev) => prev + 1);
+		setUpdated(true);
+		await axios.post(`${process.env.NEXT_PUBLIC_FETCH_URL}/api`, {
+			title: post.frontmatter.slug,
+		});
 	};
+
 	const postComments = async () => {
 		if (value === '' || value === ' ') return;
 		setName('');
@@ -102,9 +145,11 @@ export default function BlogPost({ post }: BlogPostProps) {
 		});
 		setComments((prev) => [...prev, value + '*' + name]);
 	};
+
 	useEffectOnce(() => {
 		fetchLikes();
 	});
+
 	return (
 		<>
 			<Layout.Blog
@@ -164,7 +209,7 @@ export default function BlogPost({ post }: BlogPostProps) {
 						<div className="flex flex-col space-y-4 max-w-prose mx-auto my-4 text-lg text-center">
 							<span className="flex justify-center items-center">
 								<div className="mx-10" aria-disabled>
-									<Pill.Eye>{views}</Pill.Eye>
+									<Pill.Eye>{formatter.format(views)}</Pill.Eye>
 								</div>
 								<div
 									className="mx-10"
@@ -181,9 +226,40 @@ export default function BlogPost({ post }: BlogPostProps) {
 											width={400}
 										/>
 									)}
-									<Pill.Likes>{likes}</Pill.Likes>
+									<Pill.Likes>{formatter.format(likes)}</Pill.Likes>
 								</div>
 							</span>
+							<hr />
+							<div className="flex justify-between items-center gap-4 pt-2 pb-4">
+								{previousPost ? (
+									<button
+										onClick={() => router.push(`/blog/${previousPost.slug}`)}
+										className="flex items-center gap-2 px-4 py-2 rounded-xl border border-gray-200 dark:border-gray-700 hover:border-orange-400 dark:hover:border-orange-400 hover:bg-orange-50 dark:hover:bg-gray-800 transition-all duration-200 group">
+										<span className="text-orange-400 group-hover:text-orange-500 transition-colors">
+											←
+										</span>
+										<span className="text-sm text-gray-600 dark:text-gray-300 group-hover:text-orange-500 dark:group-hover:text-orange-400 transition-colors font-medium">
+											{truncate(previousPost.title)}
+										</span>
+									</button>
+								) : (
+									<div />
+								)}
+								{nextPost ? (
+									<button
+										onClick={() => router.push(`/blog/${nextPost.slug}`)}
+										className="flex items-center gap-2 px-4 py-2 rounded-xl border border-gray-200 dark:border-gray-700 hover:border-orange-400 dark:hover:border-orange-400 hover:bg-orange-50 dark:hover:bg-gray-800 transition-all duration-200 group">
+										<span className="text-sm text-gray-600 dark:text-gray-300 group-hover:text-orange-500 dark:group-hover:text-orange-400 transition-colors font-medium">
+											{truncate(nextPost.title)}
+										</span>
+										<span className="text-orange-400 group-hover:text-orange-500 transition-colors">
+											→
+										</span>
+									</button>
+								) : (
+									<div />
+								)}
+							</div>
 							<hr />
 						</div>
 						<div className="max-w-prose prose prose-primary prose-sm text-gray-500 mx-auto">

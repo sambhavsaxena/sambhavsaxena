@@ -1,5 +1,15 @@
 [
 	{
+		"date": "09-01-2025",
+		"title": "Fullstack Dev @8848",
+		"description": "Communication platform, lending and financing system, AI integrations inside Emotive, the industry's biggest single piece of software, serving US auto-sales dealerships.",
+		"icon": "feather:briefcase",
+		"link": {
+			"text": "Visit 8848 Digital",
+			"url": "https://www.linkedin.com/company/8848digital/"
+		}
+	},
+	{
 		"date": "06-10-2024",
 		"title": "Software Engineer @Ambibuzz",
 		"description": "Cloud function migrations, backend development and production deployment, Frappe, ERPNext, AWS and Flutter, all parts of the internal ecosystem.",

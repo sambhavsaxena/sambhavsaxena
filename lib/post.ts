@@ -72,3 +72,29 @@ export async function getPost(slug: string): Promise<Post> {
 		source,
 	};
 }
+
+/**
+ * Get the frontmatter metadata & post MDX contents for all available blog posts
+ * @returns An array of objects containing the frontmatter metadata and MDX content for each blog post for navigation
+ */
+export async function getAllPosts() {
+  const slugs = await getAllPostSlugs();
+  
+  const posts = slugs.map((slug) => {
+    const source = readFileSync(join(BLOG_POSTS_DIR, slug), 'utf8');
+    const { data } = matter(source);
+    return {
+      slug: slug.replace(/\.md$/, ''),
+      rawDate: data.date as string,
+    };
+  });
+
+  posts.sort((a, b) => new Date(b.rawDate).valueOf() - new Date(a.rawDate).valueOf());
+
+  return Promise.all(
+    posts.map(async ({ slug }) => {
+      const { frontmatter, source } = await getPost(slug);
+      return { frontmatter, source };
+    })
+  );
+}
