@@ -72,14 +72,14 @@
 		"@types/react": "^17.0.24",
 		"@types/react-dom": "^17.0.9",
 		"gray-matter": "^4.0.3",
-		"node-fetch": "^3.2.3"
+		"node-fetch": "^3.2.3",
+		"ts-shader-loader": "^1.0.6"
 	},
 	"devDependencies": {
 		"@types/canvas-confetti": "^1.4.2",
 		"eslint": "8.10.0",
 		"eslint-config-next": "12.1.0",
 		"next-sitemap": "^2.5.4",
-		"prettier": "^2.4.1",
-		"ts-shader-loader": "^1.0.6"
+		"prettier": "^2.4.1"
 	}
 }
