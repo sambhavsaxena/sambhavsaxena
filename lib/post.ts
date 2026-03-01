@@ -6,8 +6,6 @@ import { serialize } from 'next-mdx-remote/serialize';
 import RehypeAutolinkHeadings from 'rehype-autolink-headings';
 import RemarkCodeTitles from 'remark-code-titles';
 import RemarkEmoji from 'remark-emoji';
-import RemarkPrism from 'remark-prism';
-import RemarkSlug from 'remark-slug';
 
 import type { FrontMatter, Post, RawFrontMatter } from '~/types';
 
@@ -58,7 +56,7 @@ export async function getPost(slug: string): Promise<Post> {
 		scope: data,
 		mdxOptions: {
 			rehypePlugins: [[RehypeAutolinkHeadings, {}]],
-			remarkPlugins: [RemarkCodeTitles, RemarkEmoji, RemarkPrism, RemarkSlug],
+			remarkPlugins: [RemarkCodeTitles, RemarkEmoji],
 		},
 	});
 	const frontmatter = data as RawFrontMatter;

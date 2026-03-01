@@ -64,11 +64,11 @@
 		"react-hot-toast": "^2.1.1",
 		"react-use": "^17.3.1",
 		"react-use-lanyard": "^0.1.0",
-		"rehype-autolink-headings": "^6.1.0",
+		"rehype-autolink-headings": "^6.1.1",
+		"rehype-prism-plus": "^2.0.2",
+		"rehype-slug": "^6.0.0",
 		"remark-code-titles": "^0.1.2",
-		"remark-emoji": "^3.0.1",
-		"remark-prism": "^1.3.6",
-		"remark-slug": "^7.0.0",
+		"remark-emoji": "^3.1.2",
 		"swr": "^1.0.1",
 		"ts-shader-loader": "^1.0.6",
 		"typescript": "^4.4.3",
@@ -81,5 +81,13 @@
 		"eslint": "8.10.0",
 		"eslint-config-next": "12.1.0",
 		"prettier": "^2.4.1"
+	},
+	"resolutions": {
+		"vfile": "5.3.7",
+		"vfile-message": "3.1.4"
+	},
+	"overrides": {
+		"vfile": "5.3.7",
+		"vfile-message": "3.1.4"
 	}
 }
