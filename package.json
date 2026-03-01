@@ -70,15 +70,15 @@
 		"@types/node-fetch": "^2.6.1",
 		"@types/nprogress": "^0.2.0",
 		"@types/react": "^17.0.24",
-		"@types/react-dom": "^17.0.9"		
+		"@types/react-dom": "^17.0.9",
+		"gray-matter": "^4.0.3",
+		"node-fetch": "^3.2.3"
 	},
 	"devDependencies": {
 		"@types/canvas-confetti": "^1.4.2",
 		"eslint": "8.10.0",
 		"eslint-config-next": "12.1.0",
-		"gray-matter": "^4.0.3",
 		"next-sitemap": "^2.5.4",
-		"node-fetch": "^3.2.3",
 		"prettier": "^2.4.1",
 		"ts-shader-loader": "^1.0.6"
 	}
