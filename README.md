@@ -2,7 +2,7 @@
 
 ### Hey, I'm Sambhav👋
 
-I'm a 23 year old software engineer, an avid programmer and a linux geek;
+I'm a 24 year old software engineer, an avid programmer and a linux geek;
 
 ## 💎 Experience
 
