@@ -20,7 +20,7 @@ So, the amount of work that went into re-building what the internet looks like t
 The image below shows the type of environments to create droplets for cloud deployment. One can choose to host officially on Digital Ocean, and its been used by millions over the past to create and maintain community softwares with a huge support as their backbone.
 
 <center>
-    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/droplet.png" style={{width: "90%"}}></img>
+    <img src="https://github.com/thatsameguyokay/images/blob/main/droplet.png?raw=true" style={{width: "90%"}}></img>
 </center>
 
 All these hosting machines are linux based as seen in the image. Also one of the purpose of using Linux based development environment. Not to be stated that Linux has other great features and is completely customizable.

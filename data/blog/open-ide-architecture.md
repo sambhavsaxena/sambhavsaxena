@@ -14,7 +14,7 @@ date: '2023-04-01'
 I had been looking for a new project idea for a very long time, and last week while discussing with people the scope of such an ambitious project, we got settled on creating a UI library for React. This was supposed to have basic wireframes, snippets and components, pretty much as the existing CSS libraries like Tailwind have. The only problem was that things like this already existed in the market and were very much abundant, and most of them are open source. Also, since a very long time, there hadn't been a week without a new JS / CSS library being released. So, I decided to go for something different, and that's when we came across the idea to create an open-source online compiler system (soon to be), that later came to be known as [Open IDE](https://openide.vercel.app/).
 
 <center>
-    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/openide.png" style={{width: "90%", marginBottom: "-20px"}}></img>
+    <img src="https://github.com/thatsameguyokay/images/blob/main/openide.png?raw=true" style={{width: "90%", marginBottom: "-20px"}}></img>
     Home of Open IDE
 </center>
 
@@ -25,7 +25,7 @@ Initially, while I had a basic idea of how the system would work, I had no idea 
 Before I finally started committing to the repo, I had already build several iterations of the model. Some of them had a monorepo architecture, some had a multi-repo architecture, some had a single database, some had multiple databases, some had a single server, some had multiple servers, and so on. I had to go through a lot of iterations before I finally settled on the current architecture.
 
 <center>
-    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/old-ide.png" style={{width: "100%", marginBottom: "-20px"}}></img>
+    <img src="https://github.com/thatsameguyokay/images/blob/main/old-ide.png?raw=true" style={{width: "100%", marginBottom: "-20px"}}></img>
     One of the iterations operating like that of an online judge
 </center>
 
@@ -79,7 +79,7 @@ This is the file structure I had for the backend initially, but now has some twe
 #### How does network-system calls flow?
 
 <center>
-    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/ide.gif" style={{width: "100%", marginBottom: "-20px"}}></img>
+    <img src="https://github.com/thatsameguyokay/images/blob/main/ide.gif?raw=true" style={{width: "100%", marginBottom: "-20px"}}></img>
     Current flow of execution
 </center>
 

@@ -26,7 +26,7 @@ So, deep down we all know that Youtube has been the lifeline for all of us passi
 I'm no one to decide what the right way is. But what I did was, I just started doing it as soon as I got some free time from the academics. I saw hundreds of tutorials on roadmaps and strategies, none of them were useful. The only way to get better at it is to start. And it has been over 4 months since I've started participating in contests, and there's no lacking behind ever since.
 
 <center>
-    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/code2.png" style={{width: "90%"}}></img>
+    <img src="https://github.com/thatsameguyokay/images/blob/main/code2.png?raw=true" style={{width: "90%"}}></img>
 </center>
 
 #### Future plans

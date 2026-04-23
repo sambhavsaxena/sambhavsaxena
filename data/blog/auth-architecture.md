@@ -16,7 +16,7 @@ Ask your lead and you're good to go. Save and post screenshots of your PM allowi
 Just ask your project manager, recruiter about the blog you'll be writing, read any terms regarding the same, and you'll be good to go.
 
 <center>
-    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/chats.png" style={{width: "100%"}}></img>
+    <img src="https://github.com/thatsameguyokay/images/blob/main/chats.png?raw=true" style={{width: "100%"}}></img>
 </center>
 
 #### How far does this make things easy for the users?
@@ -48,7 +48,7 @@ Part 1 is done.
 Following is the email received on the mail ID provided by the user.
 
 <center>
-    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/email.png" style={{width: "100%"}}></img>
+    <img src="https://github.com/thatsameguyokay/images/blob/main/email.png?raw=true" style={{width: "100%"}}></img>
 </center>
 
 You have the token you sent over the mail, from the query headers of the request that you just received on the backend when someone user clicked on that URL.

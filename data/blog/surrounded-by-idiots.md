@@ -33,7 +33,7 @@ There were incidents which I'm ashamed of writing but here are a few of them:
 - Every evening, during the tea break, 'A' will take a packet of biscuits, maybe a 30 Rupee packet, and will distribute it one by one, to a team of 10. Everyone gets one or two biscuits each, that's their snack policy lol.
 
 <center>
-    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/Aarohin.jpg" style={{width: "90%"}}></img>
+    <img src="https://github.com/thatsameguyokay/images/blob/main/Aarohin.jpg?raw=true" style={{width: "90%"}}></img>
 </center>
 
 Through some sources, I got to know that now the policy has been changed without notice and every intern will have to sign a 2-year contract if they wish to continue, giving them no time to make a switch.

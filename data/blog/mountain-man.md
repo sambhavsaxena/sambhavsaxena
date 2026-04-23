@@ -22,7 +22,7 @@ Fast forward 3 days, we picked our rugsacks and gathered near the university com
 We reached Mandi at around 10 AM the next day, and were welcomed by showers of Mandi soon after. As soon as the rooms were allotted in the main guest house, we (me and Dhruv) went out to explore more about this place when we saw the first proper look of IIT Mandi.
 
 <center>
-    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/first.jpg" style={{width: "90%"}}></img>
+    <img src="https://github.com/thatsameguyokay/images/blob/main/first.jpg?raw=true" style={{width: "90%"}}></img>
 </center>
 
 We had not slept at night so decided to take a nap after we had a coffee. We woke up at around 4 PM and went out to explore the campus. In the evening, we went out to the hostels and pretending that we were students of IIT itself, so nobody ever enquired us. Had conversation with a few talented students on campus, the environment had a whole different vibe where everyone was serious about achieving something, had deep technical knowledge about the field they were working on, and were very humble. Later, we had dinner at the guest house's dining area and went back to explore more about campus with the group.
@@ -30,7 +30,7 @@ We had not slept at night so decided to take a nap after we had a coffee. We wok
 A few hours later, we were back in our bed, having a cozy sleep till next day. We woke up at around 7 AM. Had a nice breakfast thereafter.
 
 <center>
-    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/guest.jpg" style={{width: "90%"}}></img>
+    <img src="https://github.com/thatsameguyokay/images/blob/main/guest.jpg?raw=true" style={{width: "90%"}}></img>
 </center>
 
 #### Incubation center
@@ -38,7 +38,7 @@ A few hours later, we were back in our bed, having a cozy sleep till next day. W
 We went out to explore the laboratories and incubation center of the campus, and were amazed by the beauty of the place. The campus was built on a mountain, and had a beautiful view of the valley and had all sort of facilites. It was like a set of high IQ students were gathered in a remote location and were given all sorts of facilities to research and prosper. The campus was divided into two parts, the north and the south campus. The north campus was the main campus, where the academic buildings, hostels, guest house, etc. were located. We didn't get the opportunity to visit the south campus. That afternoon, we had conversation with people who were working on their startups. Recently, got an internship offer from one of those.
 
 <center>
-    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/offer.png" style={{width: "90%"}}></img>
+    <img src="https://github.com/thatsameguyokay/images/blob/main/offer.png?raw=true" style={{width: "90%"}}></img>
 </center>
 
 #### Parashar Lake
@@ -100,7 +100,7 @@ Finally, after posting all those photos of the time I had spent with people I di
 Before this experience, I had a similar one while sitting on the banks of Ganga river at Rishikesh, 6 months ago when I visited Uttarakhand, I had another one today while sitting on the top of the Himalayan mountains, and I'm sure there are many more to come.
 
 <center>
-    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/lakshman.jpg" style={{width: "90%"}}></img>
+    <img src="https://github.com/thatsameguyokay/images/blob/main/lakshman.jpg?raw=true" style={{width: "90%"}}></img>
 </center>
 
 _:until next time_

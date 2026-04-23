@@ -24,7 +24,7 @@ I had a clever idea, what if I pass a custom event object as a prop to the `onCl
 So I got hold of the keyboard and did this:
 
 <center>
-    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/talkative.png" style={{width: "99%", marginBottom: "-20px"}}></img>
+    <img src="https://github.com/thatsameguyokay/images/blob/main/talkative.png?raw=true" style={{width: "99%", marginBottom: "-20px"}}></img>
     [Github URL here](https://github.com/pardhan007/Talk-A-Tive/blob/main/frontend/src/components/SingleChat.js#L101)
 </center>
 
@@ -35,7 +35,7 @@ So last week, I was watching a tutorial by [Aditya Verma](https://www.linkedin.c
 Turns out this someone is someone tweaking around the web for several years now, so this is what he did:
 
 <center>
-    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/stalk.gif" style={{width: "99%", marginBottom: "-20px"}}></img>
+    <img src="https://github.com/thatsameguyokay/images/blob/main/stalk.gif?raw=true" style={{width: "99%", marginBottom: "-20px"}}></img>
     Your bad YouTube, come again some other day.
 </center>
 

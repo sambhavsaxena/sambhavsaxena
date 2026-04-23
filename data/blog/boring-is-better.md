@@ -53,7 +53,7 @@ When you write a prompt on [Lovable](https://lovable.dev/) to get your work done
 Tech jobs? This image sums it up.
 
 <center>
-    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/horse-ai.jpeg" style={{width: "90%"}}></img>
+    <img src="https://github.com/thatsameguyokay/images/blob/main/horse-ai.jpeg?raw=true" style={{width: "90%"}}></img>
 </center>
 
 We all know that no horses drove cars ever. The point being, if you continue to code, or more explicitly, if syntax writing is what you do, then AI is probably going to take your job away. You have to be atleast one level above writing just code in order to survive the apocalypse. Which takes us back to step one. Get your basics right, get good experience and be reliable to the team.

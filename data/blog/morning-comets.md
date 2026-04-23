@@ -16,7 +16,7 @@ Sometimes I herd comets. Recently, the number of observable objects has grown, w
 Their movements, beautiful forms, and surprise outbursts and breakups make them irresistible. I've seen around 120 unique comets since my youth. Many of these are periodic, returning again and again at regular intervals. By far, 29P/Schwassmann-Wachmann tops the list of most frequently observed. With an average distance of 6 a.u. it's ordinarily a 16th-magnitude smudge but undergoes multiple outbursts every year, when it can surge to easy visibility in an 8-inch.
 
 <center>
-    <img src="https://cdn.statically.io/gh/thatsameguyokay/images/main/comets.jpg" style={{width: "90%"}}></img>
+    <img src="https://github.com/thatsameguyokay/images/blob/main/comets.jpg?raw=true" style={{width: "90%"}}></img>
 </center>
 
 I mention it here because of its recent outburst in late August, when Comet 29P suddenly rose from magnitude 16 to 14. Keep an eye on this uneasy fella. Bright flare-ups that could kick the comet into view in a 6- to 8-inch telescope are inevitable. This season it's easy to keep track of because the comet remains within 2.5° of 2.7-magnitude Iota (ι) Aurigae now through mid-November. Most of the time you'll see nothing at its position, but then one night, a small knot of bright fuzz will alert you to a brand new eruption.
