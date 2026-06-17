@@ -2,10 +2,6 @@
 
 ### Hey, I'm Sambhav👋
 
-I'm a 24 year old software engineer, an avid programmer and a linux geek;
-
-## 💎 Experience
-
 I like to say that I am a full-stack developer, but I have a broader hands-on experience with backend & cloud platform development, primarily in [NodeJS](https://nodejs.org/) & [Go](https://go.dev/). However previously, I have focused on technologies like [TypeScript](https://www.typescriptlang.org/) & [NextJS](https://nextjs.org/) for frontend, [Java](https://www.java.com/) for Android, [Python](https://www.python.org/) for scripting & deployment, etc;
 
 Following from this, I spent 4 years studying Computer Science & Engineering, specializing on advanced software systems, later on entitled as a Software Engineer at an electronics firm working with industry standard frameworks such as [SystemC / TLM](https://systemc.org/), [CMAKE](https://cmake.org/), customized libraries like SCML, and debugging & performance testing tools like [GDB](https://sourceware.org/gdb/), [Jest](https://jestjs.io/) and [Valgrind](https://valgrind.org/).
