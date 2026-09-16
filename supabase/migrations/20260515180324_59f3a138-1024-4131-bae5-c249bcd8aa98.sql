@@ -1,0 +1,1 @@
+GRANT EXECUTE ON FUNCTION public.increment_post_view(text) TO anon, authenticated;
