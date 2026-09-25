@@ -35,7 +35,7 @@ function About() {
 
         <div className="mt-10 space-y-6 text-[15px] leading-[1.8] text-foreground/85">
           <p className="text-justify">
-            I'm Sambhav. I'm love working on near real time, distributed, highly scalable systems for clients across industries.
+            I'm Sambhav. I love working on near real time, distributed, highly scalable systems for clients across industries.
             My expertize includes but is not limited to finance+tech products, lending, tickers, trading software, real-time communication and other performant systems.
           </p>
           <p className="text-justify">
