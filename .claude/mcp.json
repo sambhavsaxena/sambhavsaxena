@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ahrefs": { "type": "http", "url": "https://api.ahrefs.com/mcp/mcp" },
+    "instantdomainsearch": { "type": "http", "url": "https://api.instantdomainsearch.com/mcp/streamable-http" },
+    "astro-docs": { "type": "http", "url": "https://mcp.docs.astro.build/mcp" },
+    "nse-bhavcopy": { "type": "http", "url": "https://mcp.nseindia.in/bhavcopy/cm/mcp" },
+    "cm-market": { "type": "http", "url": "https://mcp.nseindia.in/cmmkt/mcp" }
+  }
+}

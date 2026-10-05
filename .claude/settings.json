@@ -1,0 +1,9 @@
+{
+  "enabledPlugins": {
+    "caveman@caveman": true,
+    "expo@claude-plugins-official": true
+  },
+  "extraKnownMarketplaces": {
+    "caveman": { "source": { "source": "github", "repo": "JuliusBrussee/caveman" } }
+  }
+}
