@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "web",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["expo", "start", "--web", "--port", "8081"],
+      "port": 8081
+    },
+    {
+      "name": "metro-mcp",
+      "runtimeExecutable": "env",
+      "runtimeArgs": ["EXPO_UNSTABLE_MCP_SERVER=1", "npx", "expo", "start", "--port", "8082"],
+      "port": 8082
+    }
+  ]
+}
