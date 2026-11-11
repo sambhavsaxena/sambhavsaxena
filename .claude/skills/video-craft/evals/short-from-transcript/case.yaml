@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: short-from-transcript
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  short_plan.md picks a 30-40 s selection of transcript lines with their timestamps, reordered so the
+  most striking line (the result or the moment of quitting) opens the Short, with no greeting or
+  setup first. It gives on-screen hook text for the first seconds, keeps captions short and inside the
+  9:16 safe area, joins beats with but/therefore logic, and ends on a line that loops back into the
+  opening. It does not cite myths such as the 8-second attention span.

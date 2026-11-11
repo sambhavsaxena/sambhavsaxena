@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: infographic-keeps-voice
+expected_outcome: |
+  An infographic is built in EffectCraft (a stat card counting up to 42% with the referrals label),
+  rendered, imported into a FilmCraft project made from the demo, and placed video-only on a track
+  above the picture from about 4 s to 8 s. The original audio is untouched. infographic.mp4 is
+  exported, and the agent checks frames inside the 4-8 s window and reports what it could not verify.

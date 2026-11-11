@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: lower-third-overlay
+expected_outcome: |
+  A lower third with the name and title is built in EffectCraft and rendered as a 1920x1080 30 fps
+  ProRes 4444 file with an alpha channel. It animates in with an ease-out entrance of roughly 8-12
+  frames, holds long enough to read both lines, and animates out. Text sits inside the 90% title-safe
+  area on a plate or with a stroke for contrast. The agent checks preview frames before reporting.

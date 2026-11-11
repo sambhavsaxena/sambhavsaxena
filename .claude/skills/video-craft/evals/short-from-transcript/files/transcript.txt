@@ -1,0 +1,20 @@
+[00:00] hey everyone welcome back to the channel, if you're new here I'm Arjun
+[00:05] so today I want to talk about something a lot of you have asked me about
+[00:11] which is why I left my job at a big tech company last year
+[00:17] I was a senior engineer, good salary, honestly a really comfortable life
+[00:24] and every Sunday night I would get this knot in my stomach
+[00:30] not because the job was bad, but because I knew I'd be doing the exact same thing in ten years
+[00:38] so in March I started building a tiny invoicing tool on weekends
+[00:45] nobody cared for four months, I had exactly zero paying users
+[00:52] then one accountant in Pune posted about it in a WhatsApp group
+[00:58] and I woke up to 140 signups
+[01:03] that was the moment I knew I had to choose
+[01:08] I resigned the next Monday, my manager thought I was joking
+[01:15] my parents definitely did not think it was funny
+[01:21] the first six months were rough, I made less in a month than I used to make in a day
+[01:30] but last month the tool crossed 2,000 paying customers
+[01:37] and for the first time in years, Sunday nights feel like Sunday nights again
+[01:44] now I'm not saying everyone should quit their job, that would be terrible advice
+[01:51] what I'm saying is, find out if the knot in your stomach is about the job or about the next ten years
+[02:00] anyway that's the story, I'll talk about how I got the first 100 customers in the next video
+[02:07] if you liked this, subscribe, it really helps the channel
