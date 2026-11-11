@@ -8,7 +8,8 @@ Usage:
 Types (all times in seconds, relative to the graphic's own start):
   lower_third  {"name": "Ada Lovelace", "title": "Mathematician", "hold": null}
   title_card   {"title": "Chapter 2", "subtitle": "The engine", "duration": 3}
-  stat         {"value": 72500, "prefix": "₹", "suffix": "", "decimals": 0, "label": "Avg. deal value", "duration": 4}
+  stat         {"value": 175000, "prefix": "₹", "suffix": "", "decimals": 0, "label": "Won this month",
+                "grouping": "western" (175,000) | "indian" (1,75,000), "duration": 4}
   bar_chart    {"title": "Leads by source", "bars": [{"label": "Ads", "value": 40}], "unit": "%", "times": [0.4, 1.1], "duration": 5}
   list         {"title": "Three rules", "items": ["Hook first", "Cut fluff"], "times": [0.5, 1.8], "duration": 5}
   captions     {"words": [{"text": "this", "start": 0.0, "end": 0.2}, ...], "max_words": 3, "max_chars": 18}
@@ -123,7 +124,10 @@ tr(n, "ADBE Position").setValue([W / 2, H / 2 + H * 0.04]);
 var src = n.property("ADBE Text Properties").property("ADBE Text Document");
 src.expression = "var t = Math.min(1, Math.max(0, (time - " + (4 * F) + ") / 1.0)); var e = 1 - Math.pow(1 - t, 3);" +
   "var v = (" + P.value + " * e).toFixed(" + P.decimals + "); var parts = v.split('.');" +
-  "parts[0] = parts[0].replace(/\\B(?=(\\d{3})+(?!\\d))/g, ','); '" + P.prefix + "' + parts.join('.') + '" + P.suffix + "'";
+  (P.grouping == "indian"
+    ? "var h = parts[0].slice(-3), r = parts[0].slice(0, -3); if (r) h = r.replace(/\\B(?=(\\d{2})+(?!\\d))/g, ',') + ',' + h; parts[0] = h;"
+    : "parts[0] = parts[0].replace(/\\B(?=(\\d{3})+(?!\\d))/g, ',');") +
+  "'" + P.prefix + "' + parts.join('.') + '" + P.suffix + "'";
 riseIn(n, 2 * F, dur, 30);
 if (P.label) { var l = text(comp, P.label, Math.round(H * 0.04), S.font_light, S.muted, "center");
   tr(l, "ADBE Position").setValue([W / 2, H / 2 + H * 0.16]); riseIn(l, 10 * F, dur, 20); }
@@ -156,16 +160,18 @@ for (var i = 0; i < n; i++) {
 LIST = r"""
 var dur = P.duration, comp = app.project.items.addComp(P.name_comp, W, H, 1, dur, FPS);
 background(comp);
-var m = P.safe, x = m[0] + W * 0.08, y = m[1] + H * 0.14;
-if (P.title) { var tt = text(comp, P.title, Math.round(H * 0.06), S.font, S.text, "left");
-  tr(tt, "ADBE Position").setValue([x, y]); riseIn(tt, 2 * F, dur, 20); y += H * 0.12; }
-var step = Math.min(H * 0.11, (H - y - m[1]) / P.items.length);
-for (var i = 0; i < P.items.length; i++) {
-  var t0 = P.times[i], yi = y + step * i;
-  var dot = rect(comp, "Dot" + i, 18, 18, 9, S.accent, 100); tr(dot.layer, "ADBE Position").setValue([x + 9, yi - H * 0.015]);
+// sized to fill the frame: a list often holds for many seconds, so it must read from across the room
+var m = P.safe, n = P.items.length, x = m[0] + W * 0.1, itemSize = Math.round(H * (n > 4 ? 0.05 : 0.062));
+var step = Math.min(H * 0.14, (H * 0.62) / n), block = (P.title ? H * 0.16 : 0) + step * (n - 1);
+var y = H / 2 - block / 2 + H * 0.03;
+if (P.title) { var tt = text(comp, P.title, Math.round(H * 0.075), S.font, S.text, "left");
+  tr(tt, "ADBE Position").setValue([x, y]); riseIn(tt, 2 * F, dur, 20); y += H * 0.16; }
+for (var i = 0; i < n; i++) {
+  var t0 = P.times[i], yi = y + step * i, d = Math.round(itemSize * 0.36);
+  var dot = rect(comp, "Dot" + i, d, d, d / 2, S.accent, 100); tr(dot.layer, "ADBE Position").setValue([x + d / 2, yi - itemSize * 0.34]);
   pop(dot.layer, t0, 20); fadeInOut(dot.layer, t0, dur);
-  var it = text(comp, P.items[i], Math.round(H * 0.045), S.font_light, S.text, "left");
-  tr(it, "ADBE Position").setValue([x + 44, yi]); riseIn(it, t0 + 2 * F, dur, 16);
+  var it = text(comp, P.items[i], itemSize, S.font_light, S.text, "left");
+  tr(it, "ADBE Position").setValue([x + d + 28, yi]); riseIn(it, t0 + 2 * F, dur, 16);
 }
 """
 
@@ -273,7 +279,7 @@ def prepare(spec):
         p.setdefault("subtitle", "")
         p["duration"] = p.get("duration") or round(hold_for(p["title"], p["subtitle"]) + 0.6, 2)
     elif kind == "stat":
-        p = {"prefix": "", "suffix": "", "decimals": 0, "label": "", **p}
+        p = {"prefix": "", "suffix": "", "decimals": 0, "label": "", "grouping": "western", **p}
         p["duration"] = p.get("duration") or round(1.4 + hold_for(p["label"]), 2)
     elif kind in ("bar_chart", "list"):
         n = len(p["bars"] if kind == "bar_chart" else p["items"])

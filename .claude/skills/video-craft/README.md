@@ -48,7 +48,10 @@ video-craft/
 │   ├── sample_frames.sh      frames from a project at a fixed step
 │   ├── contact_sheet.py      tile frames into readable sheets
 │   ├── loudness_profile.py   loudness curve and pause list from a WAV
+│   ├── transcribe.py         word-level transcript with local faster-whisper
+│   ├── snap_cuts.py          move cut points into real pauses between words
 │   ├── plan_cuts.py          edit plan -> FilmCraft placement commands
+│   ├── edit_time.py          transcript time -> edit time, for timing graphics
 │   └── make_graphic.py       JSON spec -> rendered motion graphic (7 types)
 └── evals/                    test cases for `claude plugin eval`
 ```

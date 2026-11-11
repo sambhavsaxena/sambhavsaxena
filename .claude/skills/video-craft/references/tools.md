@@ -176,3 +176,14 @@ You see still frames and numbers, not motion or sound. Compensate deliberately:
   you pass `fps`.
 - MCP servers added with `claude mcp add` are not usable until a new session starts.
 - In zsh, `set -- $var` does not word-split; write loops as bash scripts.
+- **`file.import` with `replace:true` replaced the whole project** with the imported file (0.19.0). Never
+  use it to refresh a graphic. Re-render to a new file name and import that, or rebuild the project from
+  the saved JSONL passes (copy the source project, re-run every pass in order: ids come out identical).
+  This is why every pass lives in a file.
+- The macOS release CLI is built without speech-to-text (`transcript.generate` says "built without the
+  `whisper` feature") and without model downloads. Transcribe with `scripts/transcribe.py`
+  (faster-whisper, local) and, if you want the words inside FilmCraft, load them with `transcript.set`.
+- Whisper word times are approximate and many words touch with no gap. Run `scripts/snap_cuts.py` so
+  every boundary lands in a real pause, and move the ones it flags to a sentence end.
+- Graphics hold for exactly their rendered duration; render each one after the cut is final, with the
+  duration taken from the mapped edit times (`scripts/edit_time.py`).

@@ -27,7 +27,10 @@ Bundled scripts (run them, do not rewrite them):
 | `scripts/sample_frames.sh` | renders frames from a FilmCraft project at a fixed step |
 | `scripts/contact_sheet.py` | tiles those frames into labelled sheets you can read |
 | `scripts/loudness_profile.py` | 50 ms loudness curve and pause list from a WAV |
+| `scripts/transcribe.py` | word-level transcript with local faster-whisper (when FilmCraft cannot transcribe) |
+| `scripts/snap_cuts.py` | moves plan boundaries into the quietest real gap between words |
 | `scripts/plan_cuts.py` | edit plan (ordered source ranges + pauses) -> FilmCraft placement JSONL |
+| `scripts/edit_time.py` | maps a transcript (source) time to edit time, for timing graphics |
 | `scripts/make_graphic.py` | JSON spec -> rendered EffectCraft graphic (7 types) + preview frames |
 
 Python scripts that need Pillow run with `uv run --with pillow python <script>`; the rest are
@@ -68,8 +71,11 @@ You cannot watch video or hear audio, so build a picture of it deliberately:
 3. `clip.sceneEditDetection` for hard cuts; zoom in on suspicious moments at 0.2 s steps.
 4. **Audio**: export WAV, run `loudness_profile.py` to get pauses and levels.
 5. **Words**: a transcript makes every later step better (finding the hook, cutting on sentences,
-   timing graphics, captions). FilmCraft transcribes locally with Whisper, but the model is a
-   ~290 MB download: ask first. Without it, work from pauses and frames, and say so.
+   timing graphics, captions). Check `transcript.models` / try `transcript.generate` first: some
+   FilmCraft builds have no speech-to-text. Then use `scripts/transcribe.py` (local faster-whisper on
+   the exported WAV). Either way it is a model download: ask first. Without a transcript, work from
+   pauses and frames, and say so. Whisper mishears names and numbers; never put a transcribed number
+   on screen without checking it against the footage (the dashboard, a document) or the user.
 
 Write down a shot log: time ranges, what is in them (face, screen, b-roll, flip, dead air), and the
 strongest moments.
@@ -87,7 +93,10 @@ Read `references/playbook.md` sections 2 and 3, then decide:
 - **The ending.** Hard cut soon after the payoff; for Shorts, loop back to frame 1.
 
 Write the plan as `plan.json` for `plan_cuts.py` (ordered source segments with a `kind` per segment,
-`tighten: true` where pauses should go). For anything beyond a simple tidy-up, show the user the
+`tighten: true` where pauses should go). Choose boundaries from the transcript, then run
+`snap_cuts.py` so each lands in silence; where it flags touching words, end on a full sentence instead.
+Where the picture is unusable but the voice matters (a camera flip mid-sentence), mark that segment
+`kind: "covered"` and plan a full-screen graphic or b-roll over it. For anything beyond a simple tidy-up, show the user the
 plan in plain words before building it: the opening, what gets cut, where graphics go.
 
 ### 3. Build the cut (pass 1)
@@ -114,7 +123,8 @@ Read `references/playbook.md` section 5. For each graphic:
 1. Decide overlay or replacement. Overlay keeps the face (lower third, callout, captions).
    Replacement covers the picture while the voice continues (stat, chart, list, title).
 2. Time it to the narration: in and out on sentence boundaries, each element when the voice names it.
-   Use the transcript's word times if you have them.
+   Take the word times from the transcript and map them to edit time with `edit_time.py`; the
+   graphic's duration is the mapped end minus the mapped start.
 3. Write a spec and run `make_graphic.py spec.json`. The spec format for all seven types
    (lower_third, title_card, stat, bar_chart, list, captions, callout) is in the docstring at the top
    of the script. It renders the `.mov` (alpha for overlays) and three preview PNGs. **Read the
